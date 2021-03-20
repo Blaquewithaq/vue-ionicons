@@ -1,5 +1,0 @@
-[submodule "ionicons"]
-	path = ionicons
-	# url = git@github.com:ionic-team/ionicons.git
-	url = https://github.com/ionic-team/ionicons
-  branch = master
