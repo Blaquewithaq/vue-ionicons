@@ -1,0 +1,35 @@
+<template>
+  <div
+    v-if="iconTitle"
+    class="ion"
+    :class="ionClass"
+    :title="iconTitle"
+    name="shirt-sharp-icon">
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M256 42c-33.88 0-64-10-64-10v2a64 64 0 0 0 128 0v-2s-30.12 10-64 10z"/><path d="M352 44c-5.49 47.76-46.79 85-96 85s-90.51-37.24-96-85L16 94l18 114 61.71 7.42c7.08.9 7.1.9 7.1 8.19L96 480h320l-6.81-256.39c-.21-7-.21-7 7.1-8.19L478 208l18-114z"/></svg>
+  </div>
+  <div
+    v-else
+    class="ion"
+    :class="ionClass"
+    name="shirt-sharp-icon">
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M256 42c-33.88 0-64-10-64-10v2a64 64 0 0 0 128 0v-2s-30.12 10-64 10z"/><path d="M352 44c-5.49 47.76-46.79 85-96 85s-90.51-37.24-96-85L16 94l18 114 61.71 7.42c7.08.9 7.1.9 7.1 8.19L96 480h320l-6.81-256.39c-.21-7-.21-7 7.1-8.19L478 208l18-114z"/></svg>
+  </div>
+</template>
+
+<script>
+import IoniconsMixin from './ionicons-mixin'
+
+export default {
+  name: "shirt-sharp-icon",
+  mixins: [
+    IoniconsMixin
+  ],
+  data () {
+    let iconTitle = this.title ? this.title : null
+    return {
+      iconTitle: iconTitle
+    }
+  }
+}
+</script>
+

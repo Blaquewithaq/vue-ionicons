@@ -1,0 +1,119 @@
+(function (global, factory) {
+  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+  typeof define === 'function' && define.amd ? define(factory) :
+  (global.vueIonicons = factory());
+}(this, (function () { 'use strict';
+
+  var A_ROTATE = 'rotate';
+  var A_BEAT = 'beat';
+  var A_SHAKE = 'shake';
+  var IoniconsMixin = {
+    computed: {
+      ionClass: function ionClass() {
+        var addClass = '';
+
+        if (this.animate === A_ROTATE) {
+          addClass = 'ion-rotate ';
+        } else if (this.animate === A_BEAT) {
+          addClass = 'ion-beat ';
+        } else if (this.animate === A_SHAKE) {
+          addClass = 'ion-shake ';
+        }
+
+        return "".concat(this.rootClass, " ").concat(addClass);
+      }
+    },
+    props: {
+      title: {
+        type: String,
+        "default": ''
+      },
+      rootClass: {
+        type: String,
+        "default": ''
+      },
+      w: {
+        type: String,
+        "default": '1em'
+      },
+      h: {
+        type: String,
+        "default": '1em'
+      },
+      animate: {
+        type: String,
+        "default": ''
+      }
+    }
+  };
+
+  //
+  var script = {
+    name: "videocam-off-icon",
+    mixins: [IoniconsMixin],
+    data: function data() {
+      var iconTitle = this.title ? this.title : null;
+      return {
+        iconTitle: iconTitle
+      };
+    }
+  };
+
+  /* script */
+              const __vue_script__ = script;
+              
+  /* template */
+  var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.iconTitle)?_c('div',{staticClass:"ion",class:_vm.ionClass,attrs:{"title":_vm.iconTitle,"name":"videocam-off-icon"}},[_c('svg',{staticClass:"ion__svg",attrs:{"width":_vm.w,"height":_vm.h,"viewBox":"0 0 512 512"}},[_c('path',{attrs:{"d":"M336 179.52A67.52 67.52 0 0 0 268.48 112h-79.2a4 4 0 0 0-2.82 6.83l142.71 142.71a4 4 0 0 0 6.83-2.82zM16 180v152a68 68 0 0 0 68 68h184a67.66 67.66 0 0 0 42.84-15.24 4 4 0 0 0 .33-6L54.41 122a4 4 0 0 0-4.87-.62A68 68 0 0 0 16 180zM464 384.39a32 32 0 0 1-13-2.77 15.77 15.77 0 0 1-2.71-1.54l-82.71-58.22A32 32 0 0 1 352 295.7v-79.4a32 32 0 0 1 13.58-26.16l82.71-58.22a15.77 15.77 0 0 1 2.71-1.54 32 32 0 0 1 45 29.24v192.76a32 32 0 0 1-32 32z"}}),_c('path',{attrs:{"data-fill":"none","stroke":"#000","stroke-linecap":"round","stroke-miterlimit":"10","stroke-width":"32","d":"M416 416L80 80"}})])]):_c('div',{staticClass:"ion",class:_vm.ionClass,attrs:{"name":"videocam-off-icon"}},[_c('svg',{staticClass:"ion__svg",attrs:{"width":_vm.w,"height":_vm.h,"viewBox":"0 0 512 512"}},[_c('path',{attrs:{"d":"M336 179.52A67.52 67.52 0 0 0 268.48 112h-79.2a4 4 0 0 0-2.82 6.83l142.71 142.71a4 4 0 0 0 6.83-2.82zM16 180v152a68 68 0 0 0 68 68h184a67.66 67.66 0 0 0 42.84-15.24 4 4 0 0 0 .33-6L54.41 122a4 4 0 0 0-4.87-.62A68 68 0 0 0 16 180zM464 384.39a32 32 0 0 1-13-2.77 15.77 15.77 0 0 1-2.71-1.54l-82.71-58.22A32 32 0 0 1 352 295.7v-79.4a32 32 0 0 1 13.58-26.16l82.71-58.22a15.77 15.77 0 0 1 2.71-1.54 32 32 0 0 1 45 29.24v192.76a32 32 0 0 1-32 32z"}}),_c('path',{attrs:{"data-fill":"none","stroke":"#000","stroke-linecap":"round","stroke-miterlimit":"10","stroke-width":"32","d":"M416 416L80 80"}})])])};
+  var __vue_staticRenderFns__ = [];
+
+    /* style */
+    const __vue_inject_styles__ = undefined;
+    /* scoped */
+    const __vue_scope_id__ = undefined;
+    /* module identifier */
+    const __vue_module_identifier__ = undefined;
+    /* functional template */
+    const __vue_is_functional_template__ = false;
+    /* component normalizer */
+    function __vue_normalize__(
+      template, style, script$$1,
+      scope, functional, moduleIdentifier,
+      createInjector, createInjectorSSR
+    ) {
+      const component = (typeof script$$1 === 'function' ? script$$1.options : script$$1) || {};
+
+      // For security concerns, we use only base name in production mode.
+      component.__file = "videocam-off.vue";
+
+      if (!component.render) {
+        component.render = template.render;
+        component.staticRenderFns = template.staticRenderFns;
+        component._compiled = true;
+
+        if (functional) component.functional = true;
+      }
+
+      component._scopeId = scope;
+
+      return component
+    }
+    /* style inject */
+    
+    /* style inject SSR */
+    
+
+    
+    var videocamOff = __vue_normalize__(
+      { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
+      __vue_inject_styles__,
+      __vue_script__,
+      __vue_scope_id__,
+      __vue_is_functional_template__,
+      __vue_module_identifier__,
+      undefined,
+      undefined
+    );
+
+  return videocamOff;
+
+})));

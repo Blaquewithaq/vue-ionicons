@@ -1,0 +1,35 @@
+<template>
+  <div
+    v-if="iconTitle"
+    class="ion"
+    :class="ionClass"
+    :title="iconTitle"
+    name="podium-outline-icon">
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M32 160v296a8 8 0 0 0 8 8h136V160a16 16 0 0 0-16-16H48a16 16 0 0 0-16 16zM320 48H192a16 16 0 0 0-16 16v400h160V64a16 16 0 0 0-16-16zM464 208H352a16 16 0 0 0-16 16v240h136a8 8 0 0 0 8-8V224a16 16 0 0 0-16-16z" data-fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+  </div>
+  <div
+    v-else
+    class="ion"
+    :class="ionClass"
+    name="podium-outline-icon">
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M32 160v296a8 8 0 0 0 8 8h136V160a16 16 0 0 0-16-16H48a16 16 0 0 0-16 16zM320 48H192a16 16 0 0 0-16 16v400h160V64a16 16 0 0 0-16-16zM464 208H352a16 16 0 0 0-16 16v240h136a8 8 0 0 0 8-8V224a16 16 0 0 0-16-16z" data-fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+  </div>
+</template>
+
+<script>
+import IoniconsMixin from './ionicons-mixin'
+
+export default {
+  name: "podium-outline-icon",
+  mixins: [
+    IoniconsMixin
+  ],
+  data () {
+    let iconTitle = this.title ? this.title : null
+    return {
+      iconTitle: iconTitle
+    }
+  }
+}
+</script>
+

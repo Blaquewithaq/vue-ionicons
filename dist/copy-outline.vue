@@ -1,0 +1,35 @@
+<template>
+  <div
+    v-if="iconTitle"
+    class="ion"
+    :class="ionClass"
+    :title="iconTitle"
+    name="copy-outline-icon">
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><rect x="128" y="128" width="336" height="336" rx="57" ry="57" data-fill="none" stroke="#000" stroke-linejoin="round" stroke-width="32"/><path d="M383.5 128l.5-24a56.16 56.16 0 0 0-56-56H112a64.19 64.19 0 0 0-64 64v216a56.16 56.16 0 0 0 56 56h24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+  </div>
+  <div
+    v-else
+    class="ion"
+    :class="ionClass"
+    name="copy-outline-icon">
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><rect x="128" y="128" width="336" height="336" rx="57" ry="57" data-fill="none" stroke="#000" stroke-linejoin="round" stroke-width="32"/><path d="M383.5 128l.5-24a56.16 56.16 0 0 0-56-56H112a64.19 64.19 0 0 0-64 64v216a56.16 56.16 0 0 0 56 56h24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+  </div>
+</template>
+
+<script>
+import IoniconsMixin from './ionicons-mixin'
+
+export default {
+  name: "copy-outline-icon",
+  mixins: [
+    IoniconsMixin
+  ],
+  data () {
+    let iconTitle = this.title ? this.title : null
+    return {
+      iconTitle: iconTitle
+    }
+  }
+}
+</script>
+

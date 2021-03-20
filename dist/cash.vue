@@ -1,0 +1,35 @@
+<template>
+  <div
+    v-if="iconTitle"
+    class="ion"
+    :class="ionClass"
+    :title="iconTitle"
+    name="cash-icon">
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M448 400H64a16 16 0 0 1 0-32h384a16 16 0 0 1 0 32zM416 448H96a16 16 0 0 1 0-32h320a16 16 0 0 1 0 32zM32 272H16v48a32 32 0 0 0 32 32h48v-16a64.07 64.07 0 0 0-64-64z"/><path d="M480 240h16v-64h-16a96.11 96.11 0 0 1-96-96V64H128v16a96.11 96.11 0 0 1-96 96H16v64h16a96.11 96.11 0 0 1 96 96v16h256v-16a96.11 96.11 0 0 1 96-96zm-224 64a96 96 0 1 1 96-96 96.11 96.11 0 0 1-96 96z"/><circle cx="256" cy="208" r="64"/><path d="M416 336v16h48a32 32 0 0 0 32-32v-48h-16a64.07 64.07 0 0 0-64 64zM480 144h16V96a32 32 0 0 0-32-32h-48v16a64.07 64.07 0 0 0 64 64zM96 80V64H48a32 32 0 0 0-32 32v48h16a64.07 64.07 0 0 0 64-64z"/></svg>
+  </div>
+  <div
+    v-else
+    class="ion"
+    :class="ionClass"
+    name="cash-icon">
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M448 400H64a16 16 0 0 1 0-32h384a16 16 0 0 1 0 32zM416 448H96a16 16 0 0 1 0-32h320a16 16 0 0 1 0 32zM32 272H16v48a32 32 0 0 0 32 32h48v-16a64.07 64.07 0 0 0-64-64z"/><path d="M480 240h16v-64h-16a96.11 96.11 0 0 1-96-96V64H128v16a96.11 96.11 0 0 1-96 96H16v64h16a96.11 96.11 0 0 1 96 96v16h256v-16a96.11 96.11 0 0 1 96-96zm-224 64a96 96 0 1 1 96-96 96.11 96.11 0 0 1-96 96z"/><circle cx="256" cy="208" r="64"/><path d="M416 336v16h48a32 32 0 0 0 32-32v-48h-16a64.07 64.07 0 0 0-64 64zM480 144h16V96a32 32 0 0 0-32-32h-48v16a64.07 64.07 0 0 0 64 64zM96 80V64H48a32 32 0 0 0-32 32v48h16a64.07 64.07 0 0 0 64-64z"/></svg>
+  </div>
+</template>
+
+<script>
+import IoniconsMixin from './ionicons-mixin'
+
+export default {
+  name: "cash-icon",
+  mixins: [
+    IoniconsMixin
+  ],
+  data () {
+    let iconTitle = this.title ? this.title : null
+    return {
+      iconTitle: iconTitle
+    }
+  }
+}
+</script>
+

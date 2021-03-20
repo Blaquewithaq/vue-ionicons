@@ -5,14 +5,14 @@
     :class="ionClass"
     :title="iconTitle"
     name="logo-hackernews-icon">
-    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M64 64v384h384V64H64zm214 215v72h-40v-72l-66-120h47.1l39.7 83.6 38-83.6H342l-64 120z"/></svg>
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M32 32v448h448V32zm249.67 250.83v84H235v-84l-77-140h55l46.32 97.54 44.33-97.54h52.73z"/></svg>
   </div>
   <div
     v-else
     class="ion"
     :class="ionClass"
     name="logo-hackernews-icon">
-    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M64 64v384h384V64H64zm214 215v72h-40v-72l-66-120h47.1l39.7 83.6 38-83.6H342l-64 120z"/></svg>
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M32 32v448h448V32zm249.67 250.83v84H235v-84l-77-140h55l46.32 97.54 44.33-97.54h52.73z"/></svg>
   </div>
 </template>
 

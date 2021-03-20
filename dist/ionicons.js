@@ -1,1399 +1,2671 @@
 // let libraryName = () => import('./name.vue')
 
-import IosAddCircleOutlineIcon from './ios-add-circle-outline.vue'
-import IosAddCircleIcon from './ios-add-circle.vue'
-import IosAirplaneIcon from './ios-airplane.vue'
-import IosAddIcon from './ios-add.vue'
-import IosAlarmIcon from './ios-alarm.vue'
-import IosAlbumsIcon from './ios-albums.vue'
-import IosAlertIcon from './ios-alert.vue'
-import IosAmericanFootballIcon from './ios-american-football.vue'
-import IosAnalyticsIcon from './ios-analytics.vue'
-import IosAppsIcon from './ios-apps.vue'
-import IosApertureIcon from './ios-aperture.vue'
-import IosAppstoreIcon from './ios-appstore.vue'
-import IosArchiveIcon from './ios-archive.vue'
-import IosArrowBackIcon from './ios-arrow-back.vue'
-import IosArrowDownIcon from './ios-arrow-down.vue'
-import IosArrowDropdownCircleIcon from './ios-arrow-dropdown-circle.vue'
-import IosArrowDropdownIcon from './ios-arrow-dropdown.vue'
-import IosArrowDropleftCircleIcon from './ios-arrow-dropleft-circle.vue'
-import IosArrowDroprightCircleIcon from './ios-arrow-dropright-circle.vue'
-import IosArrowDropleftIcon from './ios-arrow-dropleft.vue'
-import IosArrowDroprightIcon from './ios-arrow-dropright.vue'
-import IosArrowDropupCircleIcon from './ios-arrow-dropup-circle.vue'
-import IosArrowDropupIcon from './ios-arrow-dropup.vue'
-import IosArrowForwardIcon from './ios-arrow-forward.vue'
-import IosArrowRoundDownIcon from './ios-arrow-round-down.vue'
-import IosArrowRoundForwardIcon from './ios-arrow-round-forward.vue'
-import IosArrowRoundUpIcon from './ios-arrow-round-up.vue'
-import IosArrowRoundBackIcon from './ios-arrow-round-back.vue'
-import IosArrowUpIcon from './ios-arrow-up.vue'
-import IosBackspaceIcon from './ios-backspace.vue'
-import IosAttachIcon from './ios-attach.vue'
-import IosAtIcon from './ios-at.vue'
-import IosBarcodeIcon from './ios-barcode.vue'
-import IosBaseballIcon from './ios-baseball.vue'
-import IosBatteryChargingIcon from './ios-battery-charging.vue'
-import IosBasketIcon from './ios-basket.vue'
-import IosBasketballIcon from './ios-basketball.vue'
-import IosBatteryDeadIcon from './ios-battery-dead.vue'
-import IosBatteryFullIcon from './ios-battery-full.vue'
-import IosBeakerIcon from './ios-beaker.vue'
-import IosBedIcon from './ios-bed.vue'
-import IosBicycleIcon from './ios-bicycle.vue'
-import IosBeerIcon from './ios-beer.vue'
-import IosBluetoothIcon from './ios-bluetooth.vue'
-import IosBodyIcon from './ios-body.vue'
-import IosBoatIcon from './ios-boat.vue'
-import IosBookmarkIcon from './ios-bookmark.vue'
-import IosBookmarksIcon from './ios-bookmarks.vue'
-import IosBonfireIcon from './ios-bonfire.vue'
-import IosBookIcon from './ios-book.vue'
-import IosBowtieIcon from './ios-bowtie.vue'
-import IosBriefcaseIcon from './ios-briefcase.vue'
-import IosBugIcon from './ios-bug.vue'
-import IosBrowsersIcon from './ios-browsers.vue'
-import IosBulbIcon from './ios-bulb.vue'
-import IosBusIcon from './ios-bus.vue'
-import IosBusinessIcon from './ios-business.vue'
-import IosBrushIcon from './ios-brush.vue'
-import IosCafeIcon from './ios-cafe.vue'
-import IosCalculatorIcon from './ios-calculator.vue'
-import IosCallIcon from './ios-call.vue'
-import IosBuildIcon from './ios-build.vue'
-import IosCalendarIcon from './ios-calendar.vue'
-import IosCameraIcon from './ios-camera.vue'
-import IosCarIcon from './ios-car.vue'
-import IosCashIcon from './ios-cash.vue'
-import IosCardIcon from './ios-card.vue'
-import IosCartIcon from './ios-cart.vue'
-import IosCellularIcon from './ios-cellular.vue'
-import IosCheckboxOutlineIcon from './ios-checkbox-outline.vue'
-import IosChatbubblesIcon from './ios-chatbubbles.vue'
-import IosChatboxesIcon from './ios-chatboxes.vue'
-import IosCheckmarkCircleOutlineIcon from './ios-checkmark-circle-outline.vue'
-import IosCheckmarkCircleIcon from './ios-checkmark-circle.vue'
-import IosClipboardIcon from './ios-clipboard.vue'
-import IosCheckboxIcon from './ios-checkbox.vue'
-import IosCheckmarkIcon from './ios-checkmark.vue'
-import IosClockIcon from './ios-clock.vue'
-import IosCloseCircleIcon from './ios-close-circle.vue'
-import IosCloseCircleOutlineIcon from './ios-close-circle-outline.vue'
-import IosCloudDoneIcon from './ios-cloud-done.vue'
-import IosCloudCircleIcon from './ios-cloud-circle.vue'
-import IosCloudDownloadIcon from './ios-cloud-download.vue'
-import IosCloseIcon from './ios-close.vue'
-import IosCloudUploadIcon from './ios-cloud-upload.vue'
-import IosCloudOutlineIcon from './ios-cloud-outline.vue'
-import IosCloudyNightIcon from './ios-cloudy-night.vue'
-import IosCloudIcon from './ios-cloud.vue'
-import IosCodeDownloadIcon from './ios-code-download.vue'
-import IosCloudyIcon from './ios-cloudy.vue'
-import IosCodeWorkingIcon from './ios-code-working.vue'
-import IosCogIcon from './ios-cog.vue'
-import IosCodeIcon from './ios-code.vue'
-import IosColorFillIcon from './ios-color-fill.vue'
-import IosCompassIcon from './ios-compass.vue'
-import IosColorWandIcon from './ios-color-wand.vue'
-import IosConstructIcon from './ios-construct.vue'
-import IosColorPaletteIcon from './ios-color-palette.vue'
-import IosContactIcon from './ios-contact.vue'
-import IosContactsIcon from './ios-contacts.vue'
-import IosContractIcon from './ios-contract.vue'
-import IosCopyIcon from './ios-copy.vue'
-import IosCreateIcon from './ios-create.vue'
-import IosContrastIcon from './ios-contrast.vue'
-import IosCutIcon from './ios-cut.vue'
-import IosCropIcon from './ios-crop.vue'
-import IosDiscIcon from './ios-disc.vue'
-import IosCubeIcon from './ios-cube.vue'
-import IosDesktopIcon from './ios-desktop.vue'
-import IosDocumentIcon from './ios-document.vue'
-import IosDoneAllIcon from './ios-done-all.vue'
-import IosDownloadIcon from './ios-download.vue'
-import IosEaselIcon from './ios-easel.vue'
-import IosExitIcon from './ios-exit.vue'
-import IosEggIcon from './ios-egg.vue'
-import IosEyeOffIcon from './ios-eye-off.vue'
-import IosExpandIcon from './ios-expand.vue'
-import IosFastforwardIcon from './ios-fastforward.vue'
-import IosEyeIcon from './ios-eye.vue'
-import IosFilingIcon from './ios-filing.vue'
-import IosFemaleIcon from './ios-female.vue'
-import IosFilmIcon from './ios-film.vue'
-import IosFingerPrintIcon from './ios-finger-print.vue'
-import IosFlameIcon from './ios-flame.vue'
-import IosFitnessIcon from './ios-fitness.vue'
-import IosFlashIcon from './ios-flash.vue'
-import IosFlagIcon from './ios-flag.vue'
-import IosFlashOffIcon from './ios-flash-off.vue'
-import IosFlaskIcon from './ios-flask.vue'
-import IosFlashlightIcon from './ios-flashlight.vue'
-import IosFlowerIcon from './ios-flower.vue'
-import IosFolderIcon from './ios-folder.vue'
-import IosFolderOpenIcon from './ios-folder-open.vue'
-import IosFootballIcon from './ios-football.vue'
-import IosGitBranchIcon from './ios-git-branch.vue'
-import IosGiftIcon from './ios-gift.vue'
-import IosFunnelIcon from './ios-funnel.vue'
-import IosGitCompareIcon from './ios-git-compare.vue'
-import IosGitCommitIcon from './ios-git-commit.vue'
-import IosGitPullRequestIcon from './ios-git-pull-request.vue'
-import IosGitMergeIcon from './ios-git-merge.vue'
-import IosGitNetworkIcon from './ios-git-network.vue'
-import IosGlassesIcon from './ios-glasses.vue'
-import IosGlobeIcon from './ios-globe.vue'
-import IosGridIcon from './ios-grid.vue'
-import IosHammerIcon from './ios-hammer.vue'
-import IosHandIcon from './ios-hand.vue'
-import IosHeadsetIcon from './ios-headset.vue'
-import IosHappyIcon from './ios-happy.vue'
-import IosHeartDislikeIcon from './ios-heart-dislike.vue'
-import IosHeartHalfIcon from './ios-heart-half.vue'
-import IosHelpCircleOutlineIcon from './ios-help-circle-outline.vue'
-import IosHeartIcon from './ios-heart.vue'
-import IosHeartEmptyIcon from './ios-heart-empty.vue'
-import IosHelpBuoyIcon from './ios-help-buoy.vue'
-import IosColorFilterIcon from './ios-color-filter.vue'
-import IosHomeIcon from './ios-home.vue'
-import IosHelpCircleIcon from './ios-help-circle.vue'
-import IosHelpIcon from './ios-help.vue'
-import IosHourglassIcon from './ios-hourglass.vue'
-import IosImageIcon from './ios-image.vue'
-import IosIceCreamIcon from './ios-ice-cream.vue'
-import IosInformationCircleOutlineIcon from './ios-information-circle-outline.vue'
-import IosInfiniteIcon from './ios-infinite.vue'
-import IosImagesIcon from './ios-images.vue'
-import IosInformationIcon from './ios-information.vue'
-import IosJetIcon from './ios-jet.vue'
-import IosInformationCircleIcon from './ios-information-circle.vue'
-import IosJournalIcon from './ios-journal.vue'
-import IosKeyIcon from './ios-key.vue'
-import IosKeypadIcon from './ios-keypad.vue'
-import IosLinkIcon from './ios-link.vue'
-import IosLeafIcon from './ios-leaf.vue'
-import IosListBoxIcon from './ios-list-box.vue'
-import IosLocateIcon from './ios-locate.vue'
-import IosListIcon from './ios-list.vue'
-import IosLockIcon from './ios-lock.vue'
-import IosLogInIcon from './ios-log-in.vue'
-import IosLaptopIcon from './ios-laptop.vue'
-import IosMagnetIcon from './ios-magnet.vue'
-import IosMailIcon from './ios-mail.vue'
-import IosLogOutIcon from './ios-log-out.vue'
-import IosMailOpenIcon from './ios-mail-open.vue'
-import IosMaleIcon from './ios-male.vue'
-import IosMapIcon from './ios-map.vue'
-import IosMedalIcon from './ios-medal.vue'
-import IosManIcon from './ios-man.vue'
-import IosMenuIcon from './ios-menu.vue'
-import IosMegaphoneIcon from './ios-megaphone.vue'
-import IosMedicalIcon from './ios-medical.vue'
-import IosMedkitIcon from './ios-medkit.vue'
-import IosMailUnreadIcon from './ios-mail-unread.vue'
-import IosMicOffIcon from './ios-mic-off.vue'
-import IosMicIcon from './ios-mic.vue'
-import IosMoreIcon from './ios-more.vue'
-import IosMicrophoneIcon from './ios-microphone.vue'
-import IosMoonIcon from './ios-moon.vue'
-import IosMoveIcon from './ios-move.vue'
-import IosMusicalNoteIcon from './ios-musical-note.vue'
-import IosMusicalNotesIcon from './ios-musical-notes.vue'
-import IosNavigateIcon from './ios-navigate.vue'
-import IosNotificationsIcon from './ios-notifications.vue'
-import IosNotificationsOutlineIcon from './ios-notifications-outline.vue'
-import IosNuclearIcon from './ios-nuclear.vue'
-import IosNotificationsOffIcon from './ios-notifications-off.vue'
-import IosNutritionIcon from './ios-nutrition.vue'
-import IosPaperPlaneIcon from './ios-paper-plane.vue'
-import IosOptionsIcon from './ios-options.vue'
-import IosOpenIcon from './ios-open.vue'
-import IosOutletIcon from './ios-outlet.vue'
-import IosPartlySunnyIcon from './ios-partly-sunny.vue'
-import IosPaperIcon from './ios-paper.vue'
-import IosPauseIcon from './ios-pause.vue'
-import IosPawIcon from './ios-paw.vue'
-import IosPeopleIcon from './ios-people.vue'
-import IosPersonAddIcon from './ios-person-add.vue'
-import IosPhonePortraitIcon from './ios-phone-portrait.vue'
-import IosPersonIcon from './ios-person.vue'
-import IosPhoneLandscapeIcon from './ios-phone-landscape.vue'
-import IosPhotosIcon from './ios-photos.vue'
-import IosPieIcon from './ios-pie.vue'
-import IosPintIcon from './ios-pint.vue'
-import IosPinIcon from './ios-pin.vue'
-import IosPizzaIcon from './ios-pizza.vue'
-import IosPlayCircleIcon from './ios-play-circle.vue'
-import IosPowerIcon from './ios-power.vue'
-import IosPlanetIcon from './ios-planet.vue'
-import IosPodiumIcon from './ios-podium.vue'
-import IosPlayIcon from './ios-play.vue'
-import IosPricetagIcon from './ios-pricetag.vue'
-import IosPrintIcon from './ios-print.vue'
-import IosPulseIcon from './ios-pulse.vue'
-import IosQrScannerIcon from './ios-qr-scanner.vue'
-import IosQuoteIcon from './ios-quote.vue'
-import IosPricetagsIcon from './ios-pricetags.vue'
-import IosRadioIcon from './ios-radio.vue'
-import IosRadioButtonOffIcon from './ios-radio-button-off.vue'
-import IosRadioButtonOnIcon from './ios-radio-button-on.vue'
-import IosRainyIcon from './ios-rainy.vue'
-import IosRedoIcon from './ios-redo.vue'
-import IosRecordingIcon from './ios-recording.vue'
-import IosRemoveCircleOutlineIcon from './ios-remove-circle-outline.vue'
-import IosRemoveCircleIcon from './ios-remove-circle.vue'
-import IosRefreshCircleIcon from './ios-refresh-circle.vue'
-import IosRefreshIcon from './ios-refresh.vue'
-import IosRemoveIcon from './ios-remove.vue'
-import IosRepeatIcon from './ios-repeat.vue'
-import IosReorderIcon from './ios-reorder.vue'
-import IosResizeIcon from './ios-resize.vue'
-import IosReturnLeftIcon from './ios-return-left.vue'
-import IosReturnRightIcon from './ios-return-right.vue'
-import IosRestaurantIcon from './ios-restaurant.vue'
-import IosReverseCameraIcon from './ios-reverse-camera.vue'
-import IosRibbonIcon from './ios-ribbon.vue'
-import IosRocketIcon from './ios-rocket.vue'
-import IosRoseIcon from './ios-rose.vue'
-import IosSadIcon from './ios-sad.vue'
-import IosSchoolIcon from './ios-school.vue'
-import IosSearchIcon from './ios-search.vue'
-import IosSaveIcon from './ios-save.vue'
-import IosSendIcon from './ios-send.vue'
-import IosSettingsIcon from './ios-settings.vue'
-import IosShareIcon from './ios-share.vue'
-import IosShareAltIcon from './ios-share-alt.vue'
-import IosRewindIcon from './ios-rewind.vue'
-import IosShirtIcon from './ios-shirt.vue'
-import IosSnowIcon from './ios-snow.vue'
-import IosSkipBackwardIcon from './ios-skip-backward.vue'
-import IosSquareOutlineIcon from './ios-square-outline.vue'
-import IosSkipForwardIcon from './ios-skip-forward.vue'
-import IosSpeedometerIcon from './ios-speedometer.vue'
-import IosStarHalfIcon from './ios-star-half.vue'
-import IosSquareIcon from './ios-square.vue'
-import IosShuffleIcon from './ios-shuffle.vue'
-import IosStarIcon from './ios-star.vue'
-import IosSunnyIcon from './ios-sunny.vue'
-import IosStarOutlineIcon from './ios-star-outline.vue'
-import IosSwitchIcon from './ios-switch.vue'
-import IosSyncIcon from './ios-sync.vue'
-import IosTabletLandscapeIcon from './ios-tablet-landscape.vue'
-import IosTabletPortraitIcon from './ios-tablet-portrait.vue'
-import IosThermometerIcon from './ios-thermometer.vue'
-import IosTennisballIcon from './ios-tennisball.vue'
-import IosTextIcon from './ios-text.vue'
-import IosThumbsDownIcon from './ios-thumbs-down.vue'
-import IosThunderstormIcon from './ios-thunderstorm.vue'
-import IosTimeIcon from './ios-time.vue'
-import IosThumbsUpIcon from './ios-thumbs-up.vue'
-import IosTimerIcon from './ios-timer.vue'
-import IosTodayIcon from './ios-today.vue'
-import IosTransgenderIcon from './ios-transgender.vue'
-import IosTrashIcon from './ios-trash.vue'
-import IosTrainIcon from './ios-train.vue'
-import IosTrendingDownIcon from './ios-trending-down.vue'
-import IosTrendingUpIcon from './ios-trending-up.vue'
-import IosTrophyIcon from './ios-trophy.vue'
-import IosTvIcon from './ios-tv.vue'
-import IosUmbrellaIcon from './ios-umbrella.vue'
-import IosUnlockIcon from './ios-unlock.vue'
-import IosUndoIcon from './ios-undo.vue'
-import IosVideocamIcon from './ios-videocam.vue'
-import IosVolumeLowIcon from './ios-volume-low.vue'
-import IosVolumeHighIcon from './ios-volume-high.vue'
-import IosVolumeMuteIcon from './ios-volume-mute.vue'
-import IosVolumeOffIcon from './ios-volume-off.vue'
-import IosWalkIcon from './ios-walk.vue'
-import IosWalletIcon from './ios-wallet.vue'
-import IosWatchIcon from './ios-watch.vue'
-import IosWarningIcon from './ios-warning.vue'
-import IosWaterIcon from './ios-water.vue'
-import IosWineIcon from './ios-wine.vue'
-import IosWifiIcon from './ios-wifi.vue'
-import IosWomanIcon from './ios-woman.vue'
+import AccessibilitySharpIcon from './accessibility-sharp.vue'
+import AccessibilityOutlineIcon from './accessibility-outline.vue'
+import AccessibilityIcon from './accessibility.vue'
+import AddCircleOutlineIcon from './add-circle-outline.vue'
+import AddCircleSharpIcon from './add-circle-sharp.vue'
+import AddCircleIcon from './add-circle.vue'
+import AddOutlineIcon from './add-outline.vue'
+import AddSharpIcon from './add-sharp.vue'
+import AddIcon from './add.vue'
+import AirplaneOutlineIcon from './airplane-outline.vue'
+import AirplaneSharpIcon from './airplane-sharp.vue'
+import AlarmOutlineIcon from './alarm-outline.vue'
+import AirplaneIcon from './airplane.vue'
+import AlarmSharpIcon from './alarm-sharp.vue'
+import AlarmIcon from './alarm.vue'
+import AlbumsOutlineIcon from './albums-outline.vue'
+import AlbumsSharpIcon from './albums-sharp.vue'
+import AlbumsIcon from './albums.vue'
+import AlertCircleOutlineIcon from './alert-circle-outline.vue'
+import AlertCircleSharpIcon from './alert-circle-sharp.vue'
+import AlertCircleIcon from './alert-circle.vue'
+import AlertOutlineIcon from './alert-outline.vue'
+import AlertSharpIcon from './alert-sharp.vue'
+import AlertIcon from './alert.vue'
+import AmericanFootballOutlineIcon from './american-football-outline.vue'
+import AmericanFootballSharpIcon from './american-football-sharp.vue'
+import AmericanFootballIcon from './american-football.vue'
+import AnalyticsSharpIcon from './analytics-sharp.vue'
+import AnalyticsOutlineIcon from './analytics-outline.vue'
+import AnalyticsIcon from './analytics.vue'
+import ApertureOutlineIcon from './aperture-outline.vue'
+import ApertureSharpIcon from './aperture-sharp.vue'
+import ApertureIcon from './aperture.vue'
+import AppsOutlineIcon from './apps-outline.vue'
+import AppsSharpIcon from './apps-sharp.vue'
+import AppsIcon from './apps.vue'
+import ArchiveSharpIcon from './archive-sharp.vue'
+import ArchiveOutlineIcon from './archive-outline.vue'
+import ArchiveIcon from './archive.vue'
+import ArrowBackCircleSharpIcon from './arrow-back-circle-sharp.vue'
+import ArrowBackCircleOutlineIcon from './arrow-back-circle-outline.vue'
+import ArrowBackCircleIcon from './arrow-back-circle.vue'
+import ArrowBackOutlineIcon from './arrow-back-outline.vue'
+import ArrowBackSharpIcon from './arrow-back-sharp.vue'
+import ArrowBackIcon from './arrow-back.vue'
+import ArrowDownCircleSharpIcon from './arrow-down-circle-sharp.vue'
+import ArrowDownCircleIcon from './arrow-down-circle.vue'
+import ArrowDownOutlineIcon from './arrow-down-outline.vue'
+import ArrowDownSharpIcon from './arrow-down-sharp.vue'
+import ArrowDownIcon from './arrow-down.vue'
+import ArrowForwardCircleOutlineIcon from './arrow-forward-circle-outline.vue'
+import ArrowForwardCircleSharpIcon from './arrow-forward-circle-sharp.vue'
+import ArrowForwardCircleIcon from './arrow-forward-circle.vue'
+import ArrowForwardOutlineIcon from './arrow-forward-outline.vue'
+import ArrowForwardSharpIcon from './arrow-forward-sharp.vue'
+import ArrowForwardIcon from './arrow-forward.vue'
+import ArrowRedoCircleOutlineIcon from './arrow-redo-circle-outline.vue'
+import ArrowRedoCircleSharpIcon from './arrow-redo-circle-sharp.vue'
+import ArrowRedoCircleIcon from './arrow-redo-circle.vue'
+import ArrowRedoOutlineIcon from './arrow-redo-outline.vue'
+import ArrowRedoSharpIcon from './arrow-redo-sharp.vue'
+import ArrowRedoIcon from './arrow-redo.vue'
+import ArrowUndoCircleOutlineIcon from './arrow-undo-circle-outline.vue'
+import ArrowUndoCircleSharpIcon from './arrow-undo-circle-sharp.vue'
+import ArrowUndoCircleIcon from './arrow-undo-circle.vue'
+import ArrowDownCircleOutlineIcon from './arrow-down-circle-outline.vue'
+import ArrowUndoOutlineIcon from './arrow-undo-outline.vue'
+import ArrowUndoSharpIcon from './arrow-undo-sharp.vue'
+import ArrowUndoIcon from './arrow-undo.vue'
+import ArrowUpCircleOutlineIcon from './arrow-up-circle-outline.vue'
+import ArrowUpCircleSharpIcon from './arrow-up-circle-sharp.vue'
+import ArrowUpCircleIcon from './arrow-up-circle.vue'
+import ArrowUpOutlineIcon from './arrow-up-outline.vue'
+import ArrowUpSharpIcon from './arrow-up-sharp.vue'
+import ArrowUpIcon from './arrow-up.vue'
+import AtCircleOutlineIcon from './at-circle-outline.vue'
+import AtCircleSharpIcon from './at-circle-sharp.vue'
+import AtCircleIcon from './at-circle.vue'
+import AtOutlineIcon from './at-outline.vue'
+import AtSharpIcon from './at-sharp.vue'
+import AtIcon from './at.vue'
+import AttachOutlineIcon from './attach-outline.vue'
+import AttachSharpIcon from './attach-sharp.vue'
+import AttachIcon from './attach.vue'
+import BackspaceOutlineIcon from './backspace-outline.vue'
+import BackspaceSharpIcon from './backspace-sharp.vue'
+import BackspaceIcon from './backspace.vue'
+import BagAddOutlineIcon from './bag-add-outline.vue'
+import BagAddSharpIcon from './bag-add-sharp.vue'
+import BagAddIcon from './bag-add.vue'
+import BagCheckOutlineIcon from './bag-check-outline.vue'
+import BagCheckSharpIcon from './bag-check-sharp.vue'
+import BagCheckIcon from './bag-check.vue'
+import BagHandleOutlineIcon from './bag-handle-outline.vue'
+import BagHandleSharpIcon from './bag-handle-sharp.vue'
+import BagHandleIcon from './bag-handle.vue'
+import BagOutlineIcon from './bag-outline.vue'
+import BagRemoveOutlineIcon from './bag-remove-outline.vue'
+import BagRemoveSharpIcon from './bag-remove-sharp.vue'
+import BagRemoveIcon from './bag-remove.vue'
+import BagSharpIcon from './bag-sharp.vue'
+import BagIcon from './bag.vue'
+import BalloonOutlineIcon from './balloon-outline.vue'
+import BalloonSharpIcon from './balloon-sharp.vue'
+import BalloonIcon from './balloon.vue'
+import BanOutlineIcon from './ban-outline.vue'
+import BanSharpIcon from './ban-sharp.vue'
+import BanIcon from './ban.vue'
+import BandageOutlineIcon from './bandage-outline.vue'
+import BarChartSharpIcon from './bar-chart-sharp.vue'
+import BarChartIcon from './bar-chart.vue'
+import BarbellOutlineIcon from './barbell-outline.vue'
+import BarbellSharpIcon from './barbell-sharp.vue'
+import BarbellIcon from './barbell.vue'
+import BarcodeOutlineIcon from './barcode-outline.vue'
+import BarcodeSharpIcon from './barcode-sharp.vue'
+import BarcodeIcon from './barcode.vue'
+import BaseballOutlineIcon from './baseball-outline.vue'
+import BaseballSharpIcon from './baseball-sharp.vue'
+import BaseballIcon from './baseball.vue'
+import BasketOutlineIcon from './basket-outline.vue'
+import BasketSharpIcon from './basket-sharp.vue'
+import BasketIcon from './basket.vue'
+import BasketballOutlineIcon from './basketball-outline.vue'
+import BasketballSharpIcon from './basketball-sharp.vue'
+import BasketballIcon from './basketball.vue'
+import BatteryChargingOutlineIcon from './battery-charging-outline.vue'
+import BatteryChargingSharpIcon from './battery-charging-sharp.vue'
+import BatteryChargingIcon from './battery-charging.vue'
+import BatteryDeadOutlineIcon from './battery-dead-outline.vue'
+import BatteryDeadSharpIcon from './battery-dead-sharp.vue'
+import BatteryDeadIcon from './battery-dead.vue'
+import BatteryFullOutlineIcon from './battery-full-outline.vue'
+import BatteryFullSharpIcon from './battery-full-sharp.vue'
+import BatteryFullIcon from './battery-full.vue'
+import BatteryHalfSharpIcon from './battery-half-sharp.vue'
+import BatteryHalfOutlineIcon from './battery-half-outline.vue'
+import BatteryHalfIcon from './battery-half.vue'
+import BeakerOutlineIcon from './beaker-outline.vue'
+import BeakerSharpIcon from './beaker-sharp.vue'
+import BeakerIcon from './beaker.vue'
+import BedOutlineIcon from './bed-outline.vue'
+import BedSharpIcon from './bed-sharp.vue'
+import BandageSharpIcon from './bandage-sharp.vue'
+import BandageIcon from './bandage.vue'
+import BarChartOutlineIcon from './bar-chart-outline.vue'
+import BeerOutlineIcon from './beer-outline.vue'
+import BeerSharpIcon from './beer-sharp.vue'
+import BedIcon from './bed.vue'
+import BeerIcon from './beer.vue'
+import BicycleOutlineIcon from './bicycle-outline.vue'
+import BicycleSharpIcon from './bicycle-sharp.vue'
+import BicycleIcon from './bicycle.vue'
+import BluetoothOutlineIcon from './bluetooth-outline.vue'
+import BluetoothSharpIcon from './bluetooth-sharp.vue'
+import BluetoothIcon from './bluetooth.vue'
+import BoatOutlineIcon from './boat-outline.vue'
+import BoatSharpIcon from './boat-sharp.vue'
+import BoatIcon from './boat.vue'
+import BodyOutlineIcon from './body-outline.vue'
+import BodySharpIcon from './body-sharp.vue'
+import BodyIcon from './body.vue'
+import BonfireOutlineIcon from './bonfire-outline.vue'
+import BonfireSharpIcon from './bonfire-sharp.vue'
+import BonfireIcon from './bonfire.vue'
+import BookOutlineIcon from './book-outline.vue'
+import BookSharpIcon from './book-sharp.vue'
+import BookIcon from './book.vue'
+import BookmarkOutlineIcon from './bookmark-outline.vue'
+import BookmarkSharpIcon from './bookmark-sharp.vue'
+import BookmarkIcon from './bookmark.vue'
+import BookmarksOutlineIcon from './bookmarks-outline.vue'
+import BookmarksSharpIcon from './bookmarks-sharp.vue'
+import BookmarksIcon from './bookmarks.vue'
+import BowlingBallOutlineIcon from './bowling-ball-outline.vue'
+import BowlingBallSharpIcon from './bowling-ball-sharp.vue'
+import BowlingBallIcon from './bowling-ball.vue'
+import BriefcaseOutlineIcon from './briefcase-outline.vue'
+import BriefcaseSharpIcon from './briefcase-sharp.vue'
+import BriefcaseIcon from './briefcase.vue'
+import BrowsersOutlineIcon from './browsers-outline.vue'
+import BrowsersSharpIcon from './browsers-sharp.vue'
+import BrowsersIcon from './browsers.vue'
+import BrushOutlineIcon from './brush-outline.vue'
+import BrushSharpIcon from './brush-sharp.vue'
+import BrushIcon from './brush.vue'
+import BugOutlineIcon from './bug-outline.vue'
+import BugSharpIcon from './bug-sharp.vue'
+import BugIcon from './bug.vue'
+import BuildOutlineIcon from './build-outline.vue'
+import BuildSharpIcon from './build-sharp.vue'
+import BuildIcon from './build.vue'
+import BulbOutlineIcon from './bulb-outline.vue'
+import BulbSharpIcon from './bulb-sharp.vue'
+import BulbIcon from './bulb.vue'
+import BusOutlineIcon from './bus-outline.vue'
+import BusSharpIcon from './bus-sharp.vue'
+import BusIcon from './bus.vue'
+import BusinessOutlineIcon from './business-outline.vue'
+import BusinessSharpIcon from './business-sharp.vue'
+import BusinessIcon from './business.vue'
+import CafeOutlineIcon from './cafe-outline.vue'
+import CafeSharpIcon from './cafe-sharp.vue'
+import CafeIcon from './cafe.vue'
+import CalculatorOutlineIcon from './calculator-outline.vue'
+import CalculatorSharpIcon from './calculator-sharp.vue'
+import CalculatorIcon from './calculator.vue'
+import CalendarClearOutlineIcon from './calendar-clear-outline.vue'
+import CalendarClearSharpIcon from './calendar-clear-sharp.vue'
+import CalendarClearIcon from './calendar-clear.vue'
+import CalendarNumberOutlineIcon from './calendar-number-outline.vue'
+import CalendarNumberSharpIcon from './calendar-number-sharp.vue'
+import CalendarNumberIcon from './calendar-number.vue'
+import CalendarOutlineIcon from './calendar-outline.vue'
+import CalendarSharpIcon from './calendar-sharp.vue'
+import CalendarIcon from './calendar.vue'
+import CallOutlineIcon from './call-outline.vue'
+import CallSharpIcon from './call-sharp.vue'
+import CallIcon from './call.vue'
+import CameraOutlineIcon from './camera-outline.vue'
+import CameraReverseOutlineIcon from './camera-reverse-outline.vue'
+import CameraReverseSharpIcon from './camera-reverse-sharp.vue'
+import CameraReverseIcon from './camera-reverse.vue'
+import CameraSharpIcon from './camera-sharp.vue'
+import CameraIcon from './camera.vue'
+import CarOutlineIcon from './car-outline.vue'
+import CarSharpIcon from './car-sharp.vue'
+import CarSportOutlineIcon from './car-sport-outline.vue'
+import CarSportSharpIcon from './car-sport-sharp.vue'
+import CarSportIcon from './car-sport.vue'
+import CarIcon from './car.vue'
+import CardOutlineIcon from './card-outline.vue'
+import CardSharpIcon from './card-sharp.vue'
+import CardIcon from './card.vue'
+import CaretBackCircleOutlineIcon from './caret-back-circle-outline.vue'
+import CaretBackCircleSharpIcon from './caret-back-circle-sharp.vue'
+import CaretBackCircleIcon from './caret-back-circle.vue'
+import CaretDownCircleOutlineIcon from './caret-down-circle-outline.vue'
+import CaretDownCircleSharpIcon from './caret-down-circle-sharp.vue'
+import CaretDownCircleIcon from './caret-down-circle.vue'
+import CaretDownOutlineIcon from './caret-down-outline.vue'
+import CaretBackIcon from './caret-back.vue'
+import CaretDownIcon from './caret-down.vue'
+import CaretForwardCircleOutlineIcon from './caret-forward-circle-outline.vue'
+import CaretForwardCircleSharpIcon from './caret-forward-circle-sharp.vue'
+import CaretBackOutlineIcon from './caret-back-outline.vue'
+import CaretForwardCircleIcon from './caret-forward-circle.vue'
+import CaretForwardOutlineIcon from './caret-forward-outline.vue'
+import CaretForwardSharpIcon from './caret-forward-sharp.vue'
+import CaretForwardIcon from './caret-forward.vue'
+import CaretUpCircleOutlineIcon from './caret-up-circle-outline.vue'
+import CaretUpCircleSharpIcon from './caret-up-circle-sharp.vue'
+import CaretUpCircleIcon from './caret-up-circle.vue'
+import CaretUpOutlineIcon from './caret-up-outline.vue'
+import CaretUpSharpIcon from './caret-up-sharp.vue'
+import CartOutlineIcon from './cart-outline.vue'
+import CaretUpIcon from './caret-up.vue'
+import CartSharpIcon from './cart-sharp.vue'
+import CaretDownSharpIcon from './caret-down-sharp.vue'
+import CaretBackSharpIcon from './caret-back-sharp.vue'
+import CartIcon from './cart.vue'
+import CashOutlineIcon from './cash-outline.vue'
+import CashSharpIcon from './cash-sharp.vue'
+import CashIcon from './cash.vue'
+import CellularOutlineIcon from './cellular-outline.vue'
+import CellularSharpIcon from './cellular-sharp.vue'
+import CellularIcon from './cellular.vue'
+import ChatboxEllipsesOutlineIcon from './chatbox-ellipses-outline.vue'
+import ChatboxEllipsesSharpIcon from './chatbox-ellipses-sharp.vue'
+import ChatboxEllipsesIcon from './chatbox-ellipses.vue'
+import ChatboxOutlineIcon from './chatbox-outline.vue'
+import ChatboxSharpIcon from './chatbox-sharp.vue'
+import ChatboxIcon from './chatbox.vue'
+import ChatbubbleEllipsesOutlineIcon from './chatbubble-ellipses-outline.vue'
+import ChatbubbleEllipsesSharpIcon from './chatbubble-ellipses-sharp.vue'
+import ChatbubbleEllipsesIcon from './chatbubble-ellipses.vue'
+import ChatbubbleOutlineIcon from './chatbubble-outline.vue'
+import ChatbubbleSharpIcon from './chatbubble-sharp.vue'
+import ChatbubbleIcon from './chatbubble.vue'
+import ChatbubblesOutlineIcon from './chatbubbles-outline.vue'
+import ChatbubblesSharpIcon from './chatbubbles-sharp.vue'
+import ChatbubblesIcon from './chatbubbles.vue'
+import CheckboxOutlineIcon from './checkbox-outline.vue'
+import CheckboxSharpIcon from './checkbox-sharp.vue'
+import CheckboxIcon from './checkbox.vue'
+import CheckmarkCircleOutlineIcon from './checkmark-circle-outline.vue'
+import CheckmarkCircleSharpIcon from './checkmark-circle-sharp.vue'
+import CheckmarkCircleIcon from './checkmark-circle.vue'
+import CheckmarkDoneCircleOutlineIcon from './checkmark-done-circle-outline.vue'
+import CheckmarkDoneCircleSharpIcon from './checkmark-done-circle-sharp.vue'
+import CheckmarkDoneCircleIcon from './checkmark-done-circle.vue'
+import CheckmarkDoneOutlineIcon from './checkmark-done-outline.vue'
+import CheckmarkDoneSharpIcon from './checkmark-done-sharp.vue'
+import CheckmarkDoneIcon from './checkmark-done.vue'
+import CheckmarkOutlineIcon from './checkmark-outline.vue'
+import CheckmarkSharpIcon from './checkmark-sharp.vue'
+import CheckmarkIcon from './checkmark.vue'
+import ChevronBackCircleOutlineIcon from './chevron-back-circle-outline.vue'
+import ChevronBackCircleSharpIcon from './chevron-back-circle-sharp.vue'
+import ChevronBackCircleIcon from './chevron-back-circle.vue'
+import ChevronBackOutlineIcon from './chevron-back-outline.vue'
+import ChevronBackSharpIcon from './chevron-back-sharp.vue'
+import ChevronBackIcon from './chevron-back.vue'
+import ChevronDownCircleOutlineIcon from './chevron-down-circle-outline.vue'
+import ChevronDownCircleSharpIcon from './chevron-down-circle-sharp.vue'
+import ChevronDownCircleIcon from './chevron-down-circle.vue'
+import ChevronDownOutlineIcon from './chevron-down-outline.vue'
+import ChevronDownSharpIcon from './chevron-down-sharp.vue'
+import ChevronDownIcon from './chevron-down.vue'
+import ChevronForwardCircleOutlineIcon from './chevron-forward-circle-outline.vue'
+import ChevronForwardCircleSharpIcon from './chevron-forward-circle-sharp.vue'
+import ChevronForwardCircleIcon from './chevron-forward-circle.vue'
+import ChevronForwardOutlineIcon from './chevron-forward-outline.vue'
+import ChevronForwardSharpIcon from './chevron-forward-sharp.vue'
+import ChevronForwardIcon from './chevron-forward.vue'
+import ChevronUpCircleOutlineIcon from './chevron-up-circle-outline.vue'
+import ChevronUpCircleSharpIcon from './chevron-up-circle-sharp.vue'
+import ChevronUpCircleIcon from './chevron-up-circle.vue'
+import ChevronUpOutlineIcon from './chevron-up-outline.vue'
+import ChevronUpSharpIcon from './chevron-up-sharp.vue'
+import ChevronUpIcon from './chevron-up.vue'
+import ClipboardOutlineIcon from './clipboard-outline.vue'
+import ClipboardSharpIcon from './clipboard-sharp.vue'
+import ClipboardIcon from './clipboard.vue'
+import CloseCircleOutlineIcon from './close-circle-outline.vue'
+import CloseCircleSharpIcon from './close-circle-sharp.vue'
+import CloseCircleIcon from './close-circle.vue'
+import CloseOutlineIcon from './close-outline.vue'
+import CloseSharpIcon from './close-sharp.vue'
+import CloseIcon from './close.vue'
+import CloudCircleOutlineIcon from './cloud-circle-outline.vue'
+import CloudCircleSharpIcon from './cloud-circle-sharp.vue'
+import CloudCircleIcon from './cloud-circle.vue'
+import CloudDoneOutlineIcon from './cloud-done-outline.vue'
+import CloudDoneSharpIcon from './cloud-done-sharp.vue'
+import CloudDoneIcon from './cloud-done.vue'
+import CloudDownloadOutlineIcon from './cloud-download-outline.vue'
+import CloudDownloadSharpIcon from './cloud-download-sharp.vue'
+import CloudDownloadIcon from './cloud-download.vue'
+import CloudOfflineOutlineIcon from './cloud-offline-outline.vue'
+import CloudOfflineSharpIcon from './cloud-offline-sharp.vue'
+import CloudOfflineIcon from './cloud-offline.vue'
+import CloudOutlineIcon from './cloud-outline.vue'
+import CloudSharpIcon from './cloud-sharp.vue'
+import CloudUploadOutlineIcon from './cloud-upload-outline.vue'
+import CloudUploadSharpIcon from './cloud-upload-sharp.vue'
+import CloudUploadIcon from './cloud-upload.vue'
+import CloudIcon from './cloud.vue'
+import CloudyNightOutlineIcon from './cloudy-night-outline.vue'
+import CloudyNightSharpIcon from './cloudy-night-sharp.vue'
+import CloudyNightIcon from './cloudy-night.vue'
+import CloudyOutlineIcon from './cloudy-outline.vue'
+import CloudySharpIcon from './cloudy-sharp.vue'
+import CloudyIcon from './cloudy.vue'
+import CodeDownloadOutlineIcon from './code-download-outline.vue'
+import CodeDownloadSharpIcon from './code-download-sharp.vue'
+import CodeDownloadIcon from './code-download.vue'
+import CodeOutlineIcon from './code-outline.vue'
+import CodeSharpIcon from './code-sharp.vue'
+import CodeSlashOutlineIcon from './code-slash-outline.vue'
+import CodeSlashSharpIcon from './code-slash-sharp.vue'
+import CodeSlashIcon from './code-slash.vue'
+import CodeWorkingOutlineIcon from './code-working-outline.vue'
+import CodeWorkingSharpIcon from './code-working-sharp.vue'
+import CodeWorkingIcon from './code-working.vue'
+import CodeIcon from './code.vue'
+import CogOutlineIcon from './cog-outline.vue'
+import CogSharpIcon from './cog-sharp.vue'
+import CogIcon from './cog.vue'
+import ColorFillOutlineIcon from './color-fill-outline.vue'
+import ColorFillSharpIcon from './color-fill-sharp.vue'
+import ColorFillIcon from './color-fill.vue'
+import ColorFilterOutlineIcon from './color-filter-outline.vue'
+import ColorFilterSharpIcon from './color-filter-sharp.vue'
+import ColorFilterIcon from './color-filter.vue'
+import ColorPaletteOutlineIcon from './color-palette-outline.vue'
+import ColorPaletteSharpIcon from './color-palette-sharp.vue'
+import ColorPaletteIcon from './color-palette.vue'
+import ColorWandOutlineIcon from './color-wand-outline.vue'
+import ColorWandSharpIcon from './color-wand-sharp.vue'
+import ColorWandIcon from './color-wand.vue'
+import CompassOutlineIcon from './compass-outline.vue'
+import CompassSharpIcon from './compass-sharp.vue'
+import CompassIcon from './compass.vue'
+import ConstructOutlineIcon from './construct-outline.vue'
+import ConstructSharpIcon from './construct-sharp.vue'
+import ConstructIcon from './construct.vue'
+import ContractOutlineIcon from './contract-outline.vue'
+import ContractSharpIcon from './contract-sharp.vue'
+import ContractIcon from './contract.vue'
+import ContrastOutlineIcon from './contrast-outline.vue'
+import ContrastSharpIcon from './contrast-sharp.vue'
+import ContrastIcon from './contrast.vue'
+import CopyOutlineIcon from './copy-outline.vue'
+import CopySharpIcon from './copy-sharp.vue'
+import CopyIcon from './copy.vue'
+import CreateOutlineIcon from './create-outline.vue'
+import CreateSharpIcon from './create-sharp.vue'
+import CreateIcon from './create.vue'
+import CropOutlineIcon from './crop-outline.vue'
+import CropSharpIcon from './crop-sharp.vue'
+import CropIcon from './crop.vue'
+import CubeOutlineIcon from './cube-outline.vue'
+import CubeSharpIcon from './cube-sharp.vue'
+import CubeIcon from './cube.vue'
+import CutOutlineIcon from './cut-outline.vue'
+import CutSharpIcon from './cut-sharp.vue'
+import CutIcon from './cut.vue'
+import DesktopOutlineIcon from './desktop-outline.vue'
+import DesktopSharpIcon from './desktop-sharp.vue'
+import DesktopIcon from './desktop.vue'
+import DiamondOutlineIcon from './diamond-outline.vue'
+import DiamondSharpIcon from './diamond-sharp.vue'
+import DiamondIcon from './diamond.vue'
+import DiceOutlineIcon from './dice-outline.vue'
+import DiceSharpIcon from './dice-sharp.vue'
+import DiceIcon from './dice.vue'
+import DiscOutlineIcon from './disc-outline.vue'
+import DiscSharpIcon from './disc-sharp.vue'
+import DiscIcon from './disc.vue'
+import DocumentAttachOutlineIcon from './document-attach-outline.vue'
+import DocumentAttachSharpIcon from './document-attach-sharp.vue'
+import DocumentAttachIcon from './document-attach.vue'
+import DocumentLockOutlineIcon from './document-lock-outline.vue'
+import DocumentLockSharpIcon from './document-lock-sharp.vue'
+import DocumentLockIcon from './document-lock.vue'
+import DocumentOutlineIcon from './document-outline.vue'
+import DocumentSharpIcon from './document-sharp.vue'
+import DocumentTextOutlineIcon from './document-text-outline.vue'
+import DocumentTextSharpIcon from './document-text-sharp.vue'
+import DocumentTextIcon from './document-text.vue'
+import DocumentIcon from './document.vue'
+import DocumentsOutlineIcon from './documents-outline.vue'
+import DocumentsSharpIcon from './documents-sharp.vue'
+import DocumentsIcon from './documents.vue'
+import DownloadOutlineIcon from './download-outline.vue'
+import DownloadSharpIcon from './download-sharp.vue'
+import DownloadIcon from './download.vue'
+import DuplicateOutlineIcon from './duplicate-outline.vue'
+import DuplicateSharpIcon from './duplicate-sharp.vue'
+import DuplicateIcon from './duplicate.vue'
+import EarOutlineIcon from './ear-outline.vue'
+import EarSharpIcon from './ear-sharp.vue'
+import EarIcon from './ear.vue'
+import EarthOutlineIcon from './earth-outline.vue'
+import EarthSharpIcon from './earth-sharp.vue'
+import EarthIcon from './earth.vue'
+import EaselOutlineIcon from './easel-outline.vue'
+import EaselSharpIcon from './easel-sharp.vue'
+import EaselIcon from './easel.vue'
+import EggOutlineIcon from './egg-outline.vue'
+import EggSharpIcon from './egg-sharp.vue'
+import EggIcon from './egg.vue'
+import EllipseOutlineIcon from './ellipse-outline.vue'
+import EllipseSharpIcon from './ellipse-sharp.vue'
+import EllipseIcon from './ellipse.vue'
+import EllipsisHorizontalCircleOutlineIcon from './ellipsis-horizontal-circle-outline.vue'
+import EllipsisHorizontalCircleSharpIcon from './ellipsis-horizontal-circle-sharp.vue'
+import EllipsisHorizontalCircleIcon from './ellipsis-horizontal-circle.vue'
+import EllipsisHorizontalOutlineIcon from './ellipsis-horizontal-outline.vue'
+import EllipsisHorizontalSharpIcon from './ellipsis-horizontal-sharp.vue'
+import EllipsisHorizontalIcon from './ellipsis-horizontal.vue'
+import EllipsisVerticalCircleOutlineIcon from './ellipsis-vertical-circle-outline.vue'
+import EllipsisVerticalCircleSharpIcon from './ellipsis-vertical-circle-sharp.vue'
+import EllipsisVerticalCircleIcon from './ellipsis-vertical-circle.vue'
+import EllipsisVerticalOutlineIcon from './ellipsis-vertical-outline.vue'
+import EllipsisVerticalSharpIcon from './ellipsis-vertical-sharp.vue'
+import EllipsisVerticalIcon from './ellipsis-vertical.vue'
+import EnterOutlineIcon from './enter-outline.vue'
+import EnterSharpIcon from './enter-sharp.vue'
+import EnterIcon from './enter.vue'
+import ExitSharpIcon from './exit-sharp.vue'
+import ExitOutlineIcon from './exit-outline.vue'
+import ExitIcon from './exit.vue'
+import ExpandOutlineIcon from './expand-outline.vue'
+import ExpandSharpIcon from './expand-sharp.vue'
+import ExpandIcon from './expand.vue'
+import ExtensionPuzzleOutlineIcon from './extension-puzzle-outline.vue'
+import ExtensionPuzzleSharpIcon from './extension-puzzle-sharp.vue'
+import ExtensionPuzzleIcon from './extension-puzzle.vue'
+import EyeOffOutlineIcon from './eye-off-outline.vue'
+import EyeOffSharpIcon from './eye-off-sharp.vue'
+import EyeOffIcon from './eye-off.vue'
+import EyeOutlineIcon from './eye-outline.vue'
+import EyeSharpIcon from './eye-sharp.vue'
+import EyeIcon from './eye.vue'
+import EyedropOutlineIcon from './eyedrop-outline.vue'
+import EyedropSharpIcon from './eyedrop-sharp.vue'
+import EyedropIcon from './eyedrop.vue'
+import FastFoodOutlineIcon from './fast-food-outline.vue'
+import FastFoodSharpIcon from './fast-food-sharp.vue'
+import FastFoodIcon from './fast-food.vue'
+import FemaleOutlineIcon from './female-outline.vue'
+import FileTrayFullSharpIcon from './file-tray-full-sharp.vue'
+import FileTrayFullIcon from './file-tray-full.vue'
+import FileTrayOutlineIcon from './file-tray-outline.vue'
+import FileTraySharpIcon from './file-tray-sharp.vue'
+import FileTrayStackedOutlineIcon from './file-tray-stacked-outline.vue'
+import FileTrayStackedSharpIcon from './file-tray-stacked-sharp.vue'
+import FileTrayStackedIcon from './file-tray-stacked.vue'
+import FileTrayIcon from './file-tray.vue'
+import FilmOutlineIcon from './film-outline.vue'
+import FilmSharpIcon from './film-sharp.vue'
+import FilmIcon from './film.vue'
+import FilterCircleOutlineIcon from './filter-circle-outline.vue'
+import FilterCircleSharpIcon from './filter-circle-sharp.vue'
+import FilterCircleIcon from './filter-circle.vue'
+import FilterOutlineIcon from './filter-outline.vue'
+import FilterSharpIcon from './filter-sharp.vue'
+import FilterIcon from './filter.vue'
+import FingerPrintOutlineIcon from './finger-print-outline.vue'
+import FingerPrintSharpIcon from './finger-print-sharp.vue'
+import FingerPrintIcon from './finger-print.vue'
+import FishOutlineIcon from './fish-outline.vue'
+import FishSharpIcon from './fish-sharp.vue'
+import FishIcon from './fish.vue'
+import FitnessOutlineIcon from './fitness-outline.vue'
+import FitnessSharpIcon from './fitness-sharp.vue'
+import FitnessIcon from './fitness.vue'
+import FlagOutlineIcon from './flag-outline.vue'
+import FlagSharpIcon from './flag-sharp.vue'
+import FlagIcon from './flag.vue'
+import FlameOutlineIcon from './flame-outline.vue'
+import FlameSharpIcon from './flame-sharp.vue'
+import FlameIcon from './flame.vue'
+import FlashOffOutlineIcon from './flash-off-outline.vue'
+import FlashOffSharpIcon from './flash-off-sharp.vue'
+import FlashOffIcon from './flash-off.vue'
+import FlashOutlineIcon from './flash-outline.vue'
+import FlashSharpIcon from './flash-sharp.vue'
+import FlashIcon from './flash.vue'
+import FlashlightOutlineIcon from './flashlight-outline.vue'
+import FlashlightSharpIcon from './flashlight-sharp.vue'
+import FemaleSharpIcon from './female-sharp.vue'
+import FileTrayFullOutlineIcon from './file-tray-full-outline.vue'
+import FlashlightIcon from './flashlight.vue'
+import FlaskOutlineIcon from './flask-outline.vue'
+import FlaskSharpIcon from './flask-sharp.vue'
+import FlaskIcon from './flask.vue'
+import FemaleIcon from './female.vue'
+import FlowerOutlineIcon from './flower-outline.vue'
+import FlowerSharpIcon from './flower-sharp.vue'
+import FlowerIcon from './flower.vue'
+import FolderOpenOutlineIcon from './folder-open-outline.vue'
+import FolderOpenSharpIcon from './folder-open-sharp.vue'
+import FolderOpenIcon from './folder-open.vue'
+import FolderOutlineIcon from './folder-outline.vue'
+import FolderSharpIcon from './folder-sharp.vue'
+import FootballOutlineIcon from './football-outline.vue'
+import FolderIcon from './folder.vue'
+import FootballSharpIcon from './football-sharp.vue'
+import FootballIcon from './football.vue'
+import FootstepsOutlineIcon from './footsteps-outline.vue'
+import FootstepsSharpIcon from './footsteps-sharp.vue'
+import FootstepsIcon from './footsteps.vue'
+import FunnelOutlineIcon from './funnel-outline.vue'
+import FunnelSharpIcon from './funnel-sharp.vue'
+import FunnelIcon from './funnel.vue'
+import GameControllerOutlineIcon from './game-controller-outline.vue'
+import GameControllerSharpIcon from './game-controller-sharp.vue'
+import GameControllerIcon from './game-controller.vue'
+import GiftOutlineIcon from './gift-outline.vue'
+import GiftSharpIcon from './gift-sharp.vue'
+import GiftIcon from './gift.vue'
+import GitBranchOutlineIcon from './git-branch-outline.vue'
+import GitBranchSharpIcon from './git-branch-sharp.vue'
+import GitBranchIcon from './git-branch.vue'
+import GitCommitOutlineIcon from './git-commit-outline.vue'
+import GitCommitSharpIcon from './git-commit-sharp.vue'
+import GitCommitIcon from './git-commit.vue'
+import GitCompareOutlineIcon from './git-compare-outline.vue'
+import GitCompareSharpIcon from './git-compare-sharp.vue'
+import GitCompareIcon from './git-compare.vue'
+import GitMergeOutlineIcon from './git-merge-outline.vue'
+import GitMergeSharpIcon from './git-merge-sharp.vue'
+import GitMergeIcon from './git-merge.vue'
+import GitNetworkOutlineIcon from './git-network-outline.vue'
+import GitNetworkSharpIcon from './git-network-sharp.vue'
+import GitNetworkIcon from './git-network.vue'
+import GitPullRequestOutlineIcon from './git-pull-request-outline.vue'
+import GitPullRequestSharpIcon from './git-pull-request-sharp.vue'
+import GitPullRequestIcon from './git-pull-request.vue'
+import GlassesOutlineIcon from './glasses-outline.vue'
+import GlassesSharpIcon from './glasses-sharp.vue'
+import GlassesIcon from './glasses.vue'
+import GlobeOutlineIcon from './globe-outline.vue'
+import GlobeSharpIcon from './globe-sharp.vue'
+import GlobeIcon from './globe.vue'
+import GolfOutlineIcon from './golf-outline.vue'
+import GolfSharpIcon from './golf-sharp.vue'
+import GolfIcon from './golf.vue'
+import GridOutlineIcon from './grid-outline.vue'
+import GridSharpIcon from './grid-sharp.vue'
+import GridIcon from './grid.vue'
+import HammerOutlineIcon from './hammer-outline.vue'
+import HammerSharpIcon from './hammer-sharp.vue'
+import HammerIcon from './hammer.vue'
+import HandLeftOutlineIcon from './hand-left-outline.vue'
+import HandLeftSharpIcon from './hand-left-sharp.vue'
+import HandLeftIcon from './hand-left.vue'
+import HandRightOutlineIcon from './hand-right-outline.vue'
+import HandRightSharpIcon from './hand-right-sharp.vue'
+import HandRightIcon from './hand-right.vue'
+import HappyOutlineIcon from './happy-outline.vue'
+import HappySharpIcon from './happy-sharp.vue'
+import HappyIcon from './happy.vue'
+import HardwareChipOutlineIcon from './hardware-chip-outline.vue'
+import HardwareChipSharpIcon from './hardware-chip-sharp.vue'
+import HardwareChipIcon from './hardware-chip.vue'
+import HeadsetOutlineIcon from './headset-outline.vue'
+import HeadsetSharpIcon from './headset-sharp.vue'
+import HeadsetIcon from './headset.vue'
+import HeartCircleOutlineIcon from './heart-circle-outline.vue'
+import HeartCircleSharpIcon from './heart-circle-sharp.vue'
+import HeartCircleIcon from './heart-circle.vue'
+import HeartDislikeCircleOutlineIcon from './heart-dislike-circle-outline.vue'
+import HeartDislikeCircleSharpIcon from './heart-dislike-circle-sharp.vue'
+import HeartDislikeCircleIcon from './heart-dislike-circle.vue'
+import HeartDislikeOutlineIcon from './heart-dislike-outline.vue'
+import HeartDislikeSharpIcon from './heart-dislike-sharp.vue'
+import HeartDislikeIcon from './heart-dislike.vue'
+import HeartHalfOutlineIcon from './heart-half-outline.vue'
+import HeartHalfSharpIcon from './heart-half-sharp.vue'
+import HeartHalfIcon from './heart-half.vue'
+import HeartOutlineIcon from './heart-outline.vue'
+import HeartSharpIcon from './heart-sharp.vue'
+import HeartIcon from './heart.vue'
+import HelpBuoyOutlineIcon from './help-buoy-outline.vue'
+import HelpBuoySharpIcon from './help-buoy-sharp.vue'
+import HelpBuoyIcon from './help-buoy.vue'
+import HelpCircleOutlineIcon from './help-circle-outline.vue'
+import HelpCircleSharpIcon from './help-circle-sharp.vue'
+import HelpCircleIcon from './help-circle.vue'
+import HelpOutlineIcon from './help-outline.vue'
+import HelpSharpIcon from './help-sharp.vue'
+import HelpIcon from './help.vue'
+import HomeOutlineIcon from './home-outline.vue'
+import HomeSharpIcon from './home-sharp.vue'
+import HomeIcon from './home.vue'
+import HourglassOutlineIcon from './hourglass-outline.vue'
+import HourglassSharpIcon from './hourglass-sharp.vue'
+import HourglassIcon from './hourglass.vue'
+import IceCreamOutlineIcon from './ice-cream-outline.vue'
+import IceCreamSharpIcon from './ice-cream-sharp.vue'
+import IceCreamIcon from './ice-cream.vue'
+import IdCardOutlineIcon from './id-card-outline.vue'
+import IdCardSharpIcon from './id-card-sharp.vue'
+import IdCardIcon from './id-card.vue'
+import ImageOutlineIcon from './image-outline.vue'
+import ImageSharpIcon from './image-sharp.vue'
+import ImageIcon from './image.vue'
+import ImagesOutlineIcon from './images-outline.vue'
+import ImagesSharpIcon from './images-sharp.vue'
+import ImagesIcon from './images.vue'
+import InfiniteOutlineIcon from './infinite-outline.vue'
+import InfiniteSharpIcon from './infinite-sharp.vue'
+import InfiniteIcon from './infinite.vue'
+import InformationCircleOutlineIcon from './information-circle-outline.vue'
+import InformationCircleSharpIcon from './information-circle-sharp.vue'
+import InformationCircleIcon from './information-circle.vue'
+import InformationOutlineIcon from './information-outline.vue'
+import InformationSharpIcon from './information-sharp.vue'
+import InformationIcon from './information.vue'
+import InvertModeOutlineIcon from './invert-mode-outline.vue'
+import InvertModeSharpIcon from './invert-mode-sharp.vue'
+import InvertModeIcon from './invert-mode.vue'
+import JournalOutlineIcon from './journal-outline.vue'
+import JournalSharpIcon from './journal-sharp.vue'
+import JournalIcon from './journal.vue'
+import KeyOutlineIcon from './key-outline.vue'
+import KeySharpIcon from './key-sharp.vue'
+import KeyIcon from './key.vue'
+import KeypadOutlineIcon from './keypad-outline.vue'
+import KeypadSharpIcon from './keypad-sharp.vue'
+import KeypadIcon from './keypad.vue'
+import LanguageOutlineIcon from './language-outline.vue'
+import LanguageSharpIcon from './language-sharp.vue'
+import LanguageIcon from './language.vue'
+import LaptopOutlineIcon from './laptop-outline.vue'
+import LaptopSharpIcon from './laptop-sharp.vue'
+import LaptopIcon from './laptop.vue'
+import LayersOutlineIcon from './layers-outline.vue'
+import LayersSharpIcon from './layers-sharp.vue'
+import LayersIcon from './layers.vue'
+import LeafOutlineIcon from './leaf-outline.vue'
+import LeafSharpIcon from './leaf-sharp.vue'
+import LeafIcon from './leaf.vue'
+import LibraryOutlineIcon from './library-outline.vue'
+import LibrarySharpIcon from './library-sharp.vue'
+import LibraryIcon from './library.vue'
+import LinkOutlineIcon from './link-outline.vue'
+import LinkSharpIcon from './link-sharp.vue'
+import LinkIcon from './link.vue'
+import ListCircleOutlineIcon from './list-circle-outline.vue'
+import ListCircleSharpIcon from './list-circle-sharp.vue'
+import ListCircleIcon from './list-circle.vue'
+import ListOutlineIcon from './list-outline.vue'
+import ListSharpIcon from './list-sharp.vue'
+import ListIcon from './list.vue'
+import LocateOutlineIcon from './locate-outline.vue'
+import LocateSharpIcon from './locate-sharp.vue'
+import LocateIcon from './locate.vue'
+import LocationOutlineIcon from './location-outline.vue'
+import LocationSharpIcon from './location-sharp.vue'
+import LocationIcon from './location.vue'
+import LockClosedOutlineIcon from './lock-closed-outline.vue'
+import LockClosedSharpIcon from './lock-closed-sharp.vue'
+import LockClosedIcon from './lock-closed.vue'
+import LockOpenOutlineIcon from './lock-open-outline.vue'
+import LockOpenSharpIcon from './lock-open-sharp.vue'
+import LockOpenIcon from './lock-open.vue'
+import LogInOutlineIcon from './log-in-outline.vue'
+import LogInSharpIcon from './log-in-sharp.vue'
+import LogInIcon from './log-in.vue'
+import LogOutOutlineIcon from './log-out-outline.vue'
+import LogOutSharpIcon from './log-out-sharp.vue'
+import LogOutIcon from './log-out.vue'
+import LogoAlipayIcon from './logo-alipay.vue'
+import LogoAmazonIcon from './logo-amazon.vue'
+import LogoAmplifyIcon from './logo-amplify.vue'
 import LogoAndroidIcon from './logo-android.vue'
-import IosStatsIcon from './ios-stats.vue'
-import LogoBitbucketIcon from './logo-bitbucket.vue'
-import IosStopwatchIcon from './ios-stopwatch.vue'
+import LogoAngularIcon from './logo-angular.vue'
+import LogoAppleAppstoreIcon from './logo-apple-appstore.vue'
+import LogoAppleArIcon from './logo-apple-ar.vue'
 import LogoAppleIcon from './logo-apple.vue'
-import LogoBufferIcon from './logo-buffer.vue'
-import LogoChromeIcon from './logo-chrome.vue'
-import LogoCodepenIcon from './logo-codepen.vue'
-import LogoClosedCaptioningIcon from './logo-closed-captioning.vue'
+import LogoBehanceIcon from './logo-behance.vue'
+import LogoBitbucketIcon from './logo-bitbucket.vue'
 import LogoBitcoinIcon from './logo-bitcoin.vue'
+import LogoBufferIcon from './logo-buffer.vue'
+import LogoCapacitorIcon from './logo-capacitor.vue'
+import LogoChromeIcon from './logo-chrome.vue'
+import LogoClosedCaptioningIcon from './logo-closed-captioning.vue'
+import LogoCodepenIcon from './logo-codepen.vue'
 import LogoCss3Icon from './logo-css3.vue'
 import LogoDesignernewsIcon from './logo-designernews.vue'
+import LogoDeviantartIcon from './logo-deviantart.vue'
+import LogoDiscordIcon from './logo-discord.vue'
+import LogoDockerIcon from './logo-docker.vue'
 import LogoDribbbleIcon from './logo-dribbble.vue'
-import LogoEuroIcon from './logo-euro.vue'
-import IosSubwayIcon from './ios-subway.vue'
-import LogoAngularIcon from './logo-angular.vue'
 import LogoDropboxIcon from './logo-dropbox.vue'
+import LogoEdgeIcon from './logo-edge.vue'
+import LogoElectronIcon from './logo-electron.vue'
+import LogoEuroIcon from './logo-euro.vue'
 import LogoFacebookIcon from './logo-facebook.vue'
-import LogoGameControllerBIcon from './logo-game-controller-b.vue'
+import LogoFigmaIcon from './logo-figma.vue'
+import LogoFirebaseIcon from './logo-firebase.vue'
+import LogoFirefoxIcon from './logo-firefox.vue'
 import LogoFlickrIcon from './logo-flickr.vue'
-import LogoFreebsdDevilIcon from './logo-freebsd-devil.vue'
-import LogoGithubIcon from './logo-github.vue'
-import LogoGoogleplusIcon from './logo-googleplus.vue'
-import LogoGoogleIcon from './logo-google.vue'
 import LogoFoursquareIcon from './logo-foursquare.vue'
+import LogoGithubIcon from './logo-github.vue'
+import LogoGitlabIcon from './logo-gitlab.vue'
+import LogoGooglePlaystoreIcon from './logo-google-playstore.vue'
+import LogoGoogleIcon from './logo-google.vue'
 import LogoHackernewsIcon from './logo-hackernews.vue'
-import LogoGameControllerAIcon from './logo-game-controller-a.vue'
 import LogoHtml5Icon from './logo-html5.vue'
-import LogoIonitronIcon from './logo-ionitron.vue'
-import LogoIonicIcon from './logo-ionic.vue'
 import LogoInstagramIcon from './logo-instagram.vue'
+import LogoIonicIcon from './logo-ionic.vue'
+import LogoIonitronIcon from './logo-ionitron.vue'
 import LogoJavascriptIcon from './logo-javascript.vue'
+import LogoLaravelIcon from './logo-laravel.vue'
 import LogoLinkedinIcon from './logo-linkedin.vue'
 import LogoMarkdownIcon from './logo-markdown.vue'
-import LogoNodejsIcon from './logo-nodejs.vue'
-import LogoModelSIcon from './logo-model-s.vue'
-import IosSwapIcon from './ios-swap.vue'
+import LogoMastodonIcon from './logo-mastodon.vue'
+import LogoMediumIcon from './logo-medium.vue'
+import LogoMicrosoftIcon from './logo-microsoft.vue'
 import LogoNoSmokingIcon from './logo-no-smoking.vue'
-import LogoOctocatIcon from './logo-octocat.vue'
+import LogoNodejsIcon from './logo-nodejs.vue'
 import LogoNpmIcon from './logo-npm.vue'
-import LogoPolymerIcon from './logo-polymer.vue'
-import LogoPlaystationIcon from './logo-playstation.vue'
-import LogoPythonIcon from './logo-python.vue'
+import LogoOctocatIcon from './logo-octocat.vue'
+import LogoPaypalIcon from './logo-paypal.vue'
 import LogoPinterestIcon from './logo-pinterest.vue'
-import LogoRssIcon from './logo-rss.vue'
+import LogoPlaystationIcon from './logo-playstation.vue'
+import LogoPwaIcon from './logo-pwa.vue'
+import LogoPythonIcon from './logo-python.vue'
+import LogoReactIcon from './logo-react.vue'
 import LogoRedditIcon from './logo-reddit.vue'
+import LogoRssIcon from './logo-rss.vue'
+import LogoSassIcon from './logo-sass.vue'
 import LogoSkypeIcon from './logo-skype.vue'
 import LogoSlackIcon from './logo-slack.vue'
-import LogoSassIcon from './logo-sass.vue'
 import LogoSnapchatIcon from './logo-snapchat.vue'
-import LogoTumblrIcon from './logo-tumblr.vue'
+import LogoSoundcloudIcon from './logo-soundcloud.vue'
+import LogoStackoverflowIcon from './logo-stackoverflow.vue'
 import LogoSteamIcon from './logo-steam.vue'
+import LogoStencilIcon from './logo-stencil.vue'
+import LogoTableauIcon from './logo-tableau.vue'
+import LogoTiktokIcon from './logo-tiktok.vue'
+import LogoTumblrIcon from './logo-tumblr.vue'
 import LogoTuxIcon from './logo-tux.vue'
-import LogoTwitterIcon from './logo-twitter.vue'
-import LogoVimeoIcon from './logo-vimeo.vue'
 import LogoTwitchIcon from './logo-twitch.vue'
+import LogoTwitterIcon from './logo-twitter.vue'
 import LogoUsdIcon from './logo-usd.vue'
-import LogoWhatsappIcon from './logo-whatsapp.vue'
+import LogoVenmoIcon from './logo-venmo.vue'
+import LogoVercelIcon from './logo-vercel.vue'
+import LogoVimeoIcon from './logo-vimeo.vue'
 import LogoVkIcon from './logo-vk.vue'
+import LogoVueIcon from './logo-vue.vue'
+import LogoWebComponentIcon from './logo-web-component.vue'
+import LogoWechatIcon from './logo-wechat.vue'
+import LogoWhatsappIcon from './logo-whatsapp.vue'
 import LogoWindowsIcon from './logo-windows.vue'
-import LogoXingIcon from './logo-xing.vue'
 import LogoWordpressIcon from './logo-wordpress.vue'
 import LogoXboxIcon from './logo-xbox.vue'
-import LogoYenIcon from './logo-yen.vue'
+import LogoXingIcon from './logo-xing.vue'
 import LogoYahooIcon from './logo-yahoo.vue'
-import MdAddCircleOutlineIcon from './md-add-circle-outline.vue'
-import MdAddCircleIcon from './md-add-circle.vue'
+import LogoYenIcon from './logo-yen.vue'
 import LogoYoutubeIcon from './logo-youtube.vue'
-import MdAddIcon from './md-add.vue'
-import MdAlarmIcon from './md-alarm.vue'
-import MdAirplaneIcon from './md-airplane.vue'
-import MdAlertIcon from './md-alert.vue'
-import MdAmericanFootballIcon from './md-american-football.vue'
-import MdAnalyticsIcon from './md-analytics.vue'
-import MdApertureIcon from './md-aperture.vue'
-import MdAppstoreIcon from './md-appstore.vue'
-import MdAppsIcon from './md-apps.vue'
-import MdArrowBackIcon from './md-arrow-back.vue'
-import MdArchiveIcon from './md-archive.vue'
-import MdArrowDownIcon from './md-arrow-down.vue'
-import MdArrowDropdownCircleIcon from './md-arrow-dropdown-circle.vue'
-import MdAlbumsIcon from './md-albums.vue'
-import MdArrowDropleftCircleIcon from './md-arrow-dropleft-circle.vue'
-import MdArrowDropdownIcon from './md-arrow-dropdown.vue'
-import MdArrowDropleftIcon from './md-arrow-dropleft.vue'
-import MdArrowDroprightIcon from './md-arrow-dropright.vue'
-import MdArrowDroprightCircleIcon from './md-arrow-dropright-circle.vue'
-import MdArrowForwardIcon from './md-arrow-forward.vue'
-import MdArrowDropupIcon from './md-arrow-dropup.vue'
-import MdArrowDropupCircleIcon from './md-arrow-dropup-circle.vue'
-import MdArrowRoundBackIcon from './md-arrow-round-back.vue'
-import MdArrowRoundUpIcon from './md-arrow-round-up.vue'
-import MdArrowRoundDownIcon from './md-arrow-round-down.vue'
-import MdAtIcon from './md-at.vue'
-import MdArrowUpIcon from './md-arrow-up.vue'
-import MdAttachIcon from './md-attach.vue'
-import MdBarcodeIcon from './md-barcode.vue'
-import MdArrowRoundForwardIcon from './md-arrow-round-forward.vue'
-import MdBackspaceIcon from './md-backspace.vue'
-import MdBaseballIcon from './md-baseball.vue'
-import MdBasketballIcon from './md-basketball.vue'
-import MdBatteryChargingIcon from './md-battery-charging.vue'
-import MdBasketIcon from './md-basket.vue'
-import MdBatteryDeadIcon from './md-battery-dead.vue'
-import MdBatteryFullIcon from './md-battery-full.vue'
-import MdBeakerIcon from './md-beaker.vue'
-import MdBedIcon from './md-bed.vue'
-import MdBeerIcon from './md-beer.vue'
-import MdBluetoothIcon from './md-bluetooth.vue'
-import MdBoatIcon from './md-boat.vue'
-import MdBicycleIcon from './md-bicycle.vue'
-import MdBodyIcon from './md-body.vue'
-import MdBonfireIcon from './md-bonfire.vue'
-import MdBookIcon from './md-book.vue'
-import MdBookmarkIcon from './md-bookmark.vue'
-import MdBookmarksIcon from './md-bookmarks.vue'
-import MdBriefcaseIcon from './md-briefcase.vue'
-import MdBowtieIcon from './md-bowtie.vue'
-import MdBrowsersIcon from './md-browsers.vue'
-import MdBugIcon from './md-bug.vue'
-import MdBuildIcon from './md-build.vue'
-import MdBulbIcon from './md-bulb.vue'
-import MdBusIcon from './md-bus.vue'
-import MdCafeIcon from './md-cafe.vue'
-import MdCalendarIcon from './md-calendar.vue'
-import MdCallIcon from './md-call.vue'
-import MdBrushIcon from './md-brush.vue'
-import MdCameraIcon from './md-camera.vue'
-import MdCalculatorIcon from './md-calculator.vue'
-import MdCardIcon from './md-card.vue'
-import MdCellularIcon from './md-cellular.vue'
-import MdCartIcon from './md-cart.vue'
-import MdCashIcon from './md-cash.vue'
-import MdChatboxesIcon from './md-chatboxes.vue'
-import MdChatbubblesIcon from './md-chatbubbles.vue'
-import MdCheckboxOutlineIcon from './md-checkbox-outline.vue'
-import MdCarIcon from './md-car.vue'
-import MdCheckboxIcon from './md-checkbox.vue'
-import MdCheckmarkCircleOutlineIcon from './md-checkmark-circle-outline.vue'
-import MdCheckmarkCircleIcon from './md-checkmark-circle.vue'
-import MdCheckmarkIcon from './md-checkmark.vue'
-import MdBusinessIcon from './md-business.vue'
-import MdClockIcon from './md-clock.vue'
-import MdCloseCircleIcon from './md-close-circle.vue'
-import MdClipboardIcon from './md-clipboard.vue'
-import MdCloseCircleOutlineIcon from './md-close-circle-outline.vue'
-import MdCloudCircleIcon from './md-cloud-circle.vue'
-import MdCloudDoneIcon from './md-cloud-done.vue'
-import MdCloudOutlineIcon from './md-cloud-outline.vue'
-import MdCloudDownloadIcon from './md-cloud-download.vue'
-import MdCloseIcon from './md-close.vue'
-import MdCloudyNightIcon from './md-cloudy-night.vue'
-import MdCloudIcon from './md-cloud.vue'
-import MdCloudUploadIcon from './md-cloud-upload.vue'
-import MdCloudyIcon from './md-cloudy.vue'
-import MdCodeIcon from './md-code.vue'
-import MdCodeDownloadIcon from './md-code-download.vue'
-import MdCogIcon from './md-cog.vue'
-import MdCodeWorkingIcon from './md-code-working.vue'
-import MdColorFilterIcon from './md-color-filter.vue'
-import MdColorWandIcon from './md-color-wand.vue'
-import MdColorFillIcon from './md-color-fill.vue'
-import MdCompassIcon from './md-compass.vue'
-import MdContactsIcon from './md-contacts.vue'
-import MdConstructIcon from './md-construct.vue'
-import MdContactIcon from './md-contact.vue'
-import MdContractIcon from './md-contract.vue'
-import MdContrastIcon from './md-contrast.vue'
-import MdColorPaletteIcon from './md-color-palette.vue'
-import MdCopyIcon from './md-copy.vue'
-import MdCubeIcon from './md-cube.vue'
-import MdCropIcon from './md-crop.vue'
-import MdCreateIcon from './md-create.vue'
-import MdDiscIcon from './md-disc.vue'
-import MdCutIcon from './md-cut.vue'
-import MdDocumentIcon from './md-document.vue'
-import MdDesktopIcon from './md-desktop.vue'
-import MdDoneAllIcon from './md-done-all.vue'
-import MdDownloadIcon from './md-download.vue'
-import MdExpandIcon from './md-expand.vue'
-import MdEggIcon from './md-egg.vue'
-import MdEaselIcon from './md-easel.vue'
-import MdExitIcon from './md-exit.vue'
-import MdEyeOffIcon from './md-eye-off.vue'
-import MdEyeIcon from './md-eye.vue'
-import MdFastforwardIcon from './md-fastforward.vue'
-import MdFilingIcon from './md-filing.vue'
-import MdFemaleIcon from './md-female.vue'
-import MdFilmIcon from './md-film.vue'
-import MdFingerPrintIcon from './md-finger-print.vue'
-import MdFlagIcon from './md-flag.vue'
-import MdFitnessIcon from './md-fitness.vue'
-import MdFlameIcon from './md-flame.vue'
-import MdFlashOffIcon from './md-flash-off.vue'
-import MdFlashIcon from './md-flash.vue'
-import MdFlashlightIcon from './md-flashlight.vue'
-import MdFlowerIcon from './md-flower.vue'
-import MdFlaskIcon from './md-flask.vue'
-import MdFolderIcon from './md-folder.vue'
-import MdFolderOpenIcon from './md-folder-open.vue'
-import MdFootballIcon from './md-football.vue'
-import MdGitCommitIcon from './md-git-commit.vue'
-import MdGiftIcon from './md-gift.vue'
-import MdGitBranchIcon from './md-git-branch.vue'
-import MdGitMergeIcon from './md-git-merge.vue'
-import MdGitCompareIcon from './md-git-compare.vue'
-import MdFunnelIcon from './md-funnel.vue'
-import MdGitPullRequestIcon from './md-git-pull-request.vue'
-import MdGitNetworkIcon from './md-git-network.vue'
-import MdGlassesIcon from './md-glasses.vue'
-import MdGlobeIcon from './md-globe.vue'
-import MdGridIcon from './md-grid.vue'
-import MdHandIcon from './md-hand.vue'
-import MdHammerIcon from './md-hammer.vue'
-import MdHappyIcon from './md-happy.vue'
-import MdHeartEmptyIcon from './md-heart-empty.vue'
-import MdHeartDislikeIcon from './md-heart-dislike.vue'
-import MdHeadsetIcon from './md-headset.vue'
-import MdHeartIcon from './md-heart.vue'
-import MdHelpCircleOutlineIcon from './md-help-circle-outline.vue'
-import MdHelpIcon from './md-help.vue'
-import MdHelpCircleIcon from './md-help-circle.vue'
-import MdHeartHalfIcon from './md-heart-half.vue'
-import MdHourglassIcon from './md-hourglass.vue'
-import MdHelpBuoyIcon from './md-help-buoy.vue'
-import MdHomeIcon from './md-home.vue'
-import MdInfiniteIcon from './md-infinite.vue'
-import MdImagesIcon from './md-images.vue'
-import MdIceCreamIcon from './md-ice-cream.vue'
-import MdInformationCircleOutlineIcon from './md-information-circle-outline.vue'
-import MdInformationCircleIcon from './md-information-circle.vue'
-import MdJournalIcon from './md-journal.vue'
-import MdInformationIcon from './md-information.vue'
-import MdJetIcon from './md-jet.vue'
-import MdKeypadIcon from './md-keypad.vue'
-import MdImageIcon from './md-image.vue'
-import MdLaptopIcon from './md-laptop.vue'
-import MdKeyIcon from './md-key.vue'
-import MdLeafIcon from './md-leaf.vue'
-import MdLinkIcon from './md-link.vue'
-import MdListBoxIcon from './md-list-box.vue'
-import MdListIcon from './md-list.vue'
-import MdLockIcon from './md-lock.vue'
-import MdLocateIcon from './md-locate.vue'
-import MdLogOutIcon from './md-log-out.vue'
-import MdLogInIcon from './md-log-in.vue'
-import MdMailOpenIcon from './md-mail-open.vue'
-import MdMagnetIcon from './md-magnet.vue'
-import MdMailUnreadIcon from './md-mail-unread.vue'
-import MdMailIcon from './md-mail.vue'
-import MdManIcon from './md-man.vue'
-import MdMapIcon from './md-map.vue'
-import MdMedkitIcon from './md-medkit.vue'
-import MdMedalIcon from './md-medal.vue'
-import MdMegaphoneIcon from './md-megaphone.vue'
-import MdMedicalIcon from './md-medical.vue'
-import MdMaleIcon from './md-male.vue'
-import MdMicOffIcon from './md-mic-off.vue'
-import MdMenuIcon from './md-menu.vue'
-import MdMoonIcon from './md-moon.vue'
-import MdMicIcon from './md-mic.vue'
-import MdMicrophoneIcon from './md-microphone.vue'
-import MdMoveIcon from './md-move.vue'
-import MdMoreIcon from './md-more.vue'
-import MdMusicalNoteIcon from './md-musical-note.vue'
-import MdMusicalNotesIcon from './md-musical-notes.vue'
-import MdNavigateIcon from './md-navigate.vue'
-import MdNotificationsOffIcon from './md-notifications-off.vue'
-import MdNotificationsOutlineIcon from './md-notifications-outline.vue'
-import MdNotificationsIcon from './md-notifications.vue'
-import MdNutritionIcon from './md-nutrition.vue'
-import MdNuclearIcon from './md-nuclear.vue'
-import MdOptionsIcon from './md-options.vue'
-import MdOutletIcon from './md-outlet.vue'
-import MdOpenIcon from './md-open.vue'
-import MdPaperIcon from './md-paper.vue'
-import MdPaperPlaneIcon from './md-paper-plane.vue'
-import MdPartlySunnyIcon from './md-partly-sunny.vue'
-import MdPeopleIcon from './md-people.vue'
-import MdPauseIcon from './md-pause.vue'
-import MdPawIcon from './md-paw.vue'
-import MdPersonAddIcon from './md-person-add.vue'
-import MdPersonIcon from './md-person.vue'
-import MdPhonePortraitIcon from './md-phone-portrait.vue'
-import MdPhoneLandscapeIcon from './md-phone-landscape.vue'
-import MdPhotosIcon from './md-photos.vue'
-import MdPieIcon from './md-pie.vue'
-import MdPinIcon from './md-pin.vue'
-import MdPintIcon from './md-pint.vue'
-import MdPlanetIcon from './md-planet.vue'
-import MdPizzaIcon from './md-pizza.vue'
-import MdPlayCircleIcon from './md-play-circle.vue'
-import MdPodiumIcon from './md-podium.vue'
-import MdPlayIcon from './md-play.vue'
-import MdPowerIcon from './md-power.vue'
-import MdPricetagIcon from './md-pricetag.vue'
-import MdPricetagsIcon from './md-pricetags.vue'
-import MdPrintIcon from './md-print.vue'
-import MdPulseIcon from './md-pulse.vue'
-import MdQuoteIcon from './md-quote.vue'
-import MdQrScannerIcon from './md-qr-scanner.vue'
-import MdRadioButtonOffIcon from './md-radio-button-off.vue'
-import MdRadioIcon from './md-radio.vue'
-import MdRainyIcon from './md-rainy.vue'
-import MdRadioButtonOnIcon from './md-radio-button-on.vue'
-import MdRedoIcon from './md-redo.vue'
-import MdRecordingIcon from './md-recording.vue'
-import MdRemoveCircleOutlineIcon from './md-remove-circle-outline.vue'
-import MdRefreshCircleIcon from './md-refresh-circle.vue'
-import MdRemoveCircleIcon from './md-remove-circle.vue'
-import MdRefreshIcon from './md-refresh.vue'
-import MdRemoveIcon from './md-remove.vue'
-import MdReorderIcon from './md-reorder.vue'
-import MdResizeIcon from './md-resize.vue'
-import MdRestaurantIcon from './md-restaurant.vue'
-import MdReturnRightIcon from './md-return-right.vue'
-import MdReturnLeftIcon from './md-return-left.vue'
-import MdReverseCameraIcon from './md-reverse-camera.vue'
-import MdRewindIcon from './md-rewind.vue'
-import MdRibbonIcon from './md-ribbon.vue'
-import MdRocketIcon from './md-rocket.vue'
-import MdRepeatIcon from './md-repeat.vue'
-import MdRoseIcon from './md-rose.vue'
-import MdSadIcon from './md-sad.vue'
-import MdSaveIcon from './md-save.vue'
-import MdSchoolIcon from './md-school.vue'
-import MdSearchIcon from './md-search.vue'
-import MdSendIcon from './md-send.vue'
-import MdShareAltIcon from './md-share-alt.vue'
-import MdSettingsIcon from './md-settings.vue'
-import MdShareIcon from './md-share.vue'
-import MdSkipBackwardIcon from './md-skip-backward.vue'
-import MdShuffleIcon from './md-shuffle.vue'
-import MdSkipForwardIcon from './md-skip-forward.vue'
-import MdShirtIcon from './md-shirt.vue'
-import MdSnowIcon from './md-snow.vue'
-import MdSpeedometerIcon from './md-speedometer.vue'
-import MdSquareOutlineIcon from './md-square-outline.vue'
-import MdStarHalfIcon from './md-star-half.vue'
-import MdSquareIcon from './md-square.vue'
-import MdStarOutlineIcon from './md-star-outline.vue'
-import MdStarIcon from './md-star.vue'
-import MdStopwatchIcon from './md-stopwatch.vue'
-import MdStatsIcon from './md-stats.vue'
-import MdSunnyIcon from './md-sunny.vue'
-import MdSubwayIcon from './md-subway.vue'
-import MdSwapIcon from './md-swap.vue'
-import MdSwitchIcon from './md-switch.vue'
-import MdSyncIcon from './md-sync.vue'
-import MdTabletLandscapeIcon from './md-tablet-landscape.vue'
-import MdTabletPortraitIcon from './md-tablet-portrait.vue'
-import MdTennisballIcon from './md-tennisball.vue'
-import MdTextIcon from './md-text.vue'
-import MdThermometerIcon from './md-thermometer.vue'
-import MdThumbsDownIcon from './md-thumbs-down.vue'
-import MdThunderstormIcon from './md-thunderstorm.vue'
-import MdThumbsUpIcon from './md-thumbs-up.vue'
-import MdTimerIcon from './md-timer.vue'
-import MdTodayIcon from './md-today.vue'
-import MdTimeIcon from './md-time.vue'
-import MdTrainIcon from './md-train.vue'
-import MdTransgenderIcon from './md-transgender.vue'
-import MdTrashIcon from './md-trash.vue'
-import MdTrendingDownIcon from './md-trending-down.vue'
-import MdTrendingUpIcon from './md-trending-up.vue'
-import MdTrophyIcon from './md-trophy.vue'
-import MdTvIcon from './md-tv.vue'
-import MdUmbrellaIcon from './md-umbrella.vue'
-import MdUndoIcon from './md-undo.vue'
-import MdUnlockIcon from './md-unlock.vue'
-import MdVideocamIcon from './md-videocam.vue'
-import MdVolumeHighIcon from './md-volume-high.vue'
-import MdVolumeLowIcon from './md-volume-low.vue'
-import MdVolumeOffIcon from './md-volume-off.vue'
-import MdVolumeMuteIcon from './md-volume-mute.vue'
-import MdWalkIcon from './md-walk.vue'
-import MdWalletIcon from './md-wallet.vue'
-import MdWatchIcon from './md-watch.vue'
-import MdWaterIcon from './md-water.vue'
-import MdWifiIcon from './md-wifi.vue'
-import MdWineIcon from './md-wine.vue'
-import MdWomanIcon from './md-woman.vue'
-import MdWarningIcon from './md-warning.vue'
+import MagnetOutlineIcon from './magnet-outline.vue'
+import MagnetSharpIcon from './magnet-sharp.vue'
+import MagnetIcon from './magnet.vue'
+import MailOpenOutlineIcon from './mail-open-outline.vue'
+import MailOpenSharpIcon from './mail-open-sharp.vue'
+import MailOpenIcon from './mail-open.vue'
+import MailOutlineIcon from './mail-outline.vue'
+import MailSharpIcon from './mail-sharp.vue'
+import MailUnreadOutlineIcon from './mail-unread-outline.vue'
+import MailUnreadSharpIcon from './mail-unread-sharp.vue'
+import MailUnreadIcon from './mail-unread.vue'
+import MailIcon from './mail.vue'
+import MaleFemaleOutlineIcon from './male-female-outline.vue'
+import MaleFemaleSharpIcon from './male-female-sharp.vue'
+import MaleFemaleIcon from './male-female.vue'
+import MaleOutlineIcon from './male-outline.vue'
+import MaleSharpIcon from './male-sharp.vue'
+import MaleIcon from './male.vue'
+import ManOutlineIcon from './man-outline.vue'
+import ManSharpIcon from './man-sharp.vue'
+import ManIcon from './man.vue'
+import MapOutlineIcon from './map-outline.vue'
+import MapSharpIcon from './map-sharp.vue'
+import MapIcon from './map.vue'
+import MedalOutlineIcon from './medal-outline.vue'
+import MedalSharpIcon from './medal-sharp.vue'
+import MedalIcon from './medal.vue'
+import MedicalOutlineIcon from './medical-outline.vue'
+import MedicalSharpIcon from './medical-sharp.vue'
+import MedicalIcon from './medical.vue'
+import MedkitOutlineIcon from './medkit-outline.vue'
+import MedkitSharpIcon from './medkit-sharp.vue'
+import MedkitIcon from './medkit.vue'
+import MegaphoneOutlineIcon from './megaphone-outline.vue'
+import MegaphoneSharpIcon from './megaphone-sharp.vue'
+import MegaphoneIcon from './megaphone.vue'
+import MenuOutlineIcon from './menu-outline.vue'
+import MenuSharpIcon from './menu-sharp.vue'
+import MenuIcon from './menu.vue'
+import MicCircleOutlineIcon from './mic-circle-outline.vue'
+import MicCircleSharpIcon from './mic-circle-sharp.vue'
+import MicCircleIcon from './mic-circle.vue'
+import MicOffCircleOutlineIcon from './mic-off-circle-outline.vue'
+import MicOffCircleSharpIcon from './mic-off-circle-sharp.vue'
+import MicOffCircleIcon from './mic-off-circle.vue'
+import MicOffOutlineIcon from './mic-off-outline.vue'
+import MicOffSharpIcon from './mic-off-sharp.vue'
+import MicOffIcon from './mic-off.vue'
+import MicOutlineIcon from './mic-outline.vue'
+import MicSharpIcon from './mic-sharp.vue'
+import MicIcon from './mic.vue'
+import MoonOutlineIcon from './moon-outline.vue'
+import MoonSharpIcon from './moon-sharp.vue'
+import MoonIcon from './moon.vue'
+import MoveOutlineIcon from './move-outline.vue'
+import MoveSharpIcon from './move-sharp.vue'
+import MoveIcon from './move.vue'
+import MusicalNoteOutlineIcon from './musical-note-outline.vue'
+import MusicalNoteSharpIcon from './musical-note-sharp.vue'
+import MusicalNoteIcon from './musical-note.vue'
+import MusicalNotesOutlineIcon from './musical-notes-outline.vue'
+import MusicalNotesSharpIcon from './musical-notes-sharp.vue'
+import MusicalNotesIcon from './musical-notes.vue'
+import NavigateCircleOutlineIcon from './navigate-circle-outline.vue'
+import NavigateCircleSharpIcon from './navigate-circle-sharp.vue'
+import NavigateCircleIcon from './navigate-circle.vue'
+import NavigateOutlineIcon from './navigate-outline.vue'
+import NavigateSharpIcon from './navigate-sharp.vue'
+import NavigateIcon from './navigate.vue'
+import NewspaperOutlineIcon from './newspaper-outline.vue'
+import NewspaperSharpIcon from './newspaper-sharp.vue'
+import NewspaperIcon from './newspaper.vue'
+import NotificationsCircleOutlineIcon from './notifications-circle-outline.vue'
+import NotificationsCircleSharpIcon from './notifications-circle-sharp.vue'
+import NotificationsCircleIcon from './notifications-circle.vue'
+import NotificationsOffCircleOutlineIcon from './notifications-off-circle-outline.vue'
+import NotificationsOffCircleSharpIcon from './notifications-off-circle-sharp.vue'
+import NotificationsOffCircleIcon from './notifications-off-circle.vue'
+import NotificationsOffOutlineIcon from './notifications-off-outline.vue'
+import NotificationsOffSharpIcon from './notifications-off-sharp.vue'
+import NotificationsOffIcon from './notifications-off.vue'
+import NotificationsOutlineIcon from './notifications-outline.vue'
+import NotificationsSharpIcon from './notifications-sharp.vue'
+import NotificationsIcon from './notifications.vue'
+import NuclearOutlineIcon from './nuclear-outline.vue'
+import NuclearSharpIcon from './nuclear-sharp.vue'
+import NuclearIcon from './nuclear.vue'
+import NutritionOutlineIcon from './nutrition-outline.vue'
+import NutritionSharpIcon from './nutrition-sharp.vue'
+import NutritionIcon from './nutrition.vue'
+import OpenOutlineIcon from './open-outline.vue'
+import OpenSharpIcon from './open-sharp.vue'
+import OpenIcon from './open.vue'
+import OptionsOutlineIcon from './options-outline.vue'
+import OptionsSharpIcon from './options-sharp.vue'
+import OptionsIcon from './options.vue'
+import PaperPlaneOutlineIcon from './paper-plane-outline.vue'
+import PaperPlaneSharpIcon from './paper-plane-sharp.vue'
+import PaperPlaneIcon from './paper-plane.vue'
+import PartlySunnyOutlineIcon from './partly-sunny-outline.vue'
+import PartlySunnySharpIcon from './partly-sunny-sharp.vue'
+import PartlySunnyIcon from './partly-sunny.vue'
+import PauseCircleOutlineIcon from './pause-circle-outline.vue'
+import PauseCircleSharpIcon from './pause-circle-sharp.vue'
+import PauseCircleIcon from './pause-circle.vue'
+import PauseOutlineIcon from './pause-outline.vue'
+import PauseSharpIcon from './pause-sharp.vue'
+import PauseIcon from './pause.vue'
+import PawOutlineIcon from './paw-outline.vue'
+import PawSharpIcon from './paw-sharp.vue'
+import PawIcon from './paw.vue'
+import PencilOutlineIcon from './pencil-outline.vue'
+import PencilIcon from './pencil.vue'
+import PeopleCircleOutlineIcon from './people-circle-outline.vue'
+import PeopleCircleSharpIcon from './people-circle-sharp.vue'
+import PeopleCircleIcon from './people-circle.vue'
+import PeopleOutlineIcon from './people-outline.vue'
+import PeopleSharpIcon from './people-sharp.vue'
+import PeopleIcon from './people.vue'
+import PersonAddOutlineIcon from './person-add-outline.vue'
+import PersonAddSharpIcon from './person-add-sharp.vue'
+import PersonAddIcon from './person-add.vue'
+import PersonCircleOutlineIcon from './person-circle-outline.vue'
+import PersonCircleSharpIcon from './person-circle-sharp.vue'
+import PersonCircleIcon from './person-circle.vue'
+import PersonOutlineIcon from './person-outline.vue'
+import PersonRemoveOutlineIcon from './person-remove-outline.vue'
+import PersonRemoveSharpIcon from './person-remove-sharp.vue'
+import PersonRemoveIcon from './person-remove.vue'
+import PersonSharpIcon from './person-sharp.vue'
+import PersonIcon from './person.vue'
+import PhoneLandscapeOutlineIcon from './phone-landscape-outline.vue'
+import PhoneLandscapeSharpIcon from './phone-landscape-sharp.vue'
+import PhoneLandscapeIcon from './phone-landscape.vue'
+import PhonePortraitOutlineIcon from './phone-portrait-outline.vue'
+import PhonePortraitSharpIcon from './phone-portrait-sharp.vue'
+import PhonePortraitIcon from './phone-portrait.vue'
+import PieChartOutlineIcon from './pie-chart-outline.vue'
+import PieChartSharpIcon from './pie-chart-sharp.vue'
+import PieChartIcon from './pie-chart.vue'
+import PinOutlineIcon from './pin-outline.vue'
+import PinSharpIcon from './pin-sharp.vue'
+import PinIcon from './pin.vue'
+import PintOutlineIcon from './pint-outline.vue'
+import PintSharpIcon from './pint-sharp.vue'
+import PintIcon from './pint.vue'
+import PizzaOutlineIcon from './pizza-outline.vue'
+import PizzaSharpIcon from './pizza-sharp.vue'
+import PizzaIcon from './pizza.vue'
+import PlanetOutlineIcon from './planet-outline.vue'
+import PlanetSharpIcon from './planet-sharp.vue'
+import PlanetIcon from './planet.vue'
+import PlayBackCircleOutlineIcon from './play-back-circle-outline.vue'
+import PlayBackCircleSharpIcon from './play-back-circle-sharp.vue'
+import PlayBackCircleIcon from './play-back-circle.vue'
+import PlayBackOutlineIcon from './play-back-outline.vue'
+import PlayBackSharpIcon from './play-back-sharp.vue'
+import PlayBackIcon from './play-back.vue'
+import PlayCircleOutlineIcon from './play-circle-outline.vue'
+import PlayCircleSharpIcon from './play-circle-sharp.vue'
+import PlayCircleIcon from './play-circle.vue'
+import PlayForwardCircleOutlineIcon from './play-forward-circle-outline.vue'
+import PlayForwardCircleSharpIcon from './play-forward-circle-sharp.vue'
+import PlayForwardCircleIcon from './play-forward-circle.vue'
+import PlayForwardOutlineIcon from './play-forward-outline.vue'
+import PlayForwardSharpIcon from './play-forward-sharp.vue'
+import PlayForwardIcon from './play-forward.vue'
+import PlayOutlineIcon from './play-outline.vue'
+import PlaySharpIcon from './play-sharp.vue'
+import PlaySkipBackCircleOutlineIcon from './play-skip-back-circle-outline.vue'
+import PlaySkipBackCircleSharpIcon from './play-skip-back-circle-sharp.vue'
+import PlaySkipBackCircleIcon from './play-skip-back-circle.vue'
+import PlaySkipBackOutlineIcon from './play-skip-back-outline.vue'
+import PlaySkipBackSharpIcon from './play-skip-back-sharp.vue'
+import PlaySkipBackIcon from './play-skip-back.vue'
+import PlaySkipForwardCircleOutlineIcon from './play-skip-forward-circle-outline.vue'
+import PlaySkipForwardCircleSharpIcon from './play-skip-forward-circle-sharp.vue'
+import PlaySkipForwardCircleIcon from './play-skip-forward-circle.vue'
+import PlaySkipForwardOutlineIcon from './play-skip-forward-outline.vue'
+import PlaySkipForwardSharpIcon from './play-skip-forward-sharp.vue'
+import PlayIcon from './play.vue'
+import PodiumOutlineIcon from './podium-outline.vue'
+import PodiumSharpIcon from './podium-sharp.vue'
+import PodiumIcon from './podium.vue'
+import PowerOutlineIcon from './power-outline.vue'
+import PowerSharpIcon from './power-sharp.vue'
+import PowerIcon from './power.vue'
+import PricetagOutlineIcon from './pricetag-outline.vue'
+import PricetagSharpIcon from './pricetag-sharp.vue'
+import PricetagIcon from './pricetag.vue'
+import PricetagsOutlineIcon from './pricetags-outline.vue'
+import PlaySkipForwardIcon from './play-skip-forward.vue'
+import PricetagsSharpIcon from './pricetags-sharp.vue'
+import PrintOutlineIcon from './print-outline.vue'
+import PrintSharpIcon from './print-sharp.vue'
+import PricetagsIcon from './pricetags.vue'
+import PrintIcon from './print.vue'
+import PrismOutlineIcon from './prism-outline.vue'
+import PrismSharpIcon from './prism-sharp.vue'
+import PrismIcon from './prism.vue'
+import PulseOutlineIcon from './pulse-outline.vue'
+import PulseSharpIcon from './pulse-sharp.vue'
+import PulseIcon from './pulse.vue'
+import PushOutlineIcon from './push-outline.vue'
+import PushSharpIcon from './push-sharp.vue'
+import PushIcon from './push.vue'
+import QrCodeOutlineIcon from './qr-code-outline.vue'
+import QrCodeSharpIcon from './qr-code-sharp.vue'
+import QrCodeIcon from './qr-code.vue'
+import RadioButtonOffOutlineIcon from './radio-button-off-outline.vue'
+import RadioButtonOffSharpIcon from './radio-button-off-sharp.vue'
+import RadioButtonOffIcon from './radio-button-off.vue'
+import RadioButtonOnOutlineIcon from './radio-button-on-outline.vue'
+import RadioButtonOnSharpIcon from './radio-button-on-sharp.vue'
+import RadioButtonOnIcon from './radio-button-on.vue'
+import RadioOutlineIcon from './radio-outline.vue'
+import RadioSharpIcon from './radio-sharp.vue'
+import RadioIcon from './radio.vue'
+import RainyOutlineIcon from './rainy-outline.vue'
+import RainySharpIcon from './rainy-sharp.vue'
+import RainyIcon from './rainy.vue'
+import ReaderOutlineIcon from './reader-outline.vue'
+import ReaderSharpIcon from './reader-sharp.vue'
+import ReaderIcon from './reader.vue'
+import ReceiptOutlineIcon from './receipt-outline.vue'
+import ReceiptSharpIcon from './receipt-sharp.vue'
+import ReceiptIcon from './receipt.vue'
+import RecordingOutlineIcon from './recording-outline.vue'
+import RecordingSharpIcon from './recording-sharp.vue'
+import RecordingIcon from './recording.vue'
+import RefreshCircleOutlineIcon from './refresh-circle-outline.vue'
+import RefreshCircleSharpIcon from './refresh-circle-sharp.vue'
+import RefreshCircleIcon from './refresh-circle.vue'
+import RefreshOutlineIcon from './refresh-outline.vue'
+import RefreshSharpIcon from './refresh-sharp.vue'
+import RefreshIcon from './refresh.vue'
+import ReloadCircleOutlineIcon from './reload-circle-outline.vue'
+import ReloadCircleSharpIcon from './reload-circle-sharp.vue'
+import ReloadCircleIcon from './reload-circle.vue'
+import ReloadOutlineIcon from './reload-outline.vue'
+import ReloadSharpIcon from './reload-sharp.vue'
+import ReloadIcon from './reload.vue'
+import RemoveCircleOutlineIcon from './remove-circle-outline.vue'
+import RemoveCircleSharpIcon from './remove-circle-sharp.vue'
+import RemoveCircleIcon from './remove-circle.vue'
+import RemoveOutlineIcon from './remove-outline.vue'
+import RemoveSharpIcon from './remove-sharp.vue'
+import RemoveIcon from './remove.vue'
+import ReorderFourOutlineIcon from './reorder-four-outline.vue'
+import ReorderFourSharpIcon from './reorder-four-sharp.vue'
+import ReorderFourIcon from './reorder-four.vue'
+import ReorderThreeOutlineIcon from './reorder-three-outline.vue'
+import ReorderThreeSharpIcon from './reorder-three-sharp.vue'
+import ReorderThreeIcon from './reorder-three.vue'
+import ReorderTwoOutlineIcon from './reorder-two-outline.vue'
+import ReorderTwoSharpIcon from './reorder-two-sharp.vue'
+import ReorderTwoIcon from './reorder-two.vue'
+import RepeatOutlineIcon from './repeat-outline.vue'
+import RepeatSharpIcon from './repeat-sharp.vue'
+import RepeatIcon from './repeat.vue'
+import ResizeOutlineIcon from './resize-outline.vue'
+import ResizeSharpIcon from './resize-sharp.vue'
+import ResizeIcon from './resize.vue'
+import RestaurantOutlineIcon from './restaurant-outline.vue'
+import RestaurantSharpIcon from './restaurant-sharp.vue'
+import RestaurantIcon from './restaurant.vue'
+import ReturnDownBackOutlineIcon from './return-down-back-outline.vue'
+import ReturnDownBackSharpIcon from './return-down-back-sharp.vue'
+import ReturnDownBackIcon from './return-down-back.vue'
+import ReturnDownForwardOutlineIcon from './return-down-forward-outline.vue'
+import ReturnDownForwardSharpIcon from './return-down-forward-sharp.vue'
+import ReturnDownForwardIcon from './return-down-forward.vue'
+import ReturnUpBackOutlineIcon from './return-up-back-outline.vue'
+import ReturnUpBackSharpIcon from './return-up-back-sharp.vue'
+import ReturnUpBackIcon from './return-up-back.vue'
+import ReturnUpForwardOutlineIcon from './return-up-forward-outline.vue'
+import ReturnUpForwardSharpIcon from './return-up-forward-sharp.vue'
+import ReturnUpForwardIcon from './return-up-forward.vue'
+import RibbonOutlineIcon from './ribbon-outline.vue'
+import RibbonSharpIcon from './ribbon-sharp.vue'
+import RibbonIcon from './ribbon.vue'
+import RocketOutlineIcon from './rocket-outline.vue'
+import RocketSharpIcon from './rocket-sharp.vue'
+import RocketIcon from './rocket.vue'
+import RoseOutlineIcon from './rose-outline.vue'
+import RoseSharpIcon from './rose-sharp.vue'
+import RoseIcon from './rose.vue'
+import SadOutlineIcon from './sad-outline.vue'
+import SadSharpIcon from './sad-sharp.vue'
+import SadIcon from './sad.vue'
+import SaveOutlineIcon from './save-outline.vue'
+import SaveSharpIcon from './save-sharp.vue'
+import SaveIcon from './save.vue'
+import ScaleOutlineIcon from './scale-outline.vue'
+import ScaleSharpIcon from './scale-sharp.vue'
+import ScaleIcon from './scale.vue'
+import ScanCircleOutlineIcon from './scan-circle-outline.vue'
+import ScanCircleSharpIcon from './scan-circle-sharp.vue'
+import ScanCircleIcon from './scan-circle.vue'
+import ScanOutlineIcon from './scan-outline.vue'
+import ScanSharpIcon from './scan-sharp.vue'
+import ScanIcon from './scan.vue'
+import SchoolOutlineIcon from './school-outline.vue'
+import SchoolSharpIcon from './school-sharp.vue'
+import SchoolIcon from './school.vue'
+import SearchCircleOutlineIcon from './search-circle-outline.vue'
+import SearchCircleSharpIcon from './search-circle-sharp.vue'
+import SearchCircleIcon from './search-circle.vue'
+import SearchOutlineIcon from './search-outline.vue'
+import SearchSharpIcon from './search-sharp.vue'
+import SearchIcon from './search.vue'
+import SendOutlineIcon from './send-outline.vue'
+import SendSharpIcon from './send-sharp.vue'
+import SendIcon from './send.vue'
+import ServerOutlineIcon from './server-outline.vue'
+import ServerSharpIcon from './server-sharp.vue'
+import ServerIcon from './server.vue'
+import SettingsOutlineIcon from './settings-outline.vue'
+import SettingsSharpIcon from './settings-sharp.vue'
+import SettingsIcon from './settings.vue'
+import ShapesOutlineIcon from './shapes-outline.vue'
+import ShapesSharpIcon from './shapes-sharp.vue'
+import ShapesIcon from './shapes.vue'
+import ShareOutlineIcon from './share-outline.vue'
+import ShareSharpIcon from './share-sharp.vue'
+import ShareSocialOutlineIcon from './share-social-outline.vue'
+import ShareSocialSharpIcon from './share-social-sharp.vue'
+import ShareSocialIcon from './share-social.vue'
+import ShareIcon from './share.vue'
+import ShieldCheckmarkOutlineIcon from './shield-checkmark-outline.vue'
+import ShieldCheckmarkSharpIcon from './shield-checkmark-sharp.vue'
+import ShieldCheckmarkIcon from './shield-checkmark.vue'
+import ShieldHalfOutlineIcon from './shield-half-outline.vue'
+import ShieldHalfSharpIcon from './shield-half-sharp.vue'
+import ShieldHalfIcon from './shield-half.vue'
+import ShieldOutlineIcon from './shield-outline.vue'
+import ShieldSharpIcon from './shield-sharp.vue'
+import ShieldIcon from './shield.vue'
+import ShirtOutlineIcon from './shirt-outline.vue'
+import ShirtSharpIcon from './shirt-sharp.vue'
+import ShirtIcon from './shirt.vue'
+import ShuffleOutlineIcon from './shuffle-outline.vue'
+import ShuffleSharpIcon from './shuffle-sharp.vue'
+import ShuffleIcon from './shuffle.vue'
+import SkullOutlineIcon from './skull-outline.vue'
+import SkullSharpIcon from './skull-sharp.vue'
+import SkullIcon from './skull.vue'
+import SnowOutlineIcon from './snow-outline.vue'
+import SnowSharpIcon from './snow-sharp.vue'
+import SnowIcon from './snow.vue'
+import SparklesOutlineIcon from './sparkles-outline.vue'
+import SparklesSharpIcon from './sparkles-sharp.vue'
+import SparklesIcon from './sparkles.vue'
+import SpeedometerOutlineIcon from './speedometer-outline.vue'
+import SpeedometerSharpIcon from './speedometer-sharp.vue'
+import SpeedometerIcon from './speedometer.vue'
+import SquareOutlineIcon from './square-outline.vue'
+import SquareSharpIcon from './square-sharp.vue'
+import SquareIcon from './square.vue'
+import StarHalfOutlineIcon from './star-half-outline.vue'
+import StarHalfSharpIcon from './star-half-sharp.vue'
+import StarHalfIcon from './star-half.vue'
+import StarOutlineIcon from './star-outline.vue'
+import StarSharpIcon from './star-sharp.vue'
+import StarIcon from './star.vue'
+import StatsChartOutlineIcon from './stats-chart-outline.vue'
+import StatsChartSharpIcon from './stats-chart-sharp.vue'
+import StatsChartIcon from './stats-chart.vue'
+import StopCircleOutlineIcon from './stop-circle-outline.vue'
+import StopCircleSharpIcon from './stop-circle-sharp.vue'
+import StopCircleIcon from './stop-circle.vue'
+import StopOutlineIcon from './stop-outline.vue'
+import StopSharpIcon from './stop-sharp.vue'
+import StopIcon from './stop.vue'
+import StopwatchOutlineIcon from './stopwatch-outline.vue'
+import StopwatchSharpIcon from './stopwatch-sharp.vue'
+import StopwatchIcon from './stopwatch.vue'
+import StorefrontOutlineIcon from './storefront-outline.vue'
+import StorefrontSharpIcon from './storefront-sharp.vue'
+import StorefrontIcon from './storefront.vue'
+import SubwayOutlineIcon from './subway-outline.vue'
+import SubwaySharpIcon from './subway-sharp.vue'
+import SubwayIcon from './subway.vue'
+import SunnyOutlineIcon from './sunny-outline.vue'
+import SunnySharpIcon from './sunny-sharp.vue'
+import SunnyIcon from './sunny.vue'
+import SwapHorizontalSharpIcon from './swap-horizontal-sharp.vue'
+import SwapHorizontalIcon from './swap-horizontal.vue'
+import SwapHorizontalOutlineIcon from './swap-horizontal-outline.vue'
+import SwapVerticalOutlineIcon from './swap-vertical-outline.vue'
+import SwapVerticalSharpIcon from './swap-vertical-sharp.vue'
+import SwapVerticalIcon from './swap-vertical.vue'
+import SyncCircleOutlineIcon from './sync-circle-outline.vue'
+import SyncCircleSharpIcon from './sync-circle-sharp.vue'
+import SyncCircleIcon from './sync-circle.vue'
+import SyncOutlineIcon from './sync-outline.vue'
+import SyncSharpIcon from './sync-sharp.vue'
+import SyncIcon from './sync.vue'
+import TabletLandscapeOutlineIcon from './tablet-landscape-outline.vue'
+import TabletLandscapeSharpIcon from './tablet-landscape-sharp.vue'
+import TabletLandscapeIcon from './tablet-landscape.vue'
+import TabletPortraitOutlineIcon from './tablet-portrait-outline.vue'
+import TabletPortraitSharpIcon from './tablet-portrait-sharp.vue'
+import TabletPortraitIcon from './tablet-portrait.vue'
+import TelescopeOutlineIcon from './telescope-outline.vue'
+import TelescopeSharpIcon from './telescope-sharp.vue'
+import TelescopeIcon from './telescope.vue'
+import PencilSharpIcon from './pencil-sharp.vue'
+import TennisballOutlineIcon from './tennisball-outline.vue'
+import TennisballSharpIcon from './tennisball-sharp.vue'
+import TennisballIcon from './tennisball.vue'
+import TerminalOutlineIcon from './terminal-outline.vue'
+import TerminalSharpIcon from './terminal-sharp.vue'
+import TerminalIcon from './terminal.vue'
+import TextOutlineIcon from './text-outline.vue'
+import TextSharpIcon from './text-sharp.vue'
+import TextIcon from './text.vue'
+import ThermometerOutlineIcon from './thermometer-outline.vue'
+import ThermometerSharpIcon from './thermometer-sharp.vue'
+import ThermometerIcon from './thermometer.vue'
+import ThumbsDownOutlineIcon from './thumbs-down-outline.vue'
+import ThumbsDownSharpIcon from './thumbs-down-sharp.vue'
+import ThumbsDownIcon from './thumbs-down.vue'
+import ThumbsUpOutlineIcon from './thumbs-up-outline.vue'
+import ThumbsUpSharpIcon from './thumbs-up-sharp.vue'
+import ThumbsUpIcon from './thumbs-up.vue'
+import ThunderstormOutlineIcon from './thunderstorm-outline.vue'
+import ThunderstormSharpIcon from './thunderstorm-sharp.vue'
+import ThunderstormIcon from './thunderstorm.vue'
+import TicketOutlineIcon from './ticket-outline.vue'
+import TicketSharpIcon from './ticket-sharp.vue'
+import TicketIcon from './ticket.vue'
+import TimeOutlineIcon from './time-outline.vue'
+import TimeSharpIcon from './time-sharp.vue'
+import TimeIcon from './time.vue'
+import TimerOutlineIcon from './timer-outline.vue'
+import TimerSharpIcon from './timer-sharp.vue'
+import TimerIcon from './timer.vue'
+import TodayOutlineIcon from './today-outline.vue'
+import TodaySharpIcon from './today-sharp.vue'
+import TodayIcon from './today.vue'
+import ToggleOutlineIcon from './toggle-outline.vue'
+import ToggleSharpIcon from './toggle-sharp.vue'
+import ToggleIcon from './toggle.vue'
+import TrailSignOutlineIcon from './trail-sign-outline.vue'
+import TrailSignSharpIcon from './trail-sign-sharp.vue'
+import TrainOutlineIcon from './train-outline.vue'
+import TrailSignIcon from './trail-sign.vue'
+import TrainSharpIcon from './train-sharp.vue'
+import TrainIcon from './train.vue'
+import TransgenderOutlineIcon from './transgender-outline.vue'
+import TransgenderSharpIcon from './transgender-sharp.vue'
+import TransgenderIcon from './transgender.vue'
+import TrashBinOutlineIcon from './trash-bin-outline.vue'
+import TrashBinSharpIcon from './trash-bin-sharp.vue'
+import TrashBinIcon from './trash-bin.vue'
+import TrashOutlineIcon from './trash-outline.vue'
+import TrashSharpIcon from './trash-sharp.vue'
+import TrashIcon from './trash.vue'
+import TrendingDownOutlineIcon from './trending-down-outline.vue'
+import TrendingDownSharpIcon from './trending-down-sharp.vue'
+import TrendingDownIcon from './trending-down.vue'
+import TrendingUpOutlineIcon from './trending-up-outline.vue'
+import TrendingUpSharpIcon from './trending-up-sharp.vue'
+import TrendingUpIcon from './trending-up.vue'
+import TriangleOutlineIcon from './triangle-outline.vue'
+import TriangleSharpIcon from './triangle-sharp.vue'
+import TriangleIcon from './triangle.vue'
+import TrophyOutlineIcon from './trophy-outline.vue'
+import TrophySharpIcon from './trophy-sharp.vue'
+import TrophyIcon from './trophy.vue'
+import TvOutlineIcon from './tv-outline.vue'
+import TvSharpIcon from './tv-sharp.vue'
+import TvIcon from './tv.vue'
+import UmbrellaOutlineIcon from './umbrella-outline.vue'
+import UmbrellaSharpIcon from './umbrella-sharp.vue'
+import UmbrellaIcon from './umbrella.vue'
+import UnlinkOutlineIcon from './unlink-outline.vue'
+import UnlinkSharpIcon from './unlink-sharp.vue'
+import UnlinkIcon from './unlink.vue'
+import VideocamOffOutlineIcon from './videocam-off-outline.vue'
+import VideocamOffSharpIcon from './videocam-off-sharp.vue'
+import VideocamOffIcon from './videocam-off.vue'
+import VideocamOutlineIcon from './videocam-outline.vue'
+import VideocamSharpIcon from './videocam-sharp.vue'
+import VideocamIcon from './videocam.vue'
+import VolumeHighOutlineIcon from './volume-high-outline.vue'
+import VolumeHighSharpIcon from './volume-high-sharp.vue'
+import VolumeHighIcon from './volume-high.vue'
+import VolumeLowOutlineIcon from './volume-low-outline.vue'
+import VolumeLowSharpIcon from './volume-low-sharp.vue'
+import VolumeLowIcon from './volume-low.vue'
+import VolumeMediumOutlineIcon from './volume-medium-outline.vue'
+import VolumeMediumSharpIcon from './volume-medium-sharp.vue'
+import VolumeMediumIcon from './volume-medium.vue'
+import VolumeMuteOutlineIcon from './volume-mute-outline.vue'
+import VolumeMuteIcon from './volume-mute.vue'
+import VolumeMuteSharpIcon from './volume-mute-sharp.vue'
+import VolumeOffOutlineIcon from './volume-off-outline.vue'
+import VolumeOffSharpIcon from './volume-off-sharp.vue'
+import VolumeOffIcon from './volume-off.vue'
+import WalkOutlineIcon from './walk-outline.vue'
+import WalkSharpIcon from './walk-sharp.vue'
+import WalkIcon from './walk.vue'
+import WalletOutlineIcon from './wallet-outline.vue'
+import WalletSharpIcon from './wallet-sharp.vue'
+import WalletIcon from './wallet.vue'
+import WarningOutlineIcon from './warning-outline.vue'
+import WarningSharpIcon from './warning-sharp.vue'
+import WarningIcon from './warning.vue'
+import WatchOutlineIcon from './watch-outline.vue'
+import WatchSharpIcon from './watch-sharp.vue'
+import WatchIcon from './watch.vue'
+import WaterOutlineIcon from './water-outline.vue'
+import WaterSharpIcon from './water-sharp.vue'
+import WaterIcon from './water.vue'
+import WifiOutlineIcon from './wifi-outline.vue'
+import WifiSharpIcon from './wifi-sharp.vue'
+import WifiIcon from './wifi.vue'
+import WineOutlineIcon from './wine-outline.vue'
+import WineSharpIcon from './wine-sharp.vue'
+import WineIcon from './wine.vue'
+import WomanOutlineIcon from './woman-outline.vue'
+import WomanSharpIcon from './woman-sharp.vue'
+import WomanIcon from './woman.vue'
 
 export default {
   install: Vue => {
-    Vue.component('ios-add-circle-outline-icon', IosAddCircleOutlineIcon)
-    Vue.component('ios-add-circle-icon', IosAddCircleIcon)
-    Vue.component('ios-airplane-icon', IosAirplaneIcon)
-    Vue.component('ios-add-icon', IosAddIcon)
-    Vue.component('ios-alarm-icon', IosAlarmIcon)
-    Vue.component('ios-albums-icon', IosAlbumsIcon)
-    Vue.component('ios-alert-icon', IosAlertIcon)
-    Vue.component('ios-american-football-icon', IosAmericanFootballIcon)
-    Vue.component('ios-analytics-icon', IosAnalyticsIcon)
-    Vue.component('ios-apps-icon', IosAppsIcon)
-    Vue.component('ios-aperture-icon', IosApertureIcon)
-    Vue.component('ios-appstore-icon', IosAppstoreIcon)
-    Vue.component('ios-archive-icon', IosArchiveIcon)
-    Vue.component('ios-arrow-back-icon', IosArrowBackIcon)
-    Vue.component('ios-arrow-down-icon', IosArrowDownIcon)
-    Vue.component('ios-arrow-dropdown-circle-icon', IosArrowDropdownCircleIcon)
-    Vue.component('ios-arrow-dropdown-icon', IosArrowDropdownIcon)
-    Vue.component('ios-arrow-dropleft-circle-icon', IosArrowDropleftCircleIcon)
-    Vue.component('ios-arrow-dropright-circle-icon', IosArrowDroprightCircleIcon)
-    Vue.component('ios-arrow-dropleft-icon', IosArrowDropleftIcon)
-    Vue.component('ios-arrow-dropright-icon', IosArrowDroprightIcon)
-    Vue.component('ios-arrow-dropup-circle-icon', IosArrowDropupCircleIcon)
-    Vue.component('ios-arrow-dropup-icon', IosArrowDropupIcon)
-    Vue.component('ios-arrow-forward-icon', IosArrowForwardIcon)
-    Vue.component('ios-arrow-round-down-icon', IosArrowRoundDownIcon)
-    Vue.component('ios-arrow-round-forward-icon', IosArrowRoundForwardIcon)
-    Vue.component('ios-arrow-round-up-icon', IosArrowRoundUpIcon)
-    Vue.component('ios-arrow-round-back-icon', IosArrowRoundBackIcon)
-    Vue.component('ios-arrow-up-icon', IosArrowUpIcon)
-    Vue.component('ios-backspace-icon', IosBackspaceIcon)
-    Vue.component('ios-attach-icon', IosAttachIcon)
-    Vue.component('ios-at-icon', IosAtIcon)
-    Vue.component('ios-barcode-icon', IosBarcodeIcon)
-    Vue.component('ios-baseball-icon', IosBaseballIcon)
-    Vue.component('ios-battery-charging-icon', IosBatteryChargingIcon)
-    Vue.component('ios-basket-icon', IosBasketIcon)
-    Vue.component('ios-basketball-icon', IosBasketballIcon)
-    Vue.component('ios-battery-dead-icon', IosBatteryDeadIcon)
-    Vue.component('ios-battery-full-icon', IosBatteryFullIcon)
-    Vue.component('ios-beaker-icon', IosBeakerIcon)
-    Vue.component('ios-bed-icon', IosBedIcon)
-    Vue.component('ios-bicycle-icon', IosBicycleIcon)
-    Vue.component('ios-beer-icon', IosBeerIcon)
-    Vue.component('ios-bluetooth-icon', IosBluetoothIcon)
-    Vue.component('ios-body-icon', IosBodyIcon)
-    Vue.component('ios-boat-icon', IosBoatIcon)
-    Vue.component('ios-bookmark-icon', IosBookmarkIcon)
-    Vue.component('ios-bookmarks-icon', IosBookmarksIcon)
-    Vue.component('ios-bonfire-icon', IosBonfireIcon)
-    Vue.component('ios-book-icon', IosBookIcon)
-    Vue.component('ios-bowtie-icon', IosBowtieIcon)
-    Vue.component('ios-briefcase-icon', IosBriefcaseIcon)
-    Vue.component('ios-bug-icon', IosBugIcon)
-    Vue.component('ios-browsers-icon', IosBrowsersIcon)
-    Vue.component('ios-bulb-icon', IosBulbIcon)
-    Vue.component('ios-bus-icon', IosBusIcon)
-    Vue.component('ios-business-icon', IosBusinessIcon)
-    Vue.component('ios-brush-icon', IosBrushIcon)
-    Vue.component('ios-cafe-icon', IosCafeIcon)
-    Vue.component('ios-calculator-icon', IosCalculatorIcon)
-    Vue.component('ios-call-icon', IosCallIcon)
-    Vue.component('ios-build-icon', IosBuildIcon)
-    Vue.component('ios-calendar-icon', IosCalendarIcon)
-    Vue.component('ios-camera-icon', IosCameraIcon)
-    Vue.component('ios-car-icon', IosCarIcon)
-    Vue.component('ios-cash-icon', IosCashIcon)
-    Vue.component('ios-card-icon', IosCardIcon)
-    Vue.component('ios-cart-icon', IosCartIcon)
-    Vue.component('ios-cellular-icon', IosCellularIcon)
-    Vue.component('ios-checkbox-outline-icon', IosCheckboxOutlineIcon)
-    Vue.component('ios-chatbubbles-icon', IosChatbubblesIcon)
-    Vue.component('ios-chatboxes-icon', IosChatboxesIcon)
-    Vue.component('ios-checkmark-circle-outline-icon', IosCheckmarkCircleOutlineIcon)
-    Vue.component('ios-checkmark-circle-icon', IosCheckmarkCircleIcon)
-    Vue.component('ios-clipboard-icon', IosClipboardIcon)
-    Vue.component('ios-checkbox-icon', IosCheckboxIcon)
-    Vue.component('ios-checkmark-icon', IosCheckmarkIcon)
-    Vue.component('ios-clock-icon', IosClockIcon)
-    Vue.component('ios-close-circle-icon', IosCloseCircleIcon)
-    Vue.component('ios-close-circle-outline-icon', IosCloseCircleOutlineIcon)
-    Vue.component('ios-cloud-done-icon', IosCloudDoneIcon)
-    Vue.component('ios-cloud-circle-icon', IosCloudCircleIcon)
-    Vue.component('ios-cloud-download-icon', IosCloudDownloadIcon)
-    Vue.component('ios-close-icon', IosCloseIcon)
-    Vue.component('ios-cloud-upload-icon', IosCloudUploadIcon)
-    Vue.component('ios-cloud-outline-icon', IosCloudOutlineIcon)
-    Vue.component('ios-cloudy-night-icon', IosCloudyNightIcon)
-    Vue.component('ios-cloud-icon', IosCloudIcon)
-    Vue.component('ios-code-download-icon', IosCodeDownloadIcon)
-    Vue.component('ios-cloudy-icon', IosCloudyIcon)
-    Vue.component('ios-code-working-icon', IosCodeWorkingIcon)
-    Vue.component('ios-cog-icon', IosCogIcon)
-    Vue.component('ios-code-icon', IosCodeIcon)
-    Vue.component('ios-color-fill-icon', IosColorFillIcon)
-    Vue.component('ios-compass-icon', IosCompassIcon)
-    Vue.component('ios-color-wand-icon', IosColorWandIcon)
-    Vue.component('ios-construct-icon', IosConstructIcon)
-    Vue.component('ios-color-palette-icon', IosColorPaletteIcon)
-    Vue.component('ios-contact-icon', IosContactIcon)
-    Vue.component('ios-contacts-icon', IosContactsIcon)
-    Vue.component('ios-contract-icon', IosContractIcon)
-    Vue.component('ios-copy-icon', IosCopyIcon)
-    Vue.component('ios-create-icon', IosCreateIcon)
-    Vue.component('ios-contrast-icon', IosContrastIcon)
-    Vue.component('ios-cut-icon', IosCutIcon)
-    Vue.component('ios-crop-icon', IosCropIcon)
-    Vue.component('ios-disc-icon', IosDiscIcon)
-    Vue.component('ios-cube-icon', IosCubeIcon)
-    Vue.component('ios-desktop-icon', IosDesktopIcon)
-    Vue.component('ios-document-icon', IosDocumentIcon)
-    Vue.component('ios-done-all-icon', IosDoneAllIcon)
-    Vue.component('ios-download-icon', IosDownloadIcon)
-    Vue.component('ios-easel-icon', IosEaselIcon)
-    Vue.component('ios-exit-icon', IosExitIcon)
-    Vue.component('ios-egg-icon', IosEggIcon)
-    Vue.component('ios-eye-off-icon', IosEyeOffIcon)
-    Vue.component('ios-expand-icon', IosExpandIcon)
-    Vue.component('ios-fastforward-icon', IosFastforwardIcon)
-    Vue.component('ios-eye-icon', IosEyeIcon)
-    Vue.component('ios-filing-icon', IosFilingIcon)
-    Vue.component('ios-female-icon', IosFemaleIcon)
-    Vue.component('ios-film-icon', IosFilmIcon)
-    Vue.component('ios-finger-print-icon', IosFingerPrintIcon)
-    Vue.component('ios-flame-icon', IosFlameIcon)
-    Vue.component('ios-fitness-icon', IosFitnessIcon)
-    Vue.component('ios-flash-icon', IosFlashIcon)
-    Vue.component('ios-flag-icon', IosFlagIcon)
-    Vue.component('ios-flash-off-icon', IosFlashOffIcon)
-    Vue.component('ios-flask-icon', IosFlaskIcon)
-    Vue.component('ios-flashlight-icon', IosFlashlightIcon)
-    Vue.component('ios-flower-icon', IosFlowerIcon)
-    Vue.component('ios-folder-icon', IosFolderIcon)
-    Vue.component('ios-folder-open-icon', IosFolderOpenIcon)
-    Vue.component('ios-football-icon', IosFootballIcon)
-    Vue.component('ios-git-branch-icon', IosGitBranchIcon)
-    Vue.component('ios-gift-icon', IosGiftIcon)
-    Vue.component('ios-funnel-icon', IosFunnelIcon)
-    Vue.component('ios-git-compare-icon', IosGitCompareIcon)
-    Vue.component('ios-git-commit-icon', IosGitCommitIcon)
-    Vue.component('ios-git-pull-request-icon', IosGitPullRequestIcon)
-    Vue.component('ios-git-merge-icon', IosGitMergeIcon)
-    Vue.component('ios-git-network-icon', IosGitNetworkIcon)
-    Vue.component('ios-glasses-icon', IosGlassesIcon)
-    Vue.component('ios-globe-icon', IosGlobeIcon)
-    Vue.component('ios-grid-icon', IosGridIcon)
-    Vue.component('ios-hammer-icon', IosHammerIcon)
-    Vue.component('ios-hand-icon', IosHandIcon)
-    Vue.component('ios-headset-icon', IosHeadsetIcon)
-    Vue.component('ios-happy-icon', IosHappyIcon)
-    Vue.component('ios-heart-dislike-icon', IosHeartDislikeIcon)
-    Vue.component('ios-heart-half-icon', IosHeartHalfIcon)
-    Vue.component('ios-help-circle-outline-icon', IosHelpCircleOutlineIcon)
-    Vue.component('ios-heart-icon', IosHeartIcon)
-    Vue.component('ios-heart-empty-icon', IosHeartEmptyIcon)
-    Vue.component('ios-help-buoy-icon', IosHelpBuoyIcon)
-    Vue.component('ios-color-filter-icon', IosColorFilterIcon)
-    Vue.component('ios-home-icon', IosHomeIcon)
-    Vue.component('ios-help-circle-icon', IosHelpCircleIcon)
-    Vue.component('ios-help-icon', IosHelpIcon)
-    Vue.component('ios-hourglass-icon', IosHourglassIcon)
-    Vue.component('ios-image-icon', IosImageIcon)
-    Vue.component('ios-ice-cream-icon', IosIceCreamIcon)
-    Vue.component('ios-information-circle-outline-icon', IosInformationCircleOutlineIcon)
-    Vue.component('ios-infinite-icon', IosInfiniteIcon)
-    Vue.component('ios-images-icon', IosImagesIcon)
-    Vue.component('ios-information-icon', IosInformationIcon)
-    Vue.component('ios-jet-icon', IosJetIcon)
-    Vue.component('ios-information-circle-icon', IosInformationCircleIcon)
-    Vue.component('ios-journal-icon', IosJournalIcon)
-    Vue.component('ios-key-icon', IosKeyIcon)
-    Vue.component('ios-keypad-icon', IosKeypadIcon)
-    Vue.component('ios-link-icon', IosLinkIcon)
-    Vue.component('ios-leaf-icon', IosLeafIcon)
-    Vue.component('ios-list-box-icon', IosListBoxIcon)
-    Vue.component('ios-locate-icon', IosLocateIcon)
-    Vue.component('ios-list-icon', IosListIcon)
-    Vue.component('ios-lock-icon', IosLockIcon)
-    Vue.component('ios-log-in-icon', IosLogInIcon)
-    Vue.component('ios-laptop-icon', IosLaptopIcon)
-    Vue.component('ios-magnet-icon', IosMagnetIcon)
-    Vue.component('ios-mail-icon', IosMailIcon)
-    Vue.component('ios-log-out-icon', IosLogOutIcon)
-    Vue.component('ios-mail-open-icon', IosMailOpenIcon)
-    Vue.component('ios-male-icon', IosMaleIcon)
-    Vue.component('ios-map-icon', IosMapIcon)
-    Vue.component('ios-medal-icon', IosMedalIcon)
-    Vue.component('ios-man-icon', IosManIcon)
-    Vue.component('ios-menu-icon', IosMenuIcon)
-    Vue.component('ios-megaphone-icon', IosMegaphoneIcon)
-    Vue.component('ios-medical-icon', IosMedicalIcon)
-    Vue.component('ios-medkit-icon', IosMedkitIcon)
-    Vue.component('ios-mail-unread-icon', IosMailUnreadIcon)
-    Vue.component('ios-mic-off-icon', IosMicOffIcon)
-    Vue.component('ios-mic-icon', IosMicIcon)
-    Vue.component('ios-more-icon', IosMoreIcon)
-    Vue.component('ios-microphone-icon', IosMicrophoneIcon)
-    Vue.component('ios-moon-icon', IosMoonIcon)
-    Vue.component('ios-move-icon', IosMoveIcon)
-    Vue.component('ios-musical-note-icon', IosMusicalNoteIcon)
-    Vue.component('ios-musical-notes-icon', IosMusicalNotesIcon)
-    Vue.component('ios-navigate-icon', IosNavigateIcon)
-    Vue.component('ios-notifications-icon', IosNotificationsIcon)
-    Vue.component('ios-notifications-outline-icon', IosNotificationsOutlineIcon)
-    Vue.component('ios-nuclear-icon', IosNuclearIcon)
-    Vue.component('ios-notifications-off-icon', IosNotificationsOffIcon)
-    Vue.component('ios-nutrition-icon', IosNutritionIcon)
-    Vue.component('ios-paper-plane-icon', IosPaperPlaneIcon)
-    Vue.component('ios-options-icon', IosOptionsIcon)
-    Vue.component('ios-open-icon', IosOpenIcon)
-    Vue.component('ios-outlet-icon', IosOutletIcon)
-    Vue.component('ios-partly-sunny-icon', IosPartlySunnyIcon)
-    Vue.component('ios-paper-icon', IosPaperIcon)
-    Vue.component('ios-pause-icon', IosPauseIcon)
-    Vue.component('ios-paw-icon', IosPawIcon)
-    Vue.component('ios-people-icon', IosPeopleIcon)
-    Vue.component('ios-person-add-icon', IosPersonAddIcon)
-    Vue.component('ios-phone-portrait-icon', IosPhonePortraitIcon)
-    Vue.component('ios-person-icon', IosPersonIcon)
-    Vue.component('ios-phone-landscape-icon', IosPhoneLandscapeIcon)
-    Vue.component('ios-photos-icon', IosPhotosIcon)
-    Vue.component('ios-pie-icon', IosPieIcon)
-    Vue.component('ios-pint-icon', IosPintIcon)
-    Vue.component('ios-pin-icon', IosPinIcon)
-    Vue.component('ios-pizza-icon', IosPizzaIcon)
-    Vue.component('ios-play-circle-icon', IosPlayCircleIcon)
-    Vue.component('ios-power-icon', IosPowerIcon)
-    Vue.component('ios-planet-icon', IosPlanetIcon)
-    Vue.component('ios-podium-icon', IosPodiumIcon)
-    Vue.component('ios-play-icon', IosPlayIcon)
-    Vue.component('ios-pricetag-icon', IosPricetagIcon)
-    Vue.component('ios-print-icon', IosPrintIcon)
-    Vue.component('ios-pulse-icon', IosPulseIcon)
-    Vue.component('ios-qr-scanner-icon', IosQrScannerIcon)
-    Vue.component('ios-quote-icon', IosQuoteIcon)
-    Vue.component('ios-pricetags-icon', IosPricetagsIcon)
-    Vue.component('ios-radio-icon', IosRadioIcon)
-    Vue.component('ios-radio-button-off-icon', IosRadioButtonOffIcon)
-    Vue.component('ios-radio-button-on-icon', IosRadioButtonOnIcon)
-    Vue.component('ios-rainy-icon', IosRainyIcon)
-    Vue.component('ios-redo-icon', IosRedoIcon)
-    Vue.component('ios-recording-icon', IosRecordingIcon)
-    Vue.component('ios-remove-circle-outline-icon', IosRemoveCircleOutlineIcon)
-    Vue.component('ios-remove-circle-icon', IosRemoveCircleIcon)
-    Vue.component('ios-refresh-circle-icon', IosRefreshCircleIcon)
-    Vue.component('ios-refresh-icon', IosRefreshIcon)
-    Vue.component('ios-remove-icon', IosRemoveIcon)
-    Vue.component('ios-repeat-icon', IosRepeatIcon)
-    Vue.component('ios-reorder-icon', IosReorderIcon)
-    Vue.component('ios-resize-icon', IosResizeIcon)
-    Vue.component('ios-return-left-icon', IosReturnLeftIcon)
-    Vue.component('ios-return-right-icon', IosReturnRightIcon)
-    Vue.component('ios-restaurant-icon', IosRestaurantIcon)
-    Vue.component('ios-reverse-camera-icon', IosReverseCameraIcon)
-    Vue.component('ios-ribbon-icon', IosRibbonIcon)
-    Vue.component('ios-rocket-icon', IosRocketIcon)
-    Vue.component('ios-rose-icon', IosRoseIcon)
-    Vue.component('ios-sad-icon', IosSadIcon)
-    Vue.component('ios-school-icon', IosSchoolIcon)
-    Vue.component('ios-search-icon', IosSearchIcon)
-    Vue.component('ios-save-icon', IosSaveIcon)
-    Vue.component('ios-send-icon', IosSendIcon)
-    Vue.component('ios-settings-icon', IosSettingsIcon)
-    Vue.component('ios-share-icon', IosShareIcon)
-    Vue.component('ios-share-alt-icon', IosShareAltIcon)
-    Vue.component('ios-rewind-icon', IosRewindIcon)
-    Vue.component('ios-shirt-icon', IosShirtIcon)
-    Vue.component('ios-snow-icon', IosSnowIcon)
-    Vue.component('ios-skip-backward-icon', IosSkipBackwardIcon)
-    Vue.component('ios-square-outline-icon', IosSquareOutlineIcon)
-    Vue.component('ios-skip-forward-icon', IosSkipForwardIcon)
-    Vue.component('ios-speedometer-icon', IosSpeedometerIcon)
-    Vue.component('ios-star-half-icon', IosStarHalfIcon)
-    Vue.component('ios-square-icon', IosSquareIcon)
-    Vue.component('ios-shuffle-icon', IosShuffleIcon)
-    Vue.component('ios-star-icon', IosStarIcon)
-    Vue.component('ios-sunny-icon', IosSunnyIcon)
-    Vue.component('ios-star-outline-icon', IosStarOutlineIcon)
-    Vue.component('ios-switch-icon', IosSwitchIcon)
-    Vue.component('ios-sync-icon', IosSyncIcon)
-    Vue.component('ios-tablet-landscape-icon', IosTabletLandscapeIcon)
-    Vue.component('ios-tablet-portrait-icon', IosTabletPortraitIcon)
-    Vue.component('ios-thermometer-icon', IosThermometerIcon)
-    Vue.component('ios-tennisball-icon', IosTennisballIcon)
-    Vue.component('ios-text-icon', IosTextIcon)
-    Vue.component('ios-thumbs-down-icon', IosThumbsDownIcon)
-    Vue.component('ios-thunderstorm-icon', IosThunderstormIcon)
-    Vue.component('ios-time-icon', IosTimeIcon)
-    Vue.component('ios-thumbs-up-icon', IosThumbsUpIcon)
-    Vue.component('ios-timer-icon', IosTimerIcon)
-    Vue.component('ios-today-icon', IosTodayIcon)
-    Vue.component('ios-transgender-icon', IosTransgenderIcon)
-    Vue.component('ios-trash-icon', IosTrashIcon)
-    Vue.component('ios-train-icon', IosTrainIcon)
-    Vue.component('ios-trending-down-icon', IosTrendingDownIcon)
-    Vue.component('ios-trending-up-icon', IosTrendingUpIcon)
-    Vue.component('ios-trophy-icon', IosTrophyIcon)
-    Vue.component('ios-tv-icon', IosTvIcon)
-    Vue.component('ios-umbrella-icon', IosUmbrellaIcon)
-    Vue.component('ios-unlock-icon', IosUnlockIcon)
-    Vue.component('ios-undo-icon', IosUndoIcon)
-    Vue.component('ios-videocam-icon', IosVideocamIcon)
-    Vue.component('ios-volume-low-icon', IosVolumeLowIcon)
-    Vue.component('ios-volume-high-icon', IosVolumeHighIcon)
-    Vue.component('ios-volume-mute-icon', IosVolumeMuteIcon)
-    Vue.component('ios-volume-off-icon', IosVolumeOffIcon)
-    Vue.component('ios-walk-icon', IosWalkIcon)
-    Vue.component('ios-wallet-icon', IosWalletIcon)
-    Vue.component('ios-watch-icon', IosWatchIcon)
-    Vue.component('ios-warning-icon', IosWarningIcon)
-    Vue.component('ios-water-icon', IosWaterIcon)
-    Vue.component('ios-wine-icon', IosWineIcon)
-    Vue.component('ios-wifi-icon', IosWifiIcon)
-    Vue.component('ios-woman-icon', IosWomanIcon)
+    Vue.component('accessibility-sharp-icon', AccessibilitySharpIcon)
+    Vue.component('accessibility-outline-icon', AccessibilityOutlineIcon)
+    Vue.component('accessibility-icon', AccessibilityIcon)
+    Vue.component('add-circle-outline-icon', AddCircleOutlineIcon)
+    Vue.component('add-circle-sharp-icon', AddCircleSharpIcon)
+    Vue.component('add-circle-icon', AddCircleIcon)
+    Vue.component('add-outline-icon', AddOutlineIcon)
+    Vue.component('add-sharp-icon', AddSharpIcon)
+    Vue.component('add-icon', AddIcon)
+    Vue.component('airplane-outline-icon', AirplaneOutlineIcon)
+    Vue.component('airplane-sharp-icon', AirplaneSharpIcon)
+    Vue.component('alarm-outline-icon', AlarmOutlineIcon)
+    Vue.component('airplane-icon', AirplaneIcon)
+    Vue.component('alarm-sharp-icon', AlarmSharpIcon)
+    Vue.component('alarm-icon', AlarmIcon)
+    Vue.component('albums-outline-icon', AlbumsOutlineIcon)
+    Vue.component('albums-sharp-icon', AlbumsSharpIcon)
+    Vue.component('albums-icon', AlbumsIcon)
+    Vue.component('alert-circle-outline-icon', AlertCircleOutlineIcon)
+    Vue.component('alert-circle-sharp-icon', AlertCircleSharpIcon)
+    Vue.component('alert-circle-icon', AlertCircleIcon)
+    Vue.component('alert-outline-icon', AlertOutlineIcon)
+    Vue.component('alert-sharp-icon', AlertSharpIcon)
+    Vue.component('alert-icon', AlertIcon)
+    Vue.component('american-football-outline-icon', AmericanFootballOutlineIcon)
+    Vue.component('american-football-sharp-icon', AmericanFootballSharpIcon)
+    Vue.component('american-football-icon', AmericanFootballIcon)
+    Vue.component('analytics-sharp-icon', AnalyticsSharpIcon)
+    Vue.component('analytics-outline-icon', AnalyticsOutlineIcon)
+    Vue.component('analytics-icon', AnalyticsIcon)
+    Vue.component('aperture-outline-icon', ApertureOutlineIcon)
+    Vue.component('aperture-sharp-icon', ApertureSharpIcon)
+    Vue.component('aperture-icon', ApertureIcon)
+    Vue.component('apps-outline-icon', AppsOutlineIcon)
+    Vue.component('apps-sharp-icon', AppsSharpIcon)
+    Vue.component('apps-icon', AppsIcon)
+    Vue.component('archive-sharp-icon', ArchiveSharpIcon)
+    Vue.component('archive-outline-icon', ArchiveOutlineIcon)
+    Vue.component('archive-icon', ArchiveIcon)
+    Vue.component('arrow-back-circle-sharp-icon', ArrowBackCircleSharpIcon)
+    Vue.component('arrow-back-circle-outline-icon', ArrowBackCircleOutlineIcon)
+    Vue.component('arrow-back-circle-icon', ArrowBackCircleIcon)
+    Vue.component('arrow-back-outline-icon', ArrowBackOutlineIcon)
+    Vue.component('arrow-back-sharp-icon', ArrowBackSharpIcon)
+    Vue.component('arrow-back-icon', ArrowBackIcon)
+    Vue.component('arrow-down-circle-sharp-icon', ArrowDownCircleSharpIcon)
+    Vue.component('arrow-down-circle-icon', ArrowDownCircleIcon)
+    Vue.component('arrow-down-outline-icon', ArrowDownOutlineIcon)
+    Vue.component('arrow-down-sharp-icon', ArrowDownSharpIcon)
+    Vue.component('arrow-down-icon', ArrowDownIcon)
+    Vue.component('arrow-forward-circle-outline-icon', ArrowForwardCircleOutlineIcon)
+    Vue.component('arrow-forward-circle-sharp-icon', ArrowForwardCircleSharpIcon)
+    Vue.component('arrow-forward-circle-icon', ArrowForwardCircleIcon)
+    Vue.component('arrow-forward-outline-icon', ArrowForwardOutlineIcon)
+    Vue.component('arrow-forward-sharp-icon', ArrowForwardSharpIcon)
+    Vue.component('arrow-forward-icon', ArrowForwardIcon)
+    Vue.component('arrow-redo-circle-outline-icon', ArrowRedoCircleOutlineIcon)
+    Vue.component('arrow-redo-circle-sharp-icon', ArrowRedoCircleSharpIcon)
+    Vue.component('arrow-redo-circle-icon', ArrowRedoCircleIcon)
+    Vue.component('arrow-redo-outline-icon', ArrowRedoOutlineIcon)
+    Vue.component('arrow-redo-sharp-icon', ArrowRedoSharpIcon)
+    Vue.component('arrow-redo-icon', ArrowRedoIcon)
+    Vue.component('arrow-undo-circle-outline-icon', ArrowUndoCircleOutlineIcon)
+    Vue.component('arrow-undo-circle-sharp-icon', ArrowUndoCircleSharpIcon)
+    Vue.component('arrow-undo-circle-icon', ArrowUndoCircleIcon)
+    Vue.component('arrow-down-circle-outline-icon', ArrowDownCircleOutlineIcon)
+    Vue.component('arrow-undo-outline-icon', ArrowUndoOutlineIcon)
+    Vue.component('arrow-undo-sharp-icon', ArrowUndoSharpIcon)
+    Vue.component('arrow-undo-icon', ArrowUndoIcon)
+    Vue.component('arrow-up-circle-outline-icon', ArrowUpCircleOutlineIcon)
+    Vue.component('arrow-up-circle-sharp-icon', ArrowUpCircleSharpIcon)
+    Vue.component('arrow-up-circle-icon', ArrowUpCircleIcon)
+    Vue.component('arrow-up-outline-icon', ArrowUpOutlineIcon)
+    Vue.component('arrow-up-sharp-icon', ArrowUpSharpIcon)
+    Vue.component('arrow-up-icon', ArrowUpIcon)
+    Vue.component('at-circle-outline-icon', AtCircleOutlineIcon)
+    Vue.component('at-circle-sharp-icon', AtCircleSharpIcon)
+    Vue.component('at-circle-icon', AtCircleIcon)
+    Vue.component('at-outline-icon', AtOutlineIcon)
+    Vue.component('at-sharp-icon', AtSharpIcon)
+    Vue.component('at-icon', AtIcon)
+    Vue.component('attach-outline-icon', AttachOutlineIcon)
+    Vue.component('attach-sharp-icon', AttachSharpIcon)
+    Vue.component('attach-icon', AttachIcon)
+    Vue.component('backspace-outline-icon', BackspaceOutlineIcon)
+    Vue.component('backspace-sharp-icon', BackspaceSharpIcon)
+    Vue.component('backspace-icon', BackspaceIcon)
+    Vue.component('bag-add-outline-icon', BagAddOutlineIcon)
+    Vue.component('bag-add-sharp-icon', BagAddSharpIcon)
+    Vue.component('bag-add-icon', BagAddIcon)
+    Vue.component('bag-check-outline-icon', BagCheckOutlineIcon)
+    Vue.component('bag-check-sharp-icon', BagCheckSharpIcon)
+    Vue.component('bag-check-icon', BagCheckIcon)
+    Vue.component('bag-handle-outline-icon', BagHandleOutlineIcon)
+    Vue.component('bag-handle-sharp-icon', BagHandleSharpIcon)
+    Vue.component('bag-handle-icon', BagHandleIcon)
+    Vue.component('bag-outline-icon', BagOutlineIcon)
+    Vue.component('bag-remove-outline-icon', BagRemoveOutlineIcon)
+    Vue.component('bag-remove-sharp-icon', BagRemoveSharpIcon)
+    Vue.component('bag-remove-icon', BagRemoveIcon)
+    Vue.component('bag-sharp-icon', BagSharpIcon)
+    Vue.component('bag-icon', BagIcon)
+    Vue.component('balloon-outline-icon', BalloonOutlineIcon)
+    Vue.component('balloon-sharp-icon', BalloonSharpIcon)
+    Vue.component('balloon-icon', BalloonIcon)
+    Vue.component('ban-outline-icon', BanOutlineIcon)
+    Vue.component('ban-sharp-icon', BanSharpIcon)
+    Vue.component('ban-icon', BanIcon)
+    Vue.component('bandage-outline-icon', BandageOutlineIcon)
+    Vue.component('bar-chart-sharp-icon', BarChartSharpIcon)
+    Vue.component('bar-chart-icon', BarChartIcon)
+    Vue.component('barbell-outline-icon', BarbellOutlineIcon)
+    Vue.component('barbell-sharp-icon', BarbellSharpIcon)
+    Vue.component('barbell-icon', BarbellIcon)
+    Vue.component('barcode-outline-icon', BarcodeOutlineIcon)
+    Vue.component('barcode-sharp-icon', BarcodeSharpIcon)
+    Vue.component('barcode-icon', BarcodeIcon)
+    Vue.component('baseball-outline-icon', BaseballOutlineIcon)
+    Vue.component('baseball-sharp-icon', BaseballSharpIcon)
+    Vue.component('baseball-icon', BaseballIcon)
+    Vue.component('basket-outline-icon', BasketOutlineIcon)
+    Vue.component('basket-sharp-icon', BasketSharpIcon)
+    Vue.component('basket-icon', BasketIcon)
+    Vue.component('basketball-outline-icon', BasketballOutlineIcon)
+    Vue.component('basketball-sharp-icon', BasketballSharpIcon)
+    Vue.component('basketball-icon', BasketballIcon)
+    Vue.component('battery-charging-outline-icon', BatteryChargingOutlineIcon)
+    Vue.component('battery-charging-sharp-icon', BatteryChargingSharpIcon)
+    Vue.component('battery-charging-icon', BatteryChargingIcon)
+    Vue.component('battery-dead-outline-icon', BatteryDeadOutlineIcon)
+    Vue.component('battery-dead-sharp-icon', BatteryDeadSharpIcon)
+    Vue.component('battery-dead-icon', BatteryDeadIcon)
+    Vue.component('battery-full-outline-icon', BatteryFullOutlineIcon)
+    Vue.component('battery-full-sharp-icon', BatteryFullSharpIcon)
+    Vue.component('battery-full-icon', BatteryFullIcon)
+    Vue.component('battery-half-sharp-icon', BatteryHalfSharpIcon)
+    Vue.component('battery-half-outline-icon', BatteryHalfOutlineIcon)
+    Vue.component('battery-half-icon', BatteryHalfIcon)
+    Vue.component('beaker-outline-icon', BeakerOutlineIcon)
+    Vue.component('beaker-sharp-icon', BeakerSharpIcon)
+    Vue.component('beaker-icon', BeakerIcon)
+    Vue.component('bed-outline-icon', BedOutlineIcon)
+    Vue.component('bed-sharp-icon', BedSharpIcon)
+    Vue.component('bandage-sharp-icon', BandageSharpIcon)
+    Vue.component('bandage-icon', BandageIcon)
+    Vue.component('bar-chart-outline-icon', BarChartOutlineIcon)
+    Vue.component('beer-outline-icon', BeerOutlineIcon)
+    Vue.component('beer-sharp-icon', BeerSharpIcon)
+    Vue.component('bed-icon', BedIcon)
+    Vue.component('beer-icon', BeerIcon)
+    Vue.component('bicycle-outline-icon', BicycleOutlineIcon)
+    Vue.component('bicycle-sharp-icon', BicycleSharpIcon)
+    Vue.component('bicycle-icon', BicycleIcon)
+    Vue.component('bluetooth-outline-icon', BluetoothOutlineIcon)
+    Vue.component('bluetooth-sharp-icon', BluetoothSharpIcon)
+    Vue.component('bluetooth-icon', BluetoothIcon)
+    Vue.component('boat-outline-icon', BoatOutlineIcon)
+    Vue.component('boat-sharp-icon', BoatSharpIcon)
+    Vue.component('boat-icon', BoatIcon)
+    Vue.component('body-outline-icon', BodyOutlineIcon)
+    Vue.component('body-sharp-icon', BodySharpIcon)
+    Vue.component('body-icon', BodyIcon)
+    Vue.component('bonfire-outline-icon', BonfireOutlineIcon)
+    Vue.component('bonfire-sharp-icon', BonfireSharpIcon)
+    Vue.component('bonfire-icon', BonfireIcon)
+    Vue.component('book-outline-icon', BookOutlineIcon)
+    Vue.component('book-sharp-icon', BookSharpIcon)
+    Vue.component('book-icon', BookIcon)
+    Vue.component('bookmark-outline-icon', BookmarkOutlineIcon)
+    Vue.component('bookmark-sharp-icon', BookmarkSharpIcon)
+    Vue.component('bookmark-icon', BookmarkIcon)
+    Vue.component('bookmarks-outline-icon', BookmarksOutlineIcon)
+    Vue.component('bookmarks-sharp-icon', BookmarksSharpIcon)
+    Vue.component('bookmarks-icon', BookmarksIcon)
+    Vue.component('bowling-ball-outline-icon', BowlingBallOutlineIcon)
+    Vue.component('bowling-ball-sharp-icon', BowlingBallSharpIcon)
+    Vue.component('bowling-ball-icon', BowlingBallIcon)
+    Vue.component('briefcase-outline-icon', BriefcaseOutlineIcon)
+    Vue.component('briefcase-sharp-icon', BriefcaseSharpIcon)
+    Vue.component('briefcase-icon', BriefcaseIcon)
+    Vue.component('browsers-outline-icon', BrowsersOutlineIcon)
+    Vue.component('browsers-sharp-icon', BrowsersSharpIcon)
+    Vue.component('browsers-icon', BrowsersIcon)
+    Vue.component('brush-outline-icon', BrushOutlineIcon)
+    Vue.component('brush-sharp-icon', BrushSharpIcon)
+    Vue.component('brush-icon', BrushIcon)
+    Vue.component('bug-outline-icon', BugOutlineIcon)
+    Vue.component('bug-sharp-icon', BugSharpIcon)
+    Vue.component('bug-icon', BugIcon)
+    Vue.component('build-outline-icon', BuildOutlineIcon)
+    Vue.component('build-sharp-icon', BuildSharpIcon)
+    Vue.component('build-icon', BuildIcon)
+    Vue.component('bulb-outline-icon', BulbOutlineIcon)
+    Vue.component('bulb-sharp-icon', BulbSharpIcon)
+    Vue.component('bulb-icon', BulbIcon)
+    Vue.component('bus-outline-icon', BusOutlineIcon)
+    Vue.component('bus-sharp-icon', BusSharpIcon)
+    Vue.component('bus-icon', BusIcon)
+    Vue.component('business-outline-icon', BusinessOutlineIcon)
+    Vue.component('business-sharp-icon', BusinessSharpIcon)
+    Vue.component('business-icon', BusinessIcon)
+    Vue.component('cafe-outline-icon', CafeOutlineIcon)
+    Vue.component('cafe-sharp-icon', CafeSharpIcon)
+    Vue.component('cafe-icon', CafeIcon)
+    Vue.component('calculator-outline-icon', CalculatorOutlineIcon)
+    Vue.component('calculator-sharp-icon', CalculatorSharpIcon)
+    Vue.component('calculator-icon', CalculatorIcon)
+    Vue.component('calendar-clear-outline-icon', CalendarClearOutlineIcon)
+    Vue.component('calendar-clear-sharp-icon', CalendarClearSharpIcon)
+    Vue.component('calendar-clear-icon', CalendarClearIcon)
+    Vue.component('calendar-number-outline-icon', CalendarNumberOutlineIcon)
+    Vue.component('calendar-number-sharp-icon', CalendarNumberSharpIcon)
+    Vue.component('calendar-number-icon', CalendarNumberIcon)
+    Vue.component('calendar-outline-icon', CalendarOutlineIcon)
+    Vue.component('calendar-sharp-icon', CalendarSharpIcon)
+    Vue.component('calendar-icon', CalendarIcon)
+    Vue.component('call-outline-icon', CallOutlineIcon)
+    Vue.component('call-sharp-icon', CallSharpIcon)
+    Vue.component('call-icon', CallIcon)
+    Vue.component('camera-outline-icon', CameraOutlineIcon)
+    Vue.component('camera-reverse-outline-icon', CameraReverseOutlineIcon)
+    Vue.component('camera-reverse-sharp-icon', CameraReverseSharpIcon)
+    Vue.component('camera-reverse-icon', CameraReverseIcon)
+    Vue.component('camera-sharp-icon', CameraSharpIcon)
+    Vue.component('camera-icon', CameraIcon)
+    Vue.component('car-outline-icon', CarOutlineIcon)
+    Vue.component('car-sharp-icon', CarSharpIcon)
+    Vue.component('car-sport-outline-icon', CarSportOutlineIcon)
+    Vue.component('car-sport-sharp-icon', CarSportSharpIcon)
+    Vue.component('car-sport-icon', CarSportIcon)
+    Vue.component('car-icon', CarIcon)
+    Vue.component('card-outline-icon', CardOutlineIcon)
+    Vue.component('card-sharp-icon', CardSharpIcon)
+    Vue.component('card-icon', CardIcon)
+    Vue.component('caret-back-circle-outline-icon', CaretBackCircleOutlineIcon)
+    Vue.component('caret-back-circle-sharp-icon', CaretBackCircleSharpIcon)
+    Vue.component('caret-back-circle-icon', CaretBackCircleIcon)
+    Vue.component('caret-down-circle-outline-icon', CaretDownCircleOutlineIcon)
+    Vue.component('caret-down-circle-sharp-icon', CaretDownCircleSharpIcon)
+    Vue.component('caret-down-circle-icon', CaretDownCircleIcon)
+    Vue.component('caret-down-outline-icon', CaretDownOutlineIcon)
+    Vue.component('caret-back-icon', CaretBackIcon)
+    Vue.component('caret-down-icon', CaretDownIcon)
+    Vue.component('caret-forward-circle-outline-icon', CaretForwardCircleOutlineIcon)
+    Vue.component('caret-forward-circle-sharp-icon', CaretForwardCircleSharpIcon)
+    Vue.component('caret-back-outline-icon', CaretBackOutlineIcon)
+    Vue.component('caret-forward-circle-icon', CaretForwardCircleIcon)
+    Vue.component('caret-forward-outline-icon', CaretForwardOutlineIcon)
+    Vue.component('caret-forward-sharp-icon', CaretForwardSharpIcon)
+    Vue.component('caret-forward-icon', CaretForwardIcon)
+    Vue.component('caret-up-circle-outline-icon', CaretUpCircleOutlineIcon)
+    Vue.component('caret-up-circle-sharp-icon', CaretUpCircleSharpIcon)
+    Vue.component('caret-up-circle-icon', CaretUpCircleIcon)
+    Vue.component('caret-up-outline-icon', CaretUpOutlineIcon)
+    Vue.component('caret-up-sharp-icon', CaretUpSharpIcon)
+    Vue.component('cart-outline-icon', CartOutlineIcon)
+    Vue.component('caret-up-icon', CaretUpIcon)
+    Vue.component('cart-sharp-icon', CartSharpIcon)
+    Vue.component('caret-down-sharp-icon', CaretDownSharpIcon)
+    Vue.component('caret-back-sharp-icon', CaretBackSharpIcon)
+    Vue.component('cart-icon', CartIcon)
+    Vue.component('cash-outline-icon', CashOutlineIcon)
+    Vue.component('cash-sharp-icon', CashSharpIcon)
+    Vue.component('cash-icon', CashIcon)
+    Vue.component('cellular-outline-icon', CellularOutlineIcon)
+    Vue.component('cellular-sharp-icon', CellularSharpIcon)
+    Vue.component('cellular-icon', CellularIcon)
+    Vue.component('chatbox-ellipses-outline-icon', ChatboxEllipsesOutlineIcon)
+    Vue.component('chatbox-ellipses-sharp-icon', ChatboxEllipsesSharpIcon)
+    Vue.component('chatbox-ellipses-icon', ChatboxEllipsesIcon)
+    Vue.component('chatbox-outline-icon', ChatboxOutlineIcon)
+    Vue.component('chatbox-sharp-icon', ChatboxSharpIcon)
+    Vue.component('chatbox-icon', ChatboxIcon)
+    Vue.component('chatbubble-ellipses-outline-icon', ChatbubbleEllipsesOutlineIcon)
+    Vue.component('chatbubble-ellipses-sharp-icon', ChatbubbleEllipsesSharpIcon)
+    Vue.component('chatbubble-ellipses-icon', ChatbubbleEllipsesIcon)
+    Vue.component('chatbubble-outline-icon', ChatbubbleOutlineIcon)
+    Vue.component('chatbubble-sharp-icon', ChatbubbleSharpIcon)
+    Vue.component('chatbubble-icon', ChatbubbleIcon)
+    Vue.component('chatbubbles-outline-icon', ChatbubblesOutlineIcon)
+    Vue.component('chatbubbles-sharp-icon', ChatbubblesSharpIcon)
+    Vue.component('chatbubbles-icon', ChatbubblesIcon)
+    Vue.component('checkbox-outline-icon', CheckboxOutlineIcon)
+    Vue.component('checkbox-sharp-icon', CheckboxSharpIcon)
+    Vue.component('checkbox-icon', CheckboxIcon)
+    Vue.component('checkmark-circle-outline-icon', CheckmarkCircleOutlineIcon)
+    Vue.component('checkmark-circle-sharp-icon', CheckmarkCircleSharpIcon)
+    Vue.component('checkmark-circle-icon', CheckmarkCircleIcon)
+    Vue.component('checkmark-done-circle-outline-icon', CheckmarkDoneCircleOutlineIcon)
+    Vue.component('checkmark-done-circle-sharp-icon', CheckmarkDoneCircleSharpIcon)
+    Vue.component('checkmark-done-circle-icon', CheckmarkDoneCircleIcon)
+    Vue.component('checkmark-done-outline-icon', CheckmarkDoneOutlineIcon)
+    Vue.component('checkmark-done-sharp-icon', CheckmarkDoneSharpIcon)
+    Vue.component('checkmark-done-icon', CheckmarkDoneIcon)
+    Vue.component('checkmark-outline-icon', CheckmarkOutlineIcon)
+    Vue.component('checkmark-sharp-icon', CheckmarkSharpIcon)
+    Vue.component('checkmark-icon', CheckmarkIcon)
+    Vue.component('chevron-back-circle-outline-icon', ChevronBackCircleOutlineIcon)
+    Vue.component('chevron-back-circle-sharp-icon', ChevronBackCircleSharpIcon)
+    Vue.component('chevron-back-circle-icon', ChevronBackCircleIcon)
+    Vue.component('chevron-back-outline-icon', ChevronBackOutlineIcon)
+    Vue.component('chevron-back-sharp-icon', ChevronBackSharpIcon)
+    Vue.component('chevron-back-icon', ChevronBackIcon)
+    Vue.component('chevron-down-circle-outline-icon', ChevronDownCircleOutlineIcon)
+    Vue.component('chevron-down-circle-sharp-icon', ChevronDownCircleSharpIcon)
+    Vue.component('chevron-down-circle-icon', ChevronDownCircleIcon)
+    Vue.component('chevron-down-outline-icon', ChevronDownOutlineIcon)
+    Vue.component('chevron-down-sharp-icon', ChevronDownSharpIcon)
+    Vue.component('chevron-down-icon', ChevronDownIcon)
+    Vue.component('chevron-forward-circle-outline-icon', ChevronForwardCircleOutlineIcon)
+    Vue.component('chevron-forward-circle-sharp-icon', ChevronForwardCircleSharpIcon)
+    Vue.component('chevron-forward-circle-icon', ChevronForwardCircleIcon)
+    Vue.component('chevron-forward-outline-icon', ChevronForwardOutlineIcon)
+    Vue.component('chevron-forward-sharp-icon', ChevronForwardSharpIcon)
+    Vue.component('chevron-forward-icon', ChevronForwardIcon)
+    Vue.component('chevron-up-circle-outline-icon', ChevronUpCircleOutlineIcon)
+    Vue.component('chevron-up-circle-sharp-icon', ChevronUpCircleSharpIcon)
+    Vue.component('chevron-up-circle-icon', ChevronUpCircleIcon)
+    Vue.component('chevron-up-outline-icon', ChevronUpOutlineIcon)
+    Vue.component('chevron-up-sharp-icon', ChevronUpSharpIcon)
+    Vue.component('chevron-up-icon', ChevronUpIcon)
+    Vue.component('clipboard-outline-icon', ClipboardOutlineIcon)
+    Vue.component('clipboard-sharp-icon', ClipboardSharpIcon)
+    Vue.component('clipboard-icon', ClipboardIcon)
+    Vue.component('close-circle-outline-icon', CloseCircleOutlineIcon)
+    Vue.component('close-circle-sharp-icon', CloseCircleSharpIcon)
+    Vue.component('close-circle-icon', CloseCircleIcon)
+    Vue.component('close-outline-icon', CloseOutlineIcon)
+    Vue.component('close-sharp-icon', CloseSharpIcon)
+    Vue.component('close-icon', CloseIcon)
+    Vue.component('cloud-circle-outline-icon', CloudCircleOutlineIcon)
+    Vue.component('cloud-circle-sharp-icon', CloudCircleSharpIcon)
+    Vue.component('cloud-circle-icon', CloudCircleIcon)
+    Vue.component('cloud-done-outline-icon', CloudDoneOutlineIcon)
+    Vue.component('cloud-done-sharp-icon', CloudDoneSharpIcon)
+    Vue.component('cloud-done-icon', CloudDoneIcon)
+    Vue.component('cloud-download-outline-icon', CloudDownloadOutlineIcon)
+    Vue.component('cloud-download-sharp-icon', CloudDownloadSharpIcon)
+    Vue.component('cloud-download-icon', CloudDownloadIcon)
+    Vue.component('cloud-offline-outline-icon', CloudOfflineOutlineIcon)
+    Vue.component('cloud-offline-sharp-icon', CloudOfflineSharpIcon)
+    Vue.component('cloud-offline-icon', CloudOfflineIcon)
+    Vue.component('cloud-outline-icon', CloudOutlineIcon)
+    Vue.component('cloud-sharp-icon', CloudSharpIcon)
+    Vue.component('cloud-upload-outline-icon', CloudUploadOutlineIcon)
+    Vue.component('cloud-upload-sharp-icon', CloudUploadSharpIcon)
+    Vue.component('cloud-upload-icon', CloudUploadIcon)
+    Vue.component('cloud-icon', CloudIcon)
+    Vue.component('cloudy-night-outline-icon', CloudyNightOutlineIcon)
+    Vue.component('cloudy-night-sharp-icon', CloudyNightSharpIcon)
+    Vue.component('cloudy-night-icon', CloudyNightIcon)
+    Vue.component('cloudy-outline-icon', CloudyOutlineIcon)
+    Vue.component('cloudy-sharp-icon', CloudySharpIcon)
+    Vue.component('cloudy-icon', CloudyIcon)
+    Vue.component('code-download-outline-icon', CodeDownloadOutlineIcon)
+    Vue.component('code-download-sharp-icon', CodeDownloadSharpIcon)
+    Vue.component('code-download-icon', CodeDownloadIcon)
+    Vue.component('code-outline-icon', CodeOutlineIcon)
+    Vue.component('code-sharp-icon', CodeSharpIcon)
+    Vue.component('code-slash-outline-icon', CodeSlashOutlineIcon)
+    Vue.component('code-slash-sharp-icon', CodeSlashSharpIcon)
+    Vue.component('code-slash-icon', CodeSlashIcon)
+    Vue.component('code-working-outline-icon', CodeWorkingOutlineIcon)
+    Vue.component('code-working-sharp-icon', CodeWorkingSharpIcon)
+    Vue.component('code-working-icon', CodeWorkingIcon)
+    Vue.component('code-icon', CodeIcon)
+    Vue.component('cog-outline-icon', CogOutlineIcon)
+    Vue.component('cog-sharp-icon', CogSharpIcon)
+    Vue.component('cog-icon', CogIcon)
+    Vue.component('color-fill-outline-icon', ColorFillOutlineIcon)
+    Vue.component('color-fill-sharp-icon', ColorFillSharpIcon)
+    Vue.component('color-fill-icon', ColorFillIcon)
+    Vue.component('color-filter-outline-icon', ColorFilterOutlineIcon)
+    Vue.component('color-filter-sharp-icon', ColorFilterSharpIcon)
+    Vue.component('color-filter-icon', ColorFilterIcon)
+    Vue.component('color-palette-outline-icon', ColorPaletteOutlineIcon)
+    Vue.component('color-palette-sharp-icon', ColorPaletteSharpIcon)
+    Vue.component('color-palette-icon', ColorPaletteIcon)
+    Vue.component('color-wand-outline-icon', ColorWandOutlineIcon)
+    Vue.component('color-wand-sharp-icon', ColorWandSharpIcon)
+    Vue.component('color-wand-icon', ColorWandIcon)
+    Vue.component('compass-outline-icon', CompassOutlineIcon)
+    Vue.component('compass-sharp-icon', CompassSharpIcon)
+    Vue.component('compass-icon', CompassIcon)
+    Vue.component('construct-outline-icon', ConstructOutlineIcon)
+    Vue.component('construct-sharp-icon', ConstructSharpIcon)
+    Vue.component('construct-icon', ConstructIcon)
+    Vue.component('contract-outline-icon', ContractOutlineIcon)
+    Vue.component('contract-sharp-icon', ContractSharpIcon)
+    Vue.component('contract-icon', ContractIcon)
+    Vue.component('contrast-outline-icon', ContrastOutlineIcon)
+    Vue.component('contrast-sharp-icon', ContrastSharpIcon)
+    Vue.component('contrast-icon', ContrastIcon)
+    Vue.component('copy-outline-icon', CopyOutlineIcon)
+    Vue.component('copy-sharp-icon', CopySharpIcon)
+    Vue.component('copy-icon', CopyIcon)
+    Vue.component('create-outline-icon', CreateOutlineIcon)
+    Vue.component('create-sharp-icon', CreateSharpIcon)
+    Vue.component('create-icon', CreateIcon)
+    Vue.component('crop-outline-icon', CropOutlineIcon)
+    Vue.component('crop-sharp-icon', CropSharpIcon)
+    Vue.component('crop-icon', CropIcon)
+    Vue.component('cube-outline-icon', CubeOutlineIcon)
+    Vue.component('cube-sharp-icon', CubeSharpIcon)
+    Vue.component('cube-icon', CubeIcon)
+    Vue.component('cut-outline-icon', CutOutlineIcon)
+    Vue.component('cut-sharp-icon', CutSharpIcon)
+    Vue.component('cut-icon', CutIcon)
+    Vue.component('desktop-outline-icon', DesktopOutlineIcon)
+    Vue.component('desktop-sharp-icon', DesktopSharpIcon)
+    Vue.component('desktop-icon', DesktopIcon)
+    Vue.component('diamond-outline-icon', DiamondOutlineIcon)
+    Vue.component('diamond-sharp-icon', DiamondSharpIcon)
+    Vue.component('diamond-icon', DiamondIcon)
+    Vue.component('dice-outline-icon', DiceOutlineIcon)
+    Vue.component('dice-sharp-icon', DiceSharpIcon)
+    Vue.component('dice-icon', DiceIcon)
+    Vue.component('disc-outline-icon', DiscOutlineIcon)
+    Vue.component('disc-sharp-icon', DiscSharpIcon)
+    Vue.component('disc-icon', DiscIcon)
+    Vue.component('document-attach-outline-icon', DocumentAttachOutlineIcon)
+    Vue.component('document-attach-sharp-icon', DocumentAttachSharpIcon)
+    Vue.component('document-attach-icon', DocumentAttachIcon)
+    Vue.component('document-lock-outline-icon', DocumentLockOutlineIcon)
+    Vue.component('document-lock-sharp-icon', DocumentLockSharpIcon)
+    Vue.component('document-lock-icon', DocumentLockIcon)
+    Vue.component('document-outline-icon', DocumentOutlineIcon)
+    Vue.component('document-sharp-icon', DocumentSharpIcon)
+    Vue.component('document-text-outline-icon', DocumentTextOutlineIcon)
+    Vue.component('document-text-sharp-icon', DocumentTextSharpIcon)
+    Vue.component('document-text-icon', DocumentTextIcon)
+    Vue.component('document-icon', DocumentIcon)
+    Vue.component('documents-outline-icon', DocumentsOutlineIcon)
+    Vue.component('documents-sharp-icon', DocumentsSharpIcon)
+    Vue.component('documents-icon', DocumentsIcon)
+    Vue.component('download-outline-icon', DownloadOutlineIcon)
+    Vue.component('download-sharp-icon', DownloadSharpIcon)
+    Vue.component('download-icon', DownloadIcon)
+    Vue.component('duplicate-outline-icon', DuplicateOutlineIcon)
+    Vue.component('duplicate-sharp-icon', DuplicateSharpIcon)
+    Vue.component('duplicate-icon', DuplicateIcon)
+    Vue.component('ear-outline-icon', EarOutlineIcon)
+    Vue.component('ear-sharp-icon', EarSharpIcon)
+    Vue.component('ear-icon', EarIcon)
+    Vue.component('earth-outline-icon', EarthOutlineIcon)
+    Vue.component('earth-sharp-icon', EarthSharpIcon)
+    Vue.component('earth-icon', EarthIcon)
+    Vue.component('easel-outline-icon', EaselOutlineIcon)
+    Vue.component('easel-sharp-icon', EaselSharpIcon)
+    Vue.component('easel-icon', EaselIcon)
+    Vue.component('egg-outline-icon', EggOutlineIcon)
+    Vue.component('egg-sharp-icon', EggSharpIcon)
+    Vue.component('egg-icon', EggIcon)
+    Vue.component('ellipse-outline-icon', EllipseOutlineIcon)
+    Vue.component('ellipse-sharp-icon', EllipseSharpIcon)
+    Vue.component('ellipse-icon', EllipseIcon)
+    Vue.component('ellipsis-horizontal-circle-outline-icon', EllipsisHorizontalCircleOutlineIcon)
+    Vue.component('ellipsis-horizontal-circle-sharp-icon', EllipsisHorizontalCircleSharpIcon)
+    Vue.component('ellipsis-horizontal-circle-icon', EllipsisHorizontalCircleIcon)
+    Vue.component('ellipsis-horizontal-outline-icon', EllipsisHorizontalOutlineIcon)
+    Vue.component('ellipsis-horizontal-sharp-icon', EllipsisHorizontalSharpIcon)
+    Vue.component('ellipsis-horizontal-icon', EllipsisHorizontalIcon)
+    Vue.component('ellipsis-vertical-circle-outline-icon', EllipsisVerticalCircleOutlineIcon)
+    Vue.component('ellipsis-vertical-circle-sharp-icon', EllipsisVerticalCircleSharpIcon)
+    Vue.component('ellipsis-vertical-circle-icon', EllipsisVerticalCircleIcon)
+    Vue.component('ellipsis-vertical-outline-icon', EllipsisVerticalOutlineIcon)
+    Vue.component('ellipsis-vertical-sharp-icon', EllipsisVerticalSharpIcon)
+    Vue.component('ellipsis-vertical-icon', EllipsisVerticalIcon)
+    Vue.component('enter-outline-icon', EnterOutlineIcon)
+    Vue.component('enter-sharp-icon', EnterSharpIcon)
+    Vue.component('enter-icon', EnterIcon)
+    Vue.component('exit-sharp-icon', ExitSharpIcon)
+    Vue.component('exit-outline-icon', ExitOutlineIcon)
+    Vue.component('exit-icon', ExitIcon)
+    Vue.component('expand-outline-icon', ExpandOutlineIcon)
+    Vue.component('expand-sharp-icon', ExpandSharpIcon)
+    Vue.component('expand-icon', ExpandIcon)
+    Vue.component('extension-puzzle-outline-icon', ExtensionPuzzleOutlineIcon)
+    Vue.component('extension-puzzle-sharp-icon', ExtensionPuzzleSharpIcon)
+    Vue.component('extension-puzzle-icon', ExtensionPuzzleIcon)
+    Vue.component('eye-off-outline-icon', EyeOffOutlineIcon)
+    Vue.component('eye-off-sharp-icon', EyeOffSharpIcon)
+    Vue.component('eye-off-icon', EyeOffIcon)
+    Vue.component('eye-outline-icon', EyeOutlineIcon)
+    Vue.component('eye-sharp-icon', EyeSharpIcon)
+    Vue.component('eye-icon', EyeIcon)
+    Vue.component('eyedrop-outline-icon', EyedropOutlineIcon)
+    Vue.component('eyedrop-sharp-icon', EyedropSharpIcon)
+    Vue.component('eyedrop-icon', EyedropIcon)
+    Vue.component('fast-food-outline-icon', FastFoodOutlineIcon)
+    Vue.component('fast-food-sharp-icon', FastFoodSharpIcon)
+    Vue.component('fast-food-icon', FastFoodIcon)
+    Vue.component('female-outline-icon', FemaleOutlineIcon)
+    Vue.component('file-tray-full-sharp-icon', FileTrayFullSharpIcon)
+    Vue.component('file-tray-full-icon', FileTrayFullIcon)
+    Vue.component('file-tray-outline-icon', FileTrayOutlineIcon)
+    Vue.component('file-tray-sharp-icon', FileTraySharpIcon)
+    Vue.component('file-tray-stacked-outline-icon', FileTrayStackedOutlineIcon)
+    Vue.component('file-tray-stacked-sharp-icon', FileTrayStackedSharpIcon)
+    Vue.component('file-tray-stacked-icon', FileTrayStackedIcon)
+    Vue.component('file-tray-icon', FileTrayIcon)
+    Vue.component('film-outline-icon', FilmOutlineIcon)
+    Vue.component('film-sharp-icon', FilmSharpIcon)
+    Vue.component('film-icon', FilmIcon)
+    Vue.component('filter-circle-outline-icon', FilterCircleOutlineIcon)
+    Vue.component('filter-circle-sharp-icon', FilterCircleSharpIcon)
+    Vue.component('filter-circle-icon', FilterCircleIcon)
+    Vue.component('filter-outline-icon', FilterOutlineIcon)
+    Vue.component('filter-sharp-icon', FilterSharpIcon)
+    Vue.component('filter-icon', FilterIcon)
+    Vue.component('finger-print-outline-icon', FingerPrintOutlineIcon)
+    Vue.component('finger-print-sharp-icon', FingerPrintSharpIcon)
+    Vue.component('finger-print-icon', FingerPrintIcon)
+    Vue.component('fish-outline-icon', FishOutlineIcon)
+    Vue.component('fish-sharp-icon', FishSharpIcon)
+    Vue.component('fish-icon', FishIcon)
+    Vue.component('fitness-outline-icon', FitnessOutlineIcon)
+    Vue.component('fitness-sharp-icon', FitnessSharpIcon)
+    Vue.component('fitness-icon', FitnessIcon)
+    Vue.component('flag-outline-icon', FlagOutlineIcon)
+    Vue.component('flag-sharp-icon', FlagSharpIcon)
+    Vue.component('flag-icon', FlagIcon)
+    Vue.component('flame-outline-icon', FlameOutlineIcon)
+    Vue.component('flame-sharp-icon', FlameSharpIcon)
+    Vue.component('flame-icon', FlameIcon)
+    Vue.component('flash-off-outline-icon', FlashOffOutlineIcon)
+    Vue.component('flash-off-sharp-icon', FlashOffSharpIcon)
+    Vue.component('flash-off-icon', FlashOffIcon)
+    Vue.component('flash-outline-icon', FlashOutlineIcon)
+    Vue.component('flash-sharp-icon', FlashSharpIcon)
+    Vue.component('flash-icon', FlashIcon)
+    Vue.component('flashlight-outline-icon', FlashlightOutlineIcon)
+    Vue.component('flashlight-sharp-icon', FlashlightSharpIcon)
+    Vue.component('female-sharp-icon', FemaleSharpIcon)
+    Vue.component('file-tray-full-outline-icon', FileTrayFullOutlineIcon)
+    Vue.component('flashlight-icon', FlashlightIcon)
+    Vue.component('flask-outline-icon', FlaskOutlineIcon)
+    Vue.component('flask-sharp-icon', FlaskSharpIcon)
+    Vue.component('flask-icon', FlaskIcon)
+    Vue.component('female-icon', FemaleIcon)
+    Vue.component('flower-outline-icon', FlowerOutlineIcon)
+    Vue.component('flower-sharp-icon', FlowerSharpIcon)
+    Vue.component('flower-icon', FlowerIcon)
+    Vue.component('folder-open-outline-icon', FolderOpenOutlineIcon)
+    Vue.component('folder-open-sharp-icon', FolderOpenSharpIcon)
+    Vue.component('folder-open-icon', FolderOpenIcon)
+    Vue.component('folder-outline-icon', FolderOutlineIcon)
+    Vue.component('folder-sharp-icon', FolderSharpIcon)
+    Vue.component('football-outline-icon', FootballOutlineIcon)
+    Vue.component('folder-icon', FolderIcon)
+    Vue.component('football-sharp-icon', FootballSharpIcon)
+    Vue.component('football-icon', FootballIcon)
+    Vue.component('footsteps-outline-icon', FootstepsOutlineIcon)
+    Vue.component('footsteps-sharp-icon', FootstepsSharpIcon)
+    Vue.component('footsteps-icon', FootstepsIcon)
+    Vue.component('funnel-outline-icon', FunnelOutlineIcon)
+    Vue.component('funnel-sharp-icon', FunnelSharpIcon)
+    Vue.component('funnel-icon', FunnelIcon)
+    Vue.component('game-controller-outline-icon', GameControllerOutlineIcon)
+    Vue.component('game-controller-sharp-icon', GameControllerSharpIcon)
+    Vue.component('game-controller-icon', GameControllerIcon)
+    Vue.component('gift-outline-icon', GiftOutlineIcon)
+    Vue.component('gift-sharp-icon', GiftSharpIcon)
+    Vue.component('gift-icon', GiftIcon)
+    Vue.component('git-branch-outline-icon', GitBranchOutlineIcon)
+    Vue.component('git-branch-sharp-icon', GitBranchSharpIcon)
+    Vue.component('git-branch-icon', GitBranchIcon)
+    Vue.component('git-commit-outline-icon', GitCommitOutlineIcon)
+    Vue.component('git-commit-sharp-icon', GitCommitSharpIcon)
+    Vue.component('git-commit-icon', GitCommitIcon)
+    Vue.component('git-compare-outline-icon', GitCompareOutlineIcon)
+    Vue.component('git-compare-sharp-icon', GitCompareSharpIcon)
+    Vue.component('git-compare-icon', GitCompareIcon)
+    Vue.component('git-merge-outline-icon', GitMergeOutlineIcon)
+    Vue.component('git-merge-sharp-icon', GitMergeSharpIcon)
+    Vue.component('git-merge-icon', GitMergeIcon)
+    Vue.component('git-network-outline-icon', GitNetworkOutlineIcon)
+    Vue.component('git-network-sharp-icon', GitNetworkSharpIcon)
+    Vue.component('git-network-icon', GitNetworkIcon)
+    Vue.component('git-pull-request-outline-icon', GitPullRequestOutlineIcon)
+    Vue.component('git-pull-request-sharp-icon', GitPullRequestSharpIcon)
+    Vue.component('git-pull-request-icon', GitPullRequestIcon)
+    Vue.component('glasses-outline-icon', GlassesOutlineIcon)
+    Vue.component('glasses-sharp-icon', GlassesSharpIcon)
+    Vue.component('glasses-icon', GlassesIcon)
+    Vue.component('globe-outline-icon', GlobeOutlineIcon)
+    Vue.component('globe-sharp-icon', GlobeSharpIcon)
+    Vue.component('globe-icon', GlobeIcon)
+    Vue.component('golf-outline-icon', GolfOutlineIcon)
+    Vue.component('golf-sharp-icon', GolfSharpIcon)
+    Vue.component('golf-icon', GolfIcon)
+    Vue.component('grid-outline-icon', GridOutlineIcon)
+    Vue.component('grid-sharp-icon', GridSharpIcon)
+    Vue.component('grid-icon', GridIcon)
+    Vue.component('hammer-outline-icon', HammerOutlineIcon)
+    Vue.component('hammer-sharp-icon', HammerSharpIcon)
+    Vue.component('hammer-icon', HammerIcon)
+    Vue.component('hand-left-outline-icon', HandLeftOutlineIcon)
+    Vue.component('hand-left-sharp-icon', HandLeftSharpIcon)
+    Vue.component('hand-left-icon', HandLeftIcon)
+    Vue.component('hand-right-outline-icon', HandRightOutlineIcon)
+    Vue.component('hand-right-sharp-icon', HandRightSharpIcon)
+    Vue.component('hand-right-icon', HandRightIcon)
+    Vue.component('happy-outline-icon', HappyOutlineIcon)
+    Vue.component('happy-sharp-icon', HappySharpIcon)
+    Vue.component('happy-icon', HappyIcon)
+    Vue.component('hardware-chip-outline-icon', HardwareChipOutlineIcon)
+    Vue.component('hardware-chip-sharp-icon', HardwareChipSharpIcon)
+    Vue.component('hardware-chip-icon', HardwareChipIcon)
+    Vue.component('headset-outline-icon', HeadsetOutlineIcon)
+    Vue.component('headset-sharp-icon', HeadsetSharpIcon)
+    Vue.component('headset-icon', HeadsetIcon)
+    Vue.component('heart-circle-outline-icon', HeartCircleOutlineIcon)
+    Vue.component('heart-circle-sharp-icon', HeartCircleSharpIcon)
+    Vue.component('heart-circle-icon', HeartCircleIcon)
+    Vue.component('heart-dislike-circle-outline-icon', HeartDislikeCircleOutlineIcon)
+    Vue.component('heart-dislike-circle-sharp-icon', HeartDislikeCircleSharpIcon)
+    Vue.component('heart-dislike-circle-icon', HeartDislikeCircleIcon)
+    Vue.component('heart-dislike-outline-icon', HeartDislikeOutlineIcon)
+    Vue.component('heart-dislike-sharp-icon', HeartDislikeSharpIcon)
+    Vue.component('heart-dislike-icon', HeartDislikeIcon)
+    Vue.component('heart-half-outline-icon', HeartHalfOutlineIcon)
+    Vue.component('heart-half-sharp-icon', HeartHalfSharpIcon)
+    Vue.component('heart-half-icon', HeartHalfIcon)
+    Vue.component('heart-outline-icon', HeartOutlineIcon)
+    Vue.component('heart-sharp-icon', HeartSharpIcon)
+    Vue.component('heart-icon', HeartIcon)
+    Vue.component('help-buoy-outline-icon', HelpBuoyOutlineIcon)
+    Vue.component('help-buoy-sharp-icon', HelpBuoySharpIcon)
+    Vue.component('help-buoy-icon', HelpBuoyIcon)
+    Vue.component('help-circle-outline-icon', HelpCircleOutlineIcon)
+    Vue.component('help-circle-sharp-icon', HelpCircleSharpIcon)
+    Vue.component('help-circle-icon', HelpCircleIcon)
+    Vue.component('help-outline-icon', HelpOutlineIcon)
+    Vue.component('help-sharp-icon', HelpSharpIcon)
+    Vue.component('help-icon', HelpIcon)
+    Vue.component('home-outline-icon', HomeOutlineIcon)
+    Vue.component('home-sharp-icon', HomeSharpIcon)
+    Vue.component('home-icon', HomeIcon)
+    Vue.component('hourglass-outline-icon', HourglassOutlineIcon)
+    Vue.component('hourglass-sharp-icon', HourglassSharpIcon)
+    Vue.component('hourglass-icon', HourglassIcon)
+    Vue.component('ice-cream-outline-icon', IceCreamOutlineIcon)
+    Vue.component('ice-cream-sharp-icon', IceCreamSharpIcon)
+    Vue.component('ice-cream-icon', IceCreamIcon)
+    Vue.component('id-card-outline-icon', IdCardOutlineIcon)
+    Vue.component('id-card-sharp-icon', IdCardSharpIcon)
+    Vue.component('id-card-icon', IdCardIcon)
+    Vue.component('image-outline-icon', ImageOutlineIcon)
+    Vue.component('image-sharp-icon', ImageSharpIcon)
+    Vue.component('image-icon', ImageIcon)
+    Vue.component('images-outline-icon', ImagesOutlineIcon)
+    Vue.component('images-sharp-icon', ImagesSharpIcon)
+    Vue.component('images-icon', ImagesIcon)
+    Vue.component('infinite-outline-icon', InfiniteOutlineIcon)
+    Vue.component('infinite-sharp-icon', InfiniteSharpIcon)
+    Vue.component('infinite-icon', InfiniteIcon)
+    Vue.component('information-circle-outline-icon', InformationCircleOutlineIcon)
+    Vue.component('information-circle-sharp-icon', InformationCircleSharpIcon)
+    Vue.component('information-circle-icon', InformationCircleIcon)
+    Vue.component('information-outline-icon', InformationOutlineIcon)
+    Vue.component('information-sharp-icon', InformationSharpIcon)
+    Vue.component('information-icon', InformationIcon)
+    Vue.component('invert-mode-outline-icon', InvertModeOutlineIcon)
+    Vue.component('invert-mode-sharp-icon', InvertModeSharpIcon)
+    Vue.component('invert-mode-icon', InvertModeIcon)
+    Vue.component('journal-outline-icon', JournalOutlineIcon)
+    Vue.component('journal-sharp-icon', JournalSharpIcon)
+    Vue.component('journal-icon', JournalIcon)
+    Vue.component('key-outline-icon', KeyOutlineIcon)
+    Vue.component('key-sharp-icon', KeySharpIcon)
+    Vue.component('key-icon', KeyIcon)
+    Vue.component('keypad-outline-icon', KeypadOutlineIcon)
+    Vue.component('keypad-sharp-icon', KeypadSharpIcon)
+    Vue.component('keypad-icon', KeypadIcon)
+    Vue.component('language-outline-icon', LanguageOutlineIcon)
+    Vue.component('language-sharp-icon', LanguageSharpIcon)
+    Vue.component('language-icon', LanguageIcon)
+    Vue.component('laptop-outline-icon', LaptopOutlineIcon)
+    Vue.component('laptop-sharp-icon', LaptopSharpIcon)
+    Vue.component('laptop-icon', LaptopIcon)
+    Vue.component('layers-outline-icon', LayersOutlineIcon)
+    Vue.component('layers-sharp-icon', LayersSharpIcon)
+    Vue.component('layers-icon', LayersIcon)
+    Vue.component('leaf-outline-icon', LeafOutlineIcon)
+    Vue.component('leaf-sharp-icon', LeafSharpIcon)
+    Vue.component('leaf-icon', LeafIcon)
+    Vue.component('library-outline-icon', LibraryOutlineIcon)
+    Vue.component('library-sharp-icon', LibrarySharpIcon)
+    Vue.component('library-icon', LibraryIcon)
+    Vue.component('link-outline-icon', LinkOutlineIcon)
+    Vue.component('link-sharp-icon', LinkSharpIcon)
+    Vue.component('link-icon', LinkIcon)
+    Vue.component('list-circle-outline-icon', ListCircleOutlineIcon)
+    Vue.component('list-circle-sharp-icon', ListCircleSharpIcon)
+    Vue.component('list-circle-icon', ListCircleIcon)
+    Vue.component('list-outline-icon', ListOutlineIcon)
+    Vue.component('list-sharp-icon', ListSharpIcon)
+    Vue.component('list-icon', ListIcon)
+    Vue.component('locate-outline-icon', LocateOutlineIcon)
+    Vue.component('locate-sharp-icon', LocateSharpIcon)
+    Vue.component('locate-icon', LocateIcon)
+    Vue.component('location-outline-icon', LocationOutlineIcon)
+    Vue.component('location-sharp-icon', LocationSharpIcon)
+    Vue.component('location-icon', LocationIcon)
+    Vue.component('lock-closed-outline-icon', LockClosedOutlineIcon)
+    Vue.component('lock-closed-sharp-icon', LockClosedSharpIcon)
+    Vue.component('lock-closed-icon', LockClosedIcon)
+    Vue.component('lock-open-outline-icon', LockOpenOutlineIcon)
+    Vue.component('lock-open-sharp-icon', LockOpenSharpIcon)
+    Vue.component('lock-open-icon', LockOpenIcon)
+    Vue.component('log-in-outline-icon', LogInOutlineIcon)
+    Vue.component('log-in-sharp-icon', LogInSharpIcon)
+    Vue.component('log-in-icon', LogInIcon)
+    Vue.component('log-out-outline-icon', LogOutOutlineIcon)
+    Vue.component('log-out-sharp-icon', LogOutSharpIcon)
+    Vue.component('log-out-icon', LogOutIcon)
+    Vue.component('logo-alipay-icon', LogoAlipayIcon)
+    Vue.component('logo-amazon-icon', LogoAmazonIcon)
+    Vue.component('logo-amplify-icon', LogoAmplifyIcon)
     Vue.component('logo-android-icon', LogoAndroidIcon)
-    Vue.component('ios-stats-icon', IosStatsIcon)
-    Vue.component('logo-bitbucket-icon', LogoBitbucketIcon)
-    Vue.component('ios-stopwatch-icon', IosStopwatchIcon)
+    Vue.component('logo-angular-icon', LogoAngularIcon)
+    Vue.component('logo-apple-appstore-icon', LogoAppleAppstoreIcon)
+    Vue.component('logo-apple-ar-icon', LogoAppleArIcon)
     Vue.component('logo-apple-icon', LogoAppleIcon)
-    Vue.component('logo-buffer-icon', LogoBufferIcon)
-    Vue.component('logo-chrome-icon', LogoChromeIcon)
-    Vue.component('logo-codepen-icon', LogoCodepenIcon)
-    Vue.component('logo-closed-captioning-icon', LogoClosedCaptioningIcon)
+    Vue.component('logo-behance-icon', LogoBehanceIcon)
+    Vue.component('logo-bitbucket-icon', LogoBitbucketIcon)
     Vue.component('logo-bitcoin-icon', LogoBitcoinIcon)
+    Vue.component('logo-buffer-icon', LogoBufferIcon)
+    Vue.component('logo-capacitor-icon', LogoCapacitorIcon)
+    Vue.component('logo-chrome-icon', LogoChromeIcon)
+    Vue.component('logo-closed-captioning-icon', LogoClosedCaptioningIcon)
+    Vue.component('logo-codepen-icon', LogoCodepenIcon)
     Vue.component('logo-css3-icon', LogoCss3Icon)
     Vue.component('logo-designernews-icon', LogoDesignernewsIcon)
+    Vue.component('logo-deviantart-icon', LogoDeviantartIcon)
+    Vue.component('logo-discord-icon', LogoDiscordIcon)
+    Vue.component('logo-docker-icon', LogoDockerIcon)
     Vue.component('logo-dribbble-icon', LogoDribbbleIcon)
-    Vue.component('logo-euro-icon', LogoEuroIcon)
-    Vue.component('ios-subway-icon', IosSubwayIcon)
-    Vue.component('logo-angular-icon', LogoAngularIcon)
     Vue.component('logo-dropbox-icon', LogoDropboxIcon)
+    Vue.component('logo-edge-icon', LogoEdgeIcon)
+    Vue.component('logo-electron-icon', LogoElectronIcon)
+    Vue.component('logo-euro-icon', LogoEuroIcon)
     Vue.component('logo-facebook-icon', LogoFacebookIcon)
-    Vue.component('logo-game-controller-b-icon', LogoGameControllerBIcon)
+    Vue.component('logo-figma-icon', LogoFigmaIcon)
+    Vue.component('logo-firebase-icon', LogoFirebaseIcon)
+    Vue.component('logo-firefox-icon', LogoFirefoxIcon)
     Vue.component('logo-flickr-icon', LogoFlickrIcon)
-    Vue.component('logo-freebsd-devil-icon', LogoFreebsdDevilIcon)
-    Vue.component('logo-github-icon', LogoGithubIcon)
-    Vue.component('logo-googleplus-icon', LogoGoogleplusIcon)
-    Vue.component('logo-google-icon', LogoGoogleIcon)
     Vue.component('logo-foursquare-icon', LogoFoursquareIcon)
+    Vue.component('logo-github-icon', LogoGithubIcon)
+    Vue.component('logo-gitlab-icon', LogoGitlabIcon)
+    Vue.component('logo-google-playstore-icon', LogoGooglePlaystoreIcon)
+    Vue.component('logo-google-icon', LogoGoogleIcon)
     Vue.component('logo-hackernews-icon', LogoHackernewsIcon)
-    Vue.component('logo-game-controller-a-icon', LogoGameControllerAIcon)
     Vue.component('logo-html5-icon', LogoHtml5Icon)
-    Vue.component('logo-ionitron-icon', LogoIonitronIcon)
-    Vue.component('logo-ionic-icon', LogoIonicIcon)
     Vue.component('logo-instagram-icon', LogoInstagramIcon)
+    Vue.component('logo-ionic-icon', LogoIonicIcon)
+    Vue.component('logo-ionitron-icon', LogoIonitronIcon)
     Vue.component('logo-javascript-icon', LogoJavascriptIcon)
+    Vue.component('logo-laravel-icon', LogoLaravelIcon)
     Vue.component('logo-linkedin-icon', LogoLinkedinIcon)
     Vue.component('logo-markdown-icon', LogoMarkdownIcon)
-    Vue.component('logo-nodejs-icon', LogoNodejsIcon)
-    Vue.component('logo-model-s-icon', LogoModelSIcon)
-    Vue.component('ios-swap-icon', IosSwapIcon)
+    Vue.component('logo-mastodon-icon', LogoMastodonIcon)
+    Vue.component('logo-medium-icon', LogoMediumIcon)
+    Vue.component('logo-microsoft-icon', LogoMicrosoftIcon)
     Vue.component('logo-no-smoking-icon', LogoNoSmokingIcon)
-    Vue.component('logo-octocat-icon', LogoOctocatIcon)
+    Vue.component('logo-nodejs-icon', LogoNodejsIcon)
     Vue.component('logo-npm-icon', LogoNpmIcon)
-    Vue.component('logo-polymer-icon', LogoPolymerIcon)
-    Vue.component('logo-playstation-icon', LogoPlaystationIcon)
-    Vue.component('logo-python-icon', LogoPythonIcon)
+    Vue.component('logo-octocat-icon', LogoOctocatIcon)
+    Vue.component('logo-paypal-icon', LogoPaypalIcon)
     Vue.component('logo-pinterest-icon', LogoPinterestIcon)
-    Vue.component('logo-rss-icon', LogoRssIcon)
+    Vue.component('logo-playstation-icon', LogoPlaystationIcon)
+    Vue.component('logo-pwa-icon', LogoPwaIcon)
+    Vue.component('logo-python-icon', LogoPythonIcon)
+    Vue.component('logo-react-icon', LogoReactIcon)
     Vue.component('logo-reddit-icon', LogoRedditIcon)
+    Vue.component('logo-rss-icon', LogoRssIcon)
+    Vue.component('logo-sass-icon', LogoSassIcon)
     Vue.component('logo-skype-icon', LogoSkypeIcon)
     Vue.component('logo-slack-icon', LogoSlackIcon)
-    Vue.component('logo-sass-icon', LogoSassIcon)
     Vue.component('logo-snapchat-icon', LogoSnapchatIcon)
-    Vue.component('logo-tumblr-icon', LogoTumblrIcon)
+    Vue.component('logo-soundcloud-icon', LogoSoundcloudIcon)
+    Vue.component('logo-stackoverflow-icon', LogoStackoverflowIcon)
     Vue.component('logo-steam-icon', LogoSteamIcon)
+    Vue.component('logo-stencil-icon', LogoStencilIcon)
+    Vue.component('logo-tableau-icon', LogoTableauIcon)
+    Vue.component('logo-tiktok-icon', LogoTiktokIcon)
+    Vue.component('logo-tumblr-icon', LogoTumblrIcon)
     Vue.component('logo-tux-icon', LogoTuxIcon)
-    Vue.component('logo-twitter-icon', LogoTwitterIcon)
-    Vue.component('logo-vimeo-icon', LogoVimeoIcon)
     Vue.component('logo-twitch-icon', LogoTwitchIcon)
+    Vue.component('logo-twitter-icon', LogoTwitterIcon)
     Vue.component('logo-usd-icon', LogoUsdIcon)
-    Vue.component('logo-whatsapp-icon', LogoWhatsappIcon)
+    Vue.component('logo-venmo-icon', LogoVenmoIcon)
+    Vue.component('logo-vercel-icon', LogoVercelIcon)
+    Vue.component('logo-vimeo-icon', LogoVimeoIcon)
     Vue.component('logo-vk-icon', LogoVkIcon)
+    Vue.component('logo-vue-icon', LogoVueIcon)
+    Vue.component('logo-web-component-icon', LogoWebComponentIcon)
+    Vue.component('logo-wechat-icon', LogoWechatIcon)
+    Vue.component('logo-whatsapp-icon', LogoWhatsappIcon)
     Vue.component('logo-windows-icon', LogoWindowsIcon)
-    Vue.component('logo-xing-icon', LogoXingIcon)
     Vue.component('logo-wordpress-icon', LogoWordpressIcon)
     Vue.component('logo-xbox-icon', LogoXboxIcon)
-    Vue.component('logo-yen-icon', LogoYenIcon)
+    Vue.component('logo-xing-icon', LogoXingIcon)
     Vue.component('logo-yahoo-icon', LogoYahooIcon)
-    Vue.component('md-add-circle-outline-icon', MdAddCircleOutlineIcon)
-    Vue.component('md-add-circle-icon', MdAddCircleIcon)
+    Vue.component('logo-yen-icon', LogoYenIcon)
     Vue.component('logo-youtube-icon', LogoYoutubeIcon)
-    Vue.component('md-add-icon', MdAddIcon)
-    Vue.component('md-alarm-icon', MdAlarmIcon)
-    Vue.component('md-airplane-icon', MdAirplaneIcon)
-    Vue.component('md-alert-icon', MdAlertIcon)
-    Vue.component('md-american-football-icon', MdAmericanFootballIcon)
-    Vue.component('md-analytics-icon', MdAnalyticsIcon)
-    Vue.component('md-aperture-icon', MdApertureIcon)
-    Vue.component('md-appstore-icon', MdAppstoreIcon)
-    Vue.component('md-apps-icon', MdAppsIcon)
-    Vue.component('md-arrow-back-icon', MdArrowBackIcon)
-    Vue.component('md-archive-icon', MdArchiveIcon)
-    Vue.component('md-arrow-down-icon', MdArrowDownIcon)
-    Vue.component('md-arrow-dropdown-circle-icon', MdArrowDropdownCircleIcon)
-    Vue.component('md-albums-icon', MdAlbumsIcon)
-    Vue.component('md-arrow-dropleft-circle-icon', MdArrowDropleftCircleIcon)
-    Vue.component('md-arrow-dropdown-icon', MdArrowDropdownIcon)
-    Vue.component('md-arrow-dropleft-icon', MdArrowDropleftIcon)
-    Vue.component('md-arrow-dropright-icon', MdArrowDroprightIcon)
-    Vue.component('md-arrow-dropright-circle-icon', MdArrowDroprightCircleIcon)
-    Vue.component('md-arrow-forward-icon', MdArrowForwardIcon)
-    Vue.component('md-arrow-dropup-icon', MdArrowDropupIcon)
-    Vue.component('md-arrow-dropup-circle-icon', MdArrowDropupCircleIcon)
-    Vue.component('md-arrow-round-back-icon', MdArrowRoundBackIcon)
-    Vue.component('md-arrow-round-up-icon', MdArrowRoundUpIcon)
-    Vue.component('md-arrow-round-down-icon', MdArrowRoundDownIcon)
-    Vue.component('md-at-icon', MdAtIcon)
-    Vue.component('md-arrow-up-icon', MdArrowUpIcon)
-    Vue.component('md-attach-icon', MdAttachIcon)
-    Vue.component('md-barcode-icon', MdBarcodeIcon)
-    Vue.component('md-arrow-round-forward-icon', MdArrowRoundForwardIcon)
-    Vue.component('md-backspace-icon', MdBackspaceIcon)
-    Vue.component('md-baseball-icon', MdBaseballIcon)
-    Vue.component('md-basketball-icon', MdBasketballIcon)
-    Vue.component('md-battery-charging-icon', MdBatteryChargingIcon)
-    Vue.component('md-basket-icon', MdBasketIcon)
-    Vue.component('md-battery-dead-icon', MdBatteryDeadIcon)
-    Vue.component('md-battery-full-icon', MdBatteryFullIcon)
-    Vue.component('md-beaker-icon', MdBeakerIcon)
-    Vue.component('md-bed-icon', MdBedIcon)
-    Vue.component('md-beer-icon', MdBeerIcon)
-    Vue.component('md-bluetooth-icon', MdBluetoothIcon)
-    Vue.component('md-boat-icon', MdBoatIcon)
-    Vue.component('md-bicycle-icon', MdBicycleIcon)
-    Vue.component('md-body-icon', MdBodyIcon)
-    Vue.component('md-bonfire-icon', MdBonfireIcon)
-    Vue.component('md-book-icon', MdBookIcon)
-    Vue.component('md-bookmark-icon', MdBookmarkIcon)
-    Vue.component('md-bookmarks-icon', MdBookmarksIcon)
-    Vue.component('md-briefcase-icon', MdBriefcaseIcon)
-    Vue.component('md-bowtie-icon', MdBowtieIcon)
-    Vue.component('md-browsers-icon', MdBrowsersIcon)
-    Vue.component('md-bug-icon', MdBugIcon)
-    Vue.component('md-build-icon', MdBuildIcon)
-    Vue.component('md-bulb-icon', MdBulbIcon)
-    Vue.component('md-bus-icon', MdBusIcon)
-    Vue.component('md-cafe-icon', MdCafeIcon)
-    Vue.component('md-calendar-icon', MdCalendarIcon)
-    Vue.component('md-call-icon', MdCallIcon)
-    Vue.component('md-brush-icon', MdBrushIcon)
-    Vue.component('md-camera-icon', MdCameraIcon)
-    Vue.component('md-calculator-icon', MdCalculatorIcon)
-    Vue.component('md-card-icon', MdCardIcon)
-    Vue.component('md-cellular-icon', MdCellularIcon)
-    Vue.component('md-cart-icon', MdCartIcon)
-    Vue.component('md-cash-icon', MdCashIcon)
-    Vue.component('md-chatboxes-icon', MdChatboxesIcon)
-    Vue.component('md-chatbubbles-icon', MdChatbubblesIcon)
-    Vue.component('md-checkbox-outline-icon', MdCheckboxOutlineIcon)
-    Vue.component('md-car-icon', MdCarIcon)
-    Vue.component('md-checkbox-icon', MdCheckboxIcon)
-    Vue.component('md-checkmark-circle-outline-icon', MdCheckmarkCircleOutlineIcon)
-    Vue.component('md-checkmark-circle-icon', MdCheckmarkCircleIcon)
-    Vue.component('md-checkmark-icon', MdCheckmarkIcon)
-    Vue.component('md-business-icon', MdBusinessIcon)
-    Vue.component('md-clock-icon', MdClockIcon)
-    Vue.component('md-close-circle-icon', MdCloseCircleIcon)
-    Vue.component('md-clipboard-icon', MdClipboardIcon)
-    Vue.component('md-close-circle-outline-icon', MdCloseCircleOutlineIcon)
-    Vue.component('md-cloud-circle-icon', MdCloudCircleIcon)
-    Vue.component('md-cloud-done-icon', MdCloudDoneIcon)
-    Vue.component('md-cloud-outline-icon', MdCloudOutlineIcon)
-    Vue.component('md-cloud-download-icon', MdCloudDownloadIcon)
-    Vue.component('md-close-icon', MdCloseIcon)
-    Vue.component('md-cloudy-night-icon', MdCloudyNightIcon)
-    Vue.component('md-cloud-icon', MdCloudIcon)
-    Vue.component('md-cloud-upload-icon', MdCloudUploadIcon)
-    Vue.component('md-cloudy-icon', MdCloudyIcon)
-    Vue.component('md-code-icon', MdCodeIcon)
-    Vue.component('md-code-download-icon', MdCodeDownloadIcon)
-    Vue.component('md-cog-icon', MdCogIcon)
-    Vue.component('md-code-working-icon', MdCodeWorkingIcon)
-    Vue.component('md-color-filter-icon', MdColorFilterIcon)
-    Vue.component('md-color-wand-icon', MdColorWandIcon)
-    Vue.component('md-color-fill-icon', MdColorFillIcon)
-    Vue.component('md-compass-icon', MdCompassIcon)
-    Vue.component('md-contacts-icon', MdContactsIcon)
-    Vue.component('md-construct-icon', MdConstructIcon)
-    Vue.component('md-contact-icon', MdContactIcon)
-    Vue.component('md-contract-icon', MdContractIcon)
-    Vue.component('md-contrast-icon', MdContrastIcon)
-    Vue.component('md-color-palette-icon', MdColorPaletteIcon)
-    Vue.component('md-copy-icon', MdCopyIcon)
-    Vue.component('md-cube-icon', MdCubeIcon)
-    Vue.component('md-crop-icon', MdCropIcon)
-    Vue.component('md-create-icon', MdCreateIcon)
-    Vue.component('md-disc-icon', MdDiscIcon)
-    Vue.component('md-cut-icon', MdCutIcon)
-    Vue.component('md-document-icon', MdDocumentIcon)
-    Vue.component('md-desktop-icon', MdDesktopIcon)
-    Vue.component('md-done-all-icon', MdDoneAllIcon)
-    Vue.component('md-download-icon', MdDownloadIcon)
-    Vue.component('md-expand-icon', MdExpandIcon)
-    Vue.component('md-egg-icon', MdEggIcon)
-    Vue.component('md-easel-icon', MdEaselIcon)
-    Vue.component('md-exit-icon', MdExitIcon)
-    Vue.component('md-eye-off-icon', MdEyeOffIcon)
-    Vue.component('md-eye-icon', MdEyeIcon)
-    Vue.component('md-fastforward-icon', MdFastforwardIcon)
-    Vue.component('md-filing-icon', MdFilingIcon)
-    Vue.component('md-female-icon', MdFemaleIcon)
-    Vue.component('md-film-icon', MdFilmIcon)
-    Vue.component('md-finger-print-icon', MdFingerPrintIcon)
-    Vue.component('md-flag-icon', MdFlagIcon)
-    Vue.component('md-fitness-icon', MdFitnessIcon)
-    Vue.component('md-flame-icon', MdFlameIcon)
-    Vue.component('md-flash-off-icon', MdFlashOffIcon)
-    Vue.component('md-flash-icon', MdFlashIcon)
-    Vue.component('md-flashlight-icon', MdFlashlightIcon)
-    Vue.component('md-flower-icon', MdFlowerIcon)
-    Vue.component('md-flask-icon', MdFlaskIcon)
-    Vue.component('md-folder-icon', MdFolderIcon)
-    Vue.component('md-folder-open-icon', MdFolderOpenIcon)
-    Vue.component('md-football-icon', MdFootballIcon)
-    Vue.component('md-git-commit-icon', MdGitCommitIcon)
-    Vue.component('md-gift-icon', MdGiftIcon)
-    Vue.component('md-git-branch-icon', MdGitBranchIcon)
-    Vue.component('md-git-merge-icon', MdGitMergeIcon)
-    Vue.component('md-git-compare-icon', MdGitCompareIcon)
-    Vue.component('md-funnel-icon', MdFunnelIcon)
-    Vue.component('md-git-pull-request-icon', MdGitPullRequestIcon)
-    Vue.component('md-git-network-icon', MdGitNetworkIcon)
-    Vue.component('md-glasses-icon', MdGlassesIcon)
-    Vue.component('md-globe-icon', MdGlobeIcon)
-    Vue.component('md-grid-icon', MdGridIcon)
-    Vue.component('md-hand-icon', MdHandIcon)
-    Vue.component('md-hammer-icon', MdHammerIcon)
-    Vue.component('md-happy-icon', MdHappyIcon)
-    Vue.component('md-heart-empty-icon', MdHeartEmptyIcon)
-    Vue.component('md-heart-dislike-icon', MdHeartDislikeIcon)
-    Vue.component('md-headset-icon', MdHeadsetIcon)
-    Vue.component('md-heart-icon', MdHeartIcon)
-    Vue.component('md-help-circle-outline-icon', MdHelpCircleOutlineIcon)
-    Vue.component('md-help-icon', MdHelpIcon)
-    Vue.component('md-help-circle-icon', MdHelpCircleIcon)
-    Vue.component('md-heart-half-icon', MdHeartHalfIcon)
-    Vue.component('md-hourglass-icon', MdHourglassIcon)
-    Vue.component('md-help-buoy-icon', MdHelpBuoyIcon)
-    Vue.component('md-home-icon', MdHomeIcon)
-    Vue.component('md-infinite-icon', MdInfiniteIcon)
-    Vue.component('md-images-icon', MdImagesIcon)
-    Vue.component('md-ice-cream-icon', MdIceCreamIcon)
-    Vue.component('md-information-circle-outline-icon', MdInformationCircleOutlineIcon)
-    Vue.component('md-information-circle-icon', MdInformationCircleIcon)
-    Vue.component('md-journal-icon', MdJournalIcon)
-    Vue.component('md-information-icon', MdInformationIcon)
-    Vue.component('md-jet-icon', MdJetIcon)
-    Vue.component('md-keypad-icon', MdKeypadIcon)
-    Vue.component('md-image-icon', MdImageIcon)
-    Vue.component('md-laptop-icon', MdLaptopIcon)
-    Vue.component('md-key-icon', MdKeyIcon)
-    Vue.component('md-leaf-icon', MdLeafIcon)
-    Vue.component('md-link-icon', MdLinkIcon)
-    Vue.component('md-list-box-icon', MdListBoxIcon)
-    Vue.component('md-list-icon', MdListIcon)
-    Vue.component('md-lock-icon', MdLockIcon)
-    Vue.component('md-locate-icon', MdLocateIcon)
-    Vue.component('md-log-out-icon', MdLogOutIcon)
-    Vue.component('md-log-in-icon', MdLogInIcon)
-    Vue.component('md-mail-open-icon', MdMailOpenIcon)
-    Vue.component('md-magnet-icon', MdMagnetIcon)
-    Vue.component('md-mail-unread-icon', MdMailUnreadIcon)
-    Vue.component('md-mail-icon', MdMailIcon)
-    Vue.component('md-man-icon', MdManIcon)
-    Vue.component('md-map-icon', MdMapIcon)
-    Vue.component('md-medkit-icon', MdMedkitIcon)
-    Vue.component('md-medal-icon', MdMedalIcon)
-    Vue.component('md-megaphone-icon', MdMegaphoneIcon)
-    Vue.component('md-medical-icon', MdMedicalIcon)
-    Vue.component('md-male-icon', MdMaleIcon)
-    Vue.component('md-mic-off-icon', MdMicOffIcon)
-    Vue.component('md-menu-icon', MdMenuIcon)
-    Vue.component('md-moon-icon', MdMoonIcon)
-    Vue.component('md-mic-icon', MdMicIcon)
-    Vue.component('md-microphone-icon', MdMicrophoneIcon)
-    Vue.component('md-move-icon', MdMoveIcon)
-    Vue.component('md-more-icon', MdMoreIcon)
-    Vue.component('md-musical-note-icon', MdMusicalNoteIcon)
-    Vue.component('md-musical-notes-icon', MdMusicalNotesIcon)
-    Vue.component('md-navigate-icon', MdNavigateIcon)
-    Vue.component('md-notifications-off-icon', MdNotificationsOffIcon)
-    Vue.component('md-notifications-outline-icon', MdNotificationsOutlineIcon)
-    Vue.component('md-notifications-icon', MdNotificationsIcon)
-    Vue.component('md-nutrition-icon', MdNutritionIcon)
-    Vue.component('md-nuclear-icon', MdNuclearIcon)
-    Vue.component('md-options-icon', MdOptionsIcon)
-    Vue.component('md-outlet-icon', MdOutletIcon)
-    Vue.component('md-open-icon', MdOpenIcon)
-    Vue.component('md-paper-icon', MdPaperIcon)
-    Vue.component('md-paper-plane-icon', MdPaperPlaneIcon)
-    Vue.component('md-partly-sunny-icon', MdPartlySunnyIcon)
-    Vue.component('md-people-icon', MdPeopleIcon)
-    Vue.component('md-pause-icon', MdPauseIcon)
-    Vue.component('md-paw-icon', MdPawIcon)
-    Vue.component('md-person-add-icon', MdPersonAddIcon)
-    Vue.component('md-person-icon', MdPersonIcon)
-    Vue.component('md-phone-portrait-icon', MdPhonePortraitIcon)
-    Vue.component('md-phone-landscape-icon', MdPhoneLandscapeIcon)
-    Vue.component('md-photos-icon', MdPhotosIcon)
-    Vue.component('md-pie-icon', MdPieIcon)
-    Vue.component('md-pin-icon', MdPinIcon)
-    Vue.component('md-pint-icon', MdPintIcon)
-    Vue.component('md-planet-icon', MdPlanetIcon)
-    Vue.component('md-pizza-icon', MdPizzaIcon)
-    Vue.component('md-play-circle-icon', MdPlayCircleIcon)
-    Vue.component('md-podium-icon', MdPodiumIcon)
-    Vue.component('md-play-icon', MdPlayIcon)
-    Vue.component('md-power-icon', MdPowerIcon)
-    Vue.component('md-pricetag-icon', MdPricetagIcon)
-    Vue.component('md-pricetags-icon', MdPricetagsIcon)
-    Vue.component('md-print-icon', MdPrintIcon)
-    Vue.component('md-pulse-icon', MdPulseIcon)
-    Vue.component('md-quote-icon', MdQuoteIcon)
-    Vue.component('md-qr-scanner-icon', MdQrScannerIcon)
-    Vue.component('md-radio-button-off-icon', MdRadioButtonOffIcon)
-    Vue.component('md-radio-icon', MdRadioIcon)
-    Vue.component('md-rainy-icon', MdRainyIcon)
-    Vue.component('md-radio-button-on-icon', MdRadioButtonOnIcon)
-    Vue.component('md-redo-icon', MdRedoIcon)
-    Vue.component('md-recording-icon', MdRecordingIcon)
-    Vue.component('md-remove-circle-outline-icon', MdRemoveCircleOutlineIcon)
-    Vue.component('md-refresh-circle-icon', MdRefreshCircleIcon)
-    Vue.component('md-remove-circle-icon', MdRemoveCircleIcon)
-    Vue.component('md-refresh-icon', MdRefreshIcon)
-    Vue.component('md-remove-icon', MdRemoveIcon)
-    Vue.component('md-reorder-icon', MdReorderIcon)
-    Vue.component('md-resize-icon', MdResizeIcon)
-    Vue.component('md-restaurant-icon', MdRestaurantIcon)
-    Vue.component('md-return-right-icon', MdReturnRightIcon)
-    Vue.component('md-return-left-icon', MdReturnLeftIcon)
-    Vue.component('md-reverse-camera-icon', MdReverseCameraIcon)
-    Vue.component('md-rewind-icon', MdRewindIcon)
-    Vue.component('md-ribbon-icon', MdRibbonIcon)
-    Vue.component('md-rocket-icon', MdRocketIcon)
-    Vue.component('md-repeat-icon', MdRepeatIcon)
-    Vue.component('md-rose-icon', MdRoseIcon)
-    Vue.component('md-sad-icon', MdSadIcon)
-    Vue.component('md-save-icon', MdSaveIcon)
-    Vue.component('md-school-icon', MdSchoolIcon)
-    Vue.component('md-search-icon', MdSearchIcon)
-    Vue.component('md-send-icon', MdSendIcon)
-    Vue.component('md-share-alt-icon', MdShareAltIcon)
-    Vue.component('md-settings-icon', MdSettingsIcon)
-    Vue.component('md-share-icon', MdShareIcon)
-    Vue.component('md-skip-backward-icon', MdSkipBackwardIcon)
-    Vue.component('md-shuffle-icon', MdShuffleIcon)
-    Vue.component('md-skip-forward-icon', MdSkipForwardIcon)
-    Vue.component('md-shirt-icon', MdShirtIcon)
-    Vue.component('md-snow-icon', MdSnowIcon)
-    Vue.component('md-speedometer-icon', MdSpeedometerIcon)
-    Vue.component('md-square-outline-icon', MdSquareOutlineIcon)
-    Vue.component('md-star-half-icon', MdStarHalfIcon)
-    Vue.component('md-square-icon', MdSquareIcon)
-    Vue.component('md-star-outline-icon', MdStarOutlineIcon)
-    Vue.component('md-star-icon', MdStarIcon)
-    Vue.component('md-stopwatch-icon', MdStopwatchIcon)
-    Vue.component('md-stats-icon', MdStatsIcon)
-    Vue.component('md-sunny-icon', MdSunnyIcon)
-    Vue.component('md-subway-icon', MdSubwayIcon)
-    Vue.component('md-swap-icon', MdSwapIcon)
-    Vue.component('md-switch-icon', MdSwitchIcon)
-    Vue.component('md-sync-icon', MdSyncIcon)
-    Vue.component('md-tablet-landscape-icon', MdTabletLandscapeIcon)
-    Vue.component('md-tablet-portrait-icon', MdTabletPortraitIcon)
-    Vue.component('md-tennisball-icon', MdTennisballIcon)
-    Vue.component('md-text-icon', MdTextIcon)
-    Vue.component('md-thermometer-icon', MdThermometerIcon)
-    Vue.component('md-thumbs-down-icon', MdThumbsDownIcon)
-    Vue.component('md-thunderstorm-icon', MdThunderstormIcon)
-    Vue.component('md-thumbs-up-icon', MdThumbsUpIcon)
-    Vue.component('md-timer-icon', MdTimerIcon)
-    Vue.component('md-today-icon', MdTodayIcon)
-    Vue.component('md-time-icon', MdTimeIcon)
-    Vue.component('md-train-icon', MdTrainIcon)
-    Vue.component('md-transgender-icon', MdTransgenderIcon)
-    Vue.component('md-trash-icon', MdTrashIcon)
-    Vue.component('md-trending-down-icon', MdTrendingDownIcon)
-    Vue.component('md-trending-up-icon', MdTrendingUpIcon)
-    Vue.component('md-trophy-icon', MdTrophyIcon)
-    Vue.component('md-tv-icon', MdTvIcon)
-    Vue.component('md-umbrella-icon', MdUmbrellaIcon)
-    Vue.component('md-undo-icon', MdUndoIcon)
-    Vue.component('md-unlock-icon', MdUnlockIcon)
-    Vue.component('md-videocam-icon', MdVideocamIcon)
-    Vue.component('md-volume-high-icon', MdVolumeHighIcon)
-    Vue.component('md-volume-low-icon', MdVolumeLowIcon)
-    Vue.component('md-volume-off-icon', MdVolumeOffIcon)
-    Vue.component('md-volume-mute-icon', MdVolumeMuteIcon)
-    Vue.component('md-walk-icon', MdWalkIcon)
-    Vue.component('md-wallet-icon', MdWalletIcon)
-    Vue.component('md-watch-icon', MdWatchIcon)
-    Vue.component('md-water-icon', MdWaterIcon)
-    Vue.component('md-wifi-icon', MdWifiIcon)
-    Vue.component('md-wine-icon', MdWineIcon)
-    Vue.component('md-woman-icon', MdWomanIcon)
-    Vue.component('md-warning-icon', MdWarningIcon)
+    Vue.component('magnet-outline-icon', MagnetOutlineIcon)
+    Vue.component('magnet-sharp-icon', MagnetSharpIcon)
+    Vue.component('magnet-icon', MagnetIcon)
+    Vue.component('mail-open-outline-icon', MailOpenOutlineIcon)
+    Vue.component('mail-open-sharp-icon', MailOpenSharpIcon)
+    Vue.component('mail-open-icon', MailOpenIcon)
+    Vue.component('mail-outline-icon', MailOutlineIcon)
+    Vue.component('mail-sharp-icon', MailSharpIcon)
+    Vue.component('mail-unread-outline-icon', MailUnreadOutlineIcon)
+    Vue.component('mail-unread-sharp-icon', MailUnreadSharpIcon)
+    Vue.component('mail-unread-icon', MailUnreadIcon)
+    Vue.component('mail-icon', MailIcon)
+    Vue.component('male-female-outline-icon', MaleFemaleOutlineIcon)
+    Vue.component('male-female-sharp-icon', MaleFemaleSharpIcon)
+    Vue.component('male-female-icon', MaleFemaleIcon)
+    Vue.component('male-outline-icon', MaleOutlineIcon)
+    Vue.component('male-sharp-icon', MaleSharpIcon)
+    Vue.component('male-icon', MaleIcon)
+    Vue.component('man-outline-icon', ManOutlineIcon)
+    Vue.component('man-sharp-icon', ManSharpIcon)
+    Vue.component('man-icon', ManIcon)
+    Vue.component('map-outline-icon', MapOutlineIcon)
+    Vue.component('map-sharp-icon', MapSharpIcon)
+    Vue.component('map-icon', MapIcon)
+    Vue.component('medal-outline-icon', MedalOutlineIcon)
+    Vue.component('medal-sharp-icon', MedalSharpIcon)
+    Vue.component('medal-icon', MedalIcon)
+    Vue.component('medical-outline-icon', MedicalOutlineIcon)
+    Vue.component('medical-sharp-icon', MedicalSharpIcon)
+    Vue.component('medical-icon', MedicalIcon)
+    Vue.component('medkit-outline-icon', MedkitOutlineIcon)
+    Vue.component('medkit-sharp-icon', MedkitSharpIcon)
+    Vue.component('medkit-icon', MedkitIcon)
+    Vue.component('megaphone-outline-icon', MegaphoneOutlineIcon)
+    Vue.component('megaphone-sharp-icon', MegaphoneSharpIcon)
+    Vue.component('megaphone-icon', MegaphoneIcon)
+    Vue.component('menu-outline-icon', MenuOutlineIcon)
+    Vue.component('menu-sharp-icon', MenuSharpIcon)
+    Vue.component('menu-icon', MenuIcon)
+    Vue.component('mic-circle-outline-icon', MicCircleOutlineIcon)
+    Vue.component('mic-circle-sharp-icon', MicCircleSharpIcon)
+    Vue.component('mic-circle-icon', MicCircleIcon)
+    Vue.component('mic-off-circle-outline-icon', MicOffCircleOutlineIcon)
+    Vue.component('mic-off-circle-sharp-icon', MicOffCircleSharpIcon)
+    Vue.component('mic-off-circle-icon', MicOffCircleIcon)
+    Vue.component('mic-off-outline-icon', MicOffOutlineIcon)
+    Vue.component('mic-off-sharp-icon', MicOffSharpIcon)
+    Vue.component('mic-off-icon', MicOffIcon)
+    Vue.component('mic-outline-icon', MicOutlineIcon)
+    Vue.component('mic-sharp-icon', MicSharpIcon)
+    Vue.component('mic-icon', MicIcon)
+    Vue.component('moon-outline-icon', MoonOutlineIcon)
+    Vue.component('moon-sharp-icon', MoonSharpIcon)
+    Vue.component('moon-icon', MoonIcon)
+    Vue.component('move-outline-icon', MoveOutlineIcon)
+    Vue.component('move-sharp-icon', MoveSharpIcon)
+    Vue.component('move-icon', MoveIcon)
+    Vue.component('musical-note-outline-icon', MusicalNoteOutlineIcon)
+    Vue.component('musical-note-sharp-icon', MusicalNoteSharpIcon)
+    Vue.component('musical-note-icon', MusicalNoteIcon)
+    Vue.component('musical-notes-outline-icon', MusicalNotesOutlineIcon)
+    Vue.component('musical-notes-sharp-icon', MusicalNotesSharpIcon)
+    Vue.component('musical-notes-icon', MusicalNotesIcon)
+    Vue.component('navigate-circle-outline-icon', NavigateCircleOutlineIcon)
+    Vue.component('navigate-circle-sharp-icon', NavigateCircleSharpIcon)
+    Vue.component('navigate-circle-icon', NavigateCircleIcon)
+    Vue.component('navigate-outline-icon', NavigateOutlineIcon)
+    Vue.component('navigate-sharp-icon', NavigateSharpIcon)
+    Vue.component('navigate-icon', NavigateIcon)
+    Vue.component('newspaper-outline-icon', NewspaperOutlineIcon)
+    Vue.component('newspaper-sharp-icon', NewspaperSharpIcon)
+    Vue.component('newspaper-icon', NewspaperIcon)
+    Vue.component('notifications-circle-outline-icon', NotificationsCircleOutlineIcon)
+    Vue.component('notifications-circle-sharp-icon', NotificationsCircleSharpIcon)
+    Vue.component('notifications-circle-icon', NotificationsCircleIcon)
+    Vue.component('notifications-off-circle-outline-icon', NotificationsOffCircleOutlineIcon)
+    Vue.component('notifications-off-circle-sharp-icon', NotificationsOffCircleSharpIcon)
+    Vue.component('notifications-off-circle-icon', NotificationsOffCircleIcon)
+    Vue.component('notifications-off-outline-icon', NotificationsOffOutlineIcon)
+    Vue.component('notifications-off-sharp-icon', NotificationsOffSharpIcon)
+    Vue.component('notifications-off-icon', NotificationsOffIcon)
+    Vue.component('notifications-outline-icon', NotificationsOutlineIcon)
+    Vue.component('notifications-sharp-icon', NotificationsSharpIcon)
+    Vue.component('notifications-icon', NotificationsIcon)
+    Vue.component('nuclear-outline-icon', NuclearOutlineIcon)
+    Vue.component('nuclear-sharp-icon', NuclearSharpIcon)
+    Vue.component('nuclear-icon', NuclearIcon)
+    Vue.component('nutrition-outline-icon', NutritionOutlineIcon)
+    Vue.component('nutrition-sharp-icon', NutritionSharpIcon)
+    Vue.component('nutrition-icon', NutritionIcon)
+    Vue.component('open-outline-icon', OpenOutlineIcon)
+    Vue.component('open-sharp-icon', OpenSharpIcon)
+    Vue.component('open-icon', OpenIcon)
+    Vue.component('options-outline-icon', OptionsOutlineIcon)
+    Vue.component('options-sharp-icon', OptionsSharpIcon)
+    Vue.component('options-icon', OptionsIcon)
+    Vue.component('paper-plane-outline-icon', PaperPlaneOutlineIcon)
+    Vue.component('paper-plane-sharp-icon', PaperPlaneSharpIcon)
+    Vue.component('paper-plane-icon', PaperPlaneIcon)
+    Vue.component('partly-sunny-outline-icon', PartlySunnyOutlineIcon)
+    Vue.component('partly-sunny-sharp-icon', PartlySunnySharpIcon)
+    Vue.component('partly-sunny-icon', PartlySunnyIcon)
+    Vue.component('pause-circle-outline-icon', PauseCircleOutlineIcon)
+    Vue.component('pause-circle-sharp-icon', PauseCircleSharpIcon)
+    Vue.component('pause-circle-icon', PauseCircleIcon)
+    Vue.component('pause-outline-icon', PauseOutlineIcon)
+    Vue.component('pause-sharp-icon', PauseSharpIcon)
+    Vue.component('pause-icon', PauseIcon)
+    Vue.component('paw-outline-icon', PawOutlineIcon)
+    Vue.component('paw-sharp-icon', PawSharpIcon)
+    Vue.component('paw-icon', PawIcon)
+    Vue.component('pencil-outline-icon', PencilOutlineIcon)
+    Vue.component('pencil-icon', PencilIcon)
+    Vue.component('people-circle-outline-icon', PeopleCircleOutlineIcon)
+    Vue.component('people-circle-sharp-icon', PeopleCircleSharpIcon)
+    Vue.component('people-circle-icon', PeopleCircleIcon)
+    Vue.component('people-outline-icon', PeopleOutlineIcon)
+    Vue.component('people-sharp-icon', PeopleSharpIcon)
+    Vue.component('people-icon', PeopleIcon)
+    Vue.component('person-add-outline-icon', PersonAddOutlineIcon)
+    Vue.component('person-add-sharp-icon', PersonAddSharpIcon)
+    Vue.component('person-add-icon', PersonAddIcon)
+    Vue.component('person-circle-outline-icon', PersonCircleOutlineIcon)
+    Vue.component('person-circle-sharp-icon', PersonCircleSharpIcon)
+    Vue.component('person-circle-icon', PersonCircleIcon)
+    Vue.component('person-outline-icon', PersonOutlineIcon)
+    Vue.component('person-remove-outline-icon', PersonRemoveOutlineIcon)
+    Vue.component('person-remove-sharp-icon', PersonRemoveSharpIcon)
+    Vue.component('person-remove-icon', PersonRemoveIcon)
+    Vue.component('person-sharp-icon', PersonSharpIcon)
+    Vue.component('person-icon', PersonIcon)
+    Vue.component('phone-landscape-outline-icon', PhoneLandscapeOutlineIcon)
+    Vue.component('phone-landscape-sharp-icon', PhoneLandscapeSharpIcon)
+    Vue.component('phone-landscape-icon', PhoneLandscapeIcon)
+    Vue.component('phone-portrait-outline-icon', PhonePortraitOutlineIcon)
+    Vue.component('phone-portrait-sharp-icon', PhonePortraitSharpIcon)
+    Vue.component('phone-portrait-icon', PhonePortraitIcon)
+    Vue.component('pie-chart-outline-icon', PieChartOutlineIcon)
+    Vue.component('pie-chart-sharp-icon', PieChartSharpIcon)
+    Vue.component('pie-chart-icon', PieChartIcon)
+    Vue.component('pin-outline-icon', PinOutlineIcon)
+    Vue.component('pin-sharp-icon', PinSharpIcon)
+    Vue.component('pin-icon', PinIcon)
+    Vue.component('pint-outline-icon', PintOutlineIcon)
+    Vue.component('pint-sharp-icon', PintSharpIcon)
+    Vue.component('pint-icon', PintIcon)
+    Vue.component('pizza-outline-icon', PizzaOutlineIcon)
+    Vue.component('pizza-sharp-icon', PizzaSharpIcon)
+    Vue.component('pizza-icon', PizzaIcon)
+    Vue.component('planet-outline-icon', PlanetOutlineIcon)
+    Vue.component('planet-sharp-icon', PlanetSharpIcon)
+    Vue.component('planet-icon', PlanetIcon)
+    Vue.component('play-back-circle-outline-icon', PlayBackCircleOutlineIcon)
+    Vue.component('play-back-circle-sharp-icon', PlayBackCircleSharpIcon)
+    Vue.component('play-back-circle-icon', PlayBackCircleIcon)
+    Vue.component('play-back-outline-icon', PlayBackOutlineIcon)
+    Vue.component('play-back-sharp-icon', PlayBackSharpIcon)
+    Vue.component('play-back-icon', PlayBackIcon)
+    Vue.component('play-circle-outline-icon', PlayCircleOutlineIcon)
+    Vue.component('play-circle-sharp-icon', PlayCircleSharpIcon)
+    Vue.component('play-circle-icon', PlayCircleIcon)
+    Vue.component('play-forward-circle-outline-icon', PlayForwardCircleOutlineIcon)
+    Vue.component('play-forward-circle-sharp-icon', PlayForwardCircleSharpIcon)
+    Vue.component('play-forward-circle-icon', PlayForwardCircleIcon)
+    Vue.component('play-forward-outline-icon', PlayForwardOutlineIcon)
+    Vue.component('play-forward-sharp-icon', PlayForwardSharpIcon)
+    Vue.component('play-forward-icon', PlayForwardIcon)
+    Vue.component('play-outline-icon', PlayOutlineIcon)
+    Vue.component('play-sharp-icon', PlaySharpIcon)
+    Vue.component('play-skip-back-circle-outline-icon', PlaySkipBackCircleOutlineIcon)
+    Vue.component('play-skip-back-circle-sharp-icon', PlaySkipBackCircleSharpIcon)
+    Vue.component('play-skip-back-circle-icon', PlaySkipBackCircleIcon)
+    Vue.component('play-skip-back-outline-icon', PlaySkipBackOutlineIcon)
+    Vue.component('play-skip-back-sharp-icon', PlaySkipBackSharpIcon)
+    Vue.component('play-skip-back-icon', PlaySkipBackIcon)
+    Vue.component('play-skip-forward-circle-outline-icon', PlaySkipForwardCircleOutlineIcon)
+    Vue.component('play-skip-forward-circle-sharp-icon', PlaySkipForwardCircleSharpIcon)
+    Vue.component('play-skip-forward-circle-icon', PlaySkipForwardCircleIcon)
+    Vue.component('play-skip-forward-outline-icon', PlaySkipForwardOutlineIcon)
+    Vue.component('play-skip-forward-sharp-icon', PlaySkipForwardSharpIcon)
+    Vue.component('play-icon', PlayIcon)
+    Vue.component('podium-outline-icon', PodiumOutlineIcon)
+    Vue.component('podium-sharp-icon', PodiumSharpIcon)
+    Vue.component('podium-icon', PodiumIcon)
+    Vue.component('power-outline-icon', PowerOutlineIcon)
+    Vue.component('power-sharp-icon', PowerSharpIcon)
+    Vue.component('power-icon', PowerIcon)
+    Vue.component('pricetag-outline-icon', PricetagOutlineIcon)
+    Vue.component('pricetag-sharp-icon', PricetagSharpIcon)
+    Vue.component('pricetag-icon', PricetagIcon)
+    Vue.component('pricetags-outline-icon', PricetagsOutlineIcon)
+    Vue.component('play-skip-forward-icon', PlaySkipForwardIcon)
+    Vue.component('pricetags-sharp-icon', PricetagsSharpIcon)
+    Vue.component('print-outline-icon', PrintOutlineIcon)
+    Vue.component('print-sharp-icon', PrintSharpIcon)
+    Vue.component('pricetags-icon', PricetagsIcon)
+    Vue.component('print-icon', PrintIcon)
+    Vue.component('prism-outline-icon', PrismOutlineIcon)
+    Vue.component('prism-sharp-icon', PrismSharpIcon)
+    Vue.component('prism-icon', PrismIcon)
+    Vue.component('pulse-outline-icon', PulseOutlineIcon)
+    Vue.component('pulse-sharp-icon', PulseSharpIcon)
+    Vue.component('pulse-icon', PulseIcon)
+    Vue.component('push-outline-icon', PushOutlineIcon)
+    Vue.component('push-sharp-icon', PushSharpIcon)
+    Vue.component('push-icon', PushIcon)
+    Vue.component('qr-code-outline-icon', QrCodeOutlineIcon)
+    Vue.component('qr-code-sharp-icon', QrCodeSharpIcon)
+    Vue.component('qr-code-icon', QrCodeIcon)
+    Vue.component('radio-button-off-outline-icon', RadioButtonOffOutlineIcon)
+    Vue.component('radio-button-off-sharp-icon', RadioButtonOffSharpIcon)
+    Vue.component('radio-button-off-icon', RadioButtonOffIcon)
+    Vue.component('radio-button-on-outline-icon', RadioButtonOnOutlineIcon)
+    Vue.component('radio-button-on-sharp-icon', RadioButtonOnSharpIcon)
+    Vue.component('radio-button-on-icon', RadioButtonOnIcon)
+    Vue.component('radio-outline-icon', RadioOutlineIcon)
+    Vue.component('radio-sharp-icon', RadioSharpIcon)
+    Vue.component('radio-icon', RadioIcon)
+    Vue.component('rainy-outline-icon', RainyOutlineIcon)
+    Vue.component('rainy-sharp-icon', RainySharpIcon)
+    Vue.component('rainy-icon', RainyIcon)
+    Vue.component('reader-outline-icon', ReaderOutlineIcon)
+    Vue.component('reader-sharp-icon', ReaderSharpIcon)
+    Vue.component('reader-icon', ReaderIcon)
+    Vue.component('receipt-outline-icon', ReceiptOutlineIcon)
+    Vue.component('receipt-sharp-icon', ReceiptSharpIcon)
+    Vue.component('receipt-icon', ReceiptIcon)
+    Vue.component('recording-outline-icon', RecordingOutlineIcon)
+    Vue.component('recording-sharp-icon', RecordingSharpIcon)
+    Vue.component('recording-icon', RecordingIcon)
+    Vue.component('refresh-circle-outline-icon', RefreshCircleOutlineIcon)
+    Vue.component('refresh-circle-sharp-icon', RefreshCircleSharpIcon)
+    Vue.component('refresh-circle-icon', RefreshCircleIcon)
+    Vue.component('refresh-outline-icon', RefreshOutlineIcon)
+    Vue.component('refresh-sharp-icon', RefreshSharpIcon)
+    Vue.component('refresh-icon', RefreshIcon)
+    Vue.component('reload-circle-outline-icon', ReloadCircleOutlineIcon)
+    Vue.component('reload-circle-sharp-icon', ReloadCircleSharpIcon)
+    Vue.component('reload-circle-icon', ReloadCircleIcon)
+    Vue.component('reload-outline-icon', ReloadOutlineIcon)
+    Vue.component('reload-sharp-icon', ReloadSharpIcon)
+    Vue.component('reload-icon', ReloadIcon)
+    Vue.component('remove-circle-outline-icon', RemoveCircleOutlineIcon)
+    Vue.component('remove-circle-sharp-icon', RemoveCircleSharpIcon)
+    Vue.component('remove-circle-icon', RemoveCircleIcon)
+    Vue.component('remove-outline-icon', RemoveOutlineIcon)
+    Vue.component('remove-sharp-icon', RemoveSharpIcon)
+    Vue.component('remove-icon', RemoveIcon)
+    Vue.component('reorder-four-outline-icon', ReorderFourOutlineIcon)
+    Vue.component('reorder-four-sharp-icon', ReorderFourSharpIcon)
+    Vue.component('reorder-four-icon', ReorderFourIcon)
+    Vue.component('reorder-three-outline-icon', ReorderThreeOutlineIcon)
+    Vue.component('reorder-three-sharp-icon', ReorderThreeSharpIcon)
+    Vue.component('reorder-three-icon', ReorderThreeIcon)
+    Vue.component('reorder-two-outline-icon', ReorderTwoOutlineIcon)
+    Vue.component('reorder-two-sharp-icon', ReorderTwoSharpIcon)
+    Vue.component('reorder-two-icon', ReorderTwoIcon)
+    Vue.component('repeat-outline-icon', RepeatOutlineIcon)
+    Vue.component('repeat-sharp-icon', RepeatSharpIcon)
+    Vue.component('repeat-icon', RepeatIcon)
+    Vue.component('resize-outline-icon', ResizeOutlineIcon)
+    Vue.component('resize-sharp-icon', ResizeSharpIcon)
+    Vue.component('resize-icon', ResizeIcon)
+    Vue.component('restaurant-outline-icon', RestaurantOutlineIcon)
+    Vue.component('restaurant-sharp-icon', RestaurantSharpIcon)
+    Vue.component('restaurant-icon', RestaurantIcon)
+    Vue.component('return-down-back-outline-icon', ReturnDownBackOutlineIcon)
+    Vue.component('return-down-back-sharp-icon', ReturnDownBackSharpIcon)
+    Vue.component('return-down-back-icon', ReturnDownBackIcon)
+    Vue.component('return-down-forward-outline-icon', ReturnDownForwardOutlineIcon)
+    Vue.component('return-down-forward-sharp-icon', ReturnDownForwardSharpIcon)
+    Vue.component('return-down-forward-icon', ReturnDownForwardIcon)
+    Vue.component('return-up-back-outline-icon', ReturnUpBackOutlineIcon)
+    Vue.component('return-up-back-sharp-icon', ReturnUpBackSharpIcon)
+    Vue.component('return-up-back-icon', ReturnUpBackIcon)
+    Vue.component('return-up-forward-outline-icon', ReturnUpForwardOutlineIcon)
+    Vue.component('return-up-forward-sharp-icon', ReturnUpForwardSharpIcon)
+    Vue.component('return-up-forward-icon', ReturnUpForwardIcon)
+    Vue.component('ribbon-outline-icon', RibbonOutlineIcon)
+    Vue.component('ribbon-sharp-icon', RibbonSharpIcon)
+    Vue.component('ribbon-icon', RibbonIcon)
+    Vue.component('rocket-outline-icon', RocketOutlineIcon)
+    Vue.component('rocket-sharp-icon', RocketSharpIcon)
+    Vue.component('rocket-icon', RocketIcon)
+    Vue.component('rose-outline-icon', RoseOutlineIcon)
+    Vue.component('rose-sharp-icon', RoseSharpIcon)
+    Vue.component('rose-icon', RoseIcon)
+    Vue.component('sad-outline-icon', SadOutlineIcon)
+    Vue.component('sad-sharp-icon', SadSharpIcon)
+    Vue.component('sad-icon', SadIcon)
+    Vue.component('save-outline-icon', SaveOutlineIcon)
+    Vue.component('save-sharp-icon', SaveSharpIcon)
+    Vue.component('save-icon', SaveIcon)
+    Vue.component('scale-outline-icon', ScaleOutlineIcon)
+    Vue.component('scale-sharp-icon', ScaleSharpIcon)
+    Vue.component('scale-icon', ScaleIcon)
+    Vue.component('scan-circle-outline-icon', ScanCircleOutlineIcon)
+    Vue.component('scan-circle-sharp-icon', ScanCircleSharpIcon)
+    Vue.component('scan-circle-icon', ScanCircleIcon)
+    Vue.component('scan-outline-icon', ScanOutlineIcon)
+    Vue.component('scan-sharp-icon', ScanSharpIcon)
+    Vue.component('scan-icon', ScanIcon)
+    Vue.component('school-outline-icon', SchoolOutlineIcon)
+    Vue.component('school-sharp-icon', SchoolSharpIcon)
+    Vue.component('school-icon', SchoolIcon)
+    Vue.component('search-circle-outline-icon', SearchCircleOutlineIcon)
+    Vue.component('search-circle-sharp-icon', SearchCircleSharpIcon)
+    Vue.component('search-circle-icon', SearchCircleIcon)
+    Vue.component('search-outline-icon', SearchOutlineIcon)
+    Vue.component('search-sharp-icon', SearchSharpIcon)
+    Vue.component('search-icon', SearchIcon)
+    Vue.component('send-outline-icon', SendOutlineIcon)
+    Vue.component('send-sharp-icon', SendSharpIcon)
+    Vue.component('send-icon', SendIcon)
+    Vue.component('server-outline-icon', ServerOutlineIcon)
+    Vue.component('server-sharp-icon', ServerSharpIcon)
+    Vue.component('server-icon', ServerIcon)
+    Vue.component('settings-outline-icon', SettingsOutlineIcon)
+    Vue.component('settings-sharp-icon', SettingsSharpIcon)
+    Vue.component('settings-icon', SettingsIcon)
+    Vue.component('shapes-outline-icon', ShapesOutlineIcon)
+    Vue.component('shapes-sharp-icon', ShapesSharpIcon)
+    Vue.component('shapes-icon', ShapesIcon)
+    Vue.component('share-outline-icon', ShareOutlineIcon)
+    Vue.component('share-sharp-icon', ShareSharpIcon)
+    Vue.component('share-social-outline-icon', ShareSocialOutlineIcon)
+    Vue.component('share-social-sharp-icon', ShareSocialSharpIcon)
+    Vue.component('share-social-icon', ShareSocialIcon)
+    Vue.component('share-icon', ShareIcon)
+    Vue.component('shield-checkmark-outline-icon', ShieldCheckmarkOutlineIcon)
+    Vue.component('shield-checkmark-sharp-icon', ShieldCheckmarkSharpIcon)
+    Vue.component('shield-checkmark-icon', ShieldCheckmarkIcon)
+    Vue.component('shield-half-outline-icon', ShieldHalfOutlineIcon)
+    Vue.component('shield-half-sharp-icon', ShieldHalfSharpIcon)
+    Vue.component('shield-half-icon', ShieldHalfIcon)
+    Vue.component('shield-outline-icon', ShieldOutlineIcon)
+    Vue.component('shield-sharp-icon', ShieldSharpIcon)
+    Vue.component('shield-icon', ShieldIcon)
+    Vue.component('shirt-outline-icon', ShirtOutlineIcon)
+    Vue.component('shirt-sharp-icon', ShirtSharpIcon)
+    Vue.component('shirt-icon', ShirtIcon)
+    Vue.component('shuffle-outline-icon', ShuffleOutlineIcon)
+    Vue.component('shuffle-sharp-icon', ShuffleSharpIcon)
+    Vue.component('shuffle-icon', ShuffleIcon)
+    Vue.component('skull-outline-icon', SkullOutlineIcon)
+    Vue.component('skull-sharp-icon', SkullSharpIcon)
+    Vue.component('skull-icon', SkullIcon)
+    Vue.component('snow-outline-icon', SnowOutlineIcon)
+    Vue.component('snow-sharp-icon', SnowSharpIcon)
+    Vue.component('snow-icon', SnowIcon)
+    Vue.component('sparkles-outline-icon', SparklesOutlineIcon)
+    Vue.component('sparkles-sharp-icon', SparklesSharpIcon)
+    Vue.component('sparkles-icon', SparklesIcon)
+    Vue.component('speedometer-outline-icon', SpeedometerOutlineIcon)
+    Vue.component('speedometer-sharp-icon', SpeedometerSharpIcon)
+    Vue.component('speedometer-icon', SpeedometerIcon)
+    Vue.component('square-outline-icon', SquareOutlineIcon)
+    Vue.component('square-sharp-icon', SquareSharpIcon)
+    Vue.component('square-icon', SquareIcon)
+    Vue.component('star-half-outline-icon', StarHalfOutlineIcon)
+    Vue.component('star-half-sharp-icon', StarHalfSharpIcon)
+    Vue.component('star-half-icon', StarHalfIcon)
+    Vue.component('star-outline-icon', StarOutlineIcon)
+    Vue.component('star-sharp-icon', StarSharpIcon)
+    Vue.component('star-icon', StarIcon)
+    Vue.component('stats-chart-outline-icon', StatsChartOutlineIcon)
+    Vue.component('stats-chart-sharp-icon', StatsChartSharpIcon)
+    Vue.component('stats-chart-icon', StatsChartIcon)
+    Vue.component('stop-circle-outline-icon', StopCircleOutlineIcon)
+    Vue.component('stop-circle-sharp-icon', StopCircleSharpIcon)
+    Vue.component('stop-circle-icon', StopCircleIcon)
+    Vue.component('stop-outline-icon', StopOutlineIcon)
+    Vue.component('stop-sharp-icon', StopSharpIcon)
+    Vue.component('stop-icon', StopIcon)
+    Vue.component('stopwatch-outline-icon', StopwatchOutlineIcon)
+    Vue.component('stopwatch-sharp-icon', StopwatchSharpIcon)
+    Vue.component('stopwatch-icon', StopwatchIcon)
+    Vue.component('storefront-outline-icon', StorefrontOutlineIcon)
+    Vue.component('storefront-sharp-icon', StorefrontSharpIcon)
+    Vue.component('storefront-icon', StorefrontIcon)
+    Vue.component('subway-outline-icon', SubwayOutlineIcon)
+    Vue.component('subway-sharp-icon', SubwaySharpIcon)
+    Vue.component('subway-icon', SubwayIcon)
+    Vue.component('sunny-outline-icon', SunnyOutlineIcon)
+    Vue.component('sunny-sharp-icon', SunnySharpIcon)
+    Vue.component('sunny-icon', SunnyIcon)
+    Vue.component('swap-horizontal-sharp-icon', SwapHorizontalSharpIcon)
+    Vue.component('swap-horizontal-icon', SwapHorizontalIcon)
+    Vue.component('swap-horizontal-outline-icon', SwapHorizontalOutlineIcon)
+    Vue.component('swap-vertical-outline-icon', SwapVerticalOutlineIcon)
+    Vue.component('swap-vertical-sharp-icon', SwapVerticalSharpIcon)
+    Vue.component('swap-vertical-icon', SwapVerticalIcon)
+    Vue.component('sync-circle-outline-icon', SyncCircleOutlineIcon)
+    Vue.component('sync-circle-sharp-icon', SyncCircleSharpIcon)
+    Vue.component('sync-circle-icon', SyncCircleIcon)
+    Vue.component('sync-outline-icon', SyncOutlineIcon)
+    Vue.component('sync-sharp-icon', SyncSharpIcon)
+    Vue.component('sync-icon', SyncIcon)
+    Vue.component('tablet-landscape-outline-icon', TabletLandscapeOutlineIcon)
+    Vue.component('tablet-landscape-sharp-icon', TabletLandscapeSharpIcon)
+    Vue.component('tablet-landscape-icon', TabletLandscapeIcon)
+    Vue.component('tablet-portrait-outline-icon', TabletPortraitOutlineIcon)
+    Vue.component('tablet-portrait-sharp-icon', TabletPortraitSharpIcon)
+    Vue.component('tablet-portrait-icon', TabletPortraitIcon)
+    Vue.component('telescope-outline-icon', TelescopeOutlineIcon)
+    Vue.component('telescope-sharp-icon', TelescopeSharpIcon)
+    Vue.component('telescope-icon', TelescopeIcon)
+    Vue.component('pencil-sharp-icon', PencilSharpIcon)
+    Vue.component('tennisball-outline-icon', TennisballOutlineIcon)
+    Vue.component('tennisball-sharp-icon', TennisballSharpIcon)
+    Vue.component('tennisball-icon', TennisballIcon)
+    Vue.component('terminal-outline-icon', TerminalOutlineIcon)
+    Vue.component('terminal-sharp-icon', TerminalSharpIcon)
+    Vue.component('terminal-icon', TerminalIcon)
+    Vue.component('text-outline-icon', TextOutlineIcon)
+    Vue.component('text-sharp-icon', TextSharpIcon)
+    Vue.component('text-icon', TextIcon)
+    Vue.component('thermometer-outline-icon', ThermometerOutlineIcon)
+    Vue.component('thermometer-sharp-icon', ThermometerSharpIcon)
+    Vue.component('thermometer-icon', ThermometerIcon)
+    Vue.component('thumbs-down-outline-icon', ThumbsDownOutlineIcon)
+    Vue.component('thumbs-down-sharp-icon', ThumbsDownSharpIcon)
+    Vue.component('thumbs-down-icon', ThumbsDownIcon)
+    Vue.component('thumbs-up-outline-icon', ThumbsUpOutlineIcon)
+    Vue.component('thumbs-up-sharp-icon', ThumbsUpSharpIcon)
+    Vue.component('thumbs-up-icon', ThumbsUpIcon)
+    Vue.component('thunderstorm-outline-icon', ThunderstormOutlineIcon)
+    Vue.component('thunderstorm-sharp-icon', ThunderstormSharpIcon)
+    Vue.component('thunderstorm-icon', ThunderstormIcon)
+    Vue.component('ticket-outline-icon', TicketOutlineIcon)
+    Vue.component('ticket-sharp-icon', TicketSharpIcon)
+    Vue.component('ticket-icon', TicketIcon)
+    Vue.component('time-outline-icon', TimeOutlineIcon)
+    Vue.component('time-sharp-icon', TimeSharpIcon)
+    Vue.component('time-icon', TimeIcon)
+    Vue.component('timer-outline-icon', TimerOutlineIcon)
+    Vue.component('timer-sharp-icon', TimerSharpIcon)
+    Vue.component('timer-icon', TimerIcon)
+    Vue.component('today-outline-icon', TodayOutlineIcon)
+    Vue.component('today-sharp-icon', TodaySharpIcon)
+    Vue.component('today-icon', TodayIcon)
+    Vue.component('toggle-outline-icon', ToggleOutlineIcon)
+    Vue.component('toggle-sharp-icon', ToggleSharpIcon)
+    Vue.component('toggle-icon', ToggleIcon)
+    Vue.component('trail-sign-outline-icon', TrailSignOutlineIcon)
+    Vue.component('trail-sign-sharp-icon', TrailSignSharpIcon)
+    Vue.component('train-outline-icon', TrainOutlineIcon)
+    Vue.component('trail-sign-icon', TrailSignIcon)
+    Vue.component('train-sharp-icon', TrainSharpIcon)
+    Vue.component('train-icon', TrainIcon)
+    Vue.component('transgender-outline-icon', TransgenderOutlineIcon)
+    Vue.component('transgender-sharp-icon', TransgenderSharpIcon)
+    Vue.component('transgender-icon', TransgenderIcon)
+    Vue.component('trash-bin-outline-icon', TrashBinOutlineIcon)
+    Vue.component('trash-bin-sharp-icon', TrashBinSharpIcon)
+    Vue.component('trash-bin-icon', TrashBinIcon)
+    Vue.component('trash-outline-icon', TrashOutlineIcon)
+    Vue.component('trash-sharp-icon', TrashSharpIcon)
+    Vue.component('trash-icon', TrashIcon)
+    Vue.component('trending-down-outline-icon', TrendingDownOutlineIcon)
+    Vue.component('trending-down-sharp-icon', TrendingDownSharpIcon)
+    Vue.component('trending-down-icon', TrendingDownIcon)
+    Vue.component('trending-up-outline-icon', TrendingUpOutlineIcon)
+    Vue.component('trending-up-sharp-icon', TrendingUpSharpIcon)
+    Vue.component('trending-up-icon', TrendingUpIcon)
+    Vue.component('triangle-outline-icon', TriangleOutlineIcon)
+    Vue.component('triangle-sharp-icon', TriangleSharpIcon)
+    Vue.component('triangle-icon', TriangleIcon)
+    Vue.component('trophy-outline-icon', TrophyOutlineIcon)
+    Vue.component('trophy-sharp-icon', TrophySharpIcon)
+    Vue.component('trophy-icon', TrophyIcon)
+    Vue.component('tv-outline-icon', TvOutlineIcon)
+    Vue.component('tv-sharp-icon', TvSharpIcon)
+    Vue.component('tv-icon', TvIcon)
+    Vue.component('umbrella-outline-icon', UmbrellaOutlineIcon)
+    Vue.component('umbrella-sharp-icon', UmbrellaSharpIcon)
+    Vue.component('umbrella-icon', UmbrellaIcon)
+    Vue.component('unlink-outline-icon', UnlinkOutlineIcon)
+    Vue.component('unlink-sharp-icon', UnlinkSharpIcon)
+    Vue.component('unlink-icon', UnlinkIcon)
+    Vue.component('videocam-off-outline-icon', VideocamOffOutlineIcon)
+    Vue.component('videocam-off-sharp-icon', VideocamOffSharpIcon)
+    Vue.component('videocam-off-icon', VideocamOffIcon)
+    Vue.component('videocam-outline-icon', VideocamOutlineIcon)
+    Vue.component('videocam-sharp-icon', VideocamSharpIcon)
+    Vue.component('videocam-icon', VideocamIcon)
+    Vue.component('volume-high-outline-icon', VolumeHighOutlineIcon)
+    Vue.component('volume-high-sharp-icon', VolumeHighSharpIcon)
+    Vue.component('volume-high-icon', VolumeHighIcon)
+    Vue.component('volume-low-outline-icon', VolumeLowOutlineIcon)
+    Vue.component('volume-low-sharp-icon', VolumeLowSharpIcon)
+    Vue.component('volume-low-icon', VolumeLowIcon)
+    Vue.component('volume-medium-outline-icon', VolumeMediumOutlineIcon)
+    Vue.component('volume-medium-sharp-icon', VolumeMediumSharpIcon)
+    Vue.component('volume-medium-icon', VolumeMediumIcon)
+    Vue.component('volume-mute-outline-icon', VolumeMuteOutlineIcon)
+    Vue.component('volume-mute-icon', VolumeMuteIcon)
+    Vue.component('volume-mute-sharp-icon', VolumeMuteSharpIcon)
+    Vue.component('volume-off-outline-icon', VolumeOffOutlineIcon)
+    Vue.component('volume-off-sharp-icon', VolumeOffSharpIcon)
+    Vue.component('volume-off-icon', VolumeOffIcon)
+    Vue.component('walk-outline-icon', WalkOutlineIcon)
+    Vue.component('walk-sharp-icon', WalkSharpIcon)
+    Vue.component('walk-icon', WalkIcon)
+    Vue.component('wallet-outline-icon', WalletOutlineIcon)
+    Vue.component('wallet-sharp-icon', WalletSharpIcon)
+    Vue.component('wallet-icon', WalletIcon)
+    Vue.component('warning-outline-icon', WarningOutlineIcon)
+    Vue.component('warning-sharp-icon', WarningSharpIcon)
+    Vue.component('warning-icon', WarningIcon)
+    Vue.component('watch-outline-icon', WatchOutlineIcon)
+    Vue.component('watch-sharp-icon', WatchSharpIcon)
+    Vue.component('watch-icon', WatchIcon)
+    Vue.component('water-outline-icon', WaterOutlineIcon)
+    Vue.component('water-sharp-icon', WaterSharpIcon)
+    Vue.component('water-icon', WaterIcon)
+    Vue.component('wifi-outline-icon', WifiOutlineIcon)
+    Vue.component('wifi-sharp-icon', WifiSharpIcon)
+    Vue.component('wifi-icon', WifiIcon)
+    Vue.component('wine-outline-icon', WineOutlineIcon)
+    Vue.component('wine-sharp-icon', WineSharpIcon)
+    Vue.component('wine-icon', WineIcon)
+    Vue.component('woman-outline-icon', WomanOutlineIcon)
+    Vue.component('woman-sharp-icon', WomanSharpIcon)
+    Vue.component('woman-icon', WomanIcon)
   }
 }
